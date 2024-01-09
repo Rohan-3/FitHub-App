@@ -1,15 +1,10 @@
 import React from 'react'
+import ContactForm from '../components/ContactForm'
 
 const Contact = () => {
   return (
     <div>
-       <h1> Hello This is Contact </h1>,s df,mn
-     <p>lk'dnf</p>zdfm
-          slkdnfksdnfklsndfk;
-          sdfkl;nsdf
-          
-      
-       
+       <ContactForm/>
     </div>
   )
 }

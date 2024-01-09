@@ -1,0 +1,66 @@
+
+.headContact{
+    font-size: x-large;
+    position: relative;
+    bottom: 15px;
+    right:2% ;
+    text-align: center;
+}
+.maphead{
+    font-size: xx-large;
+    position: relative;
+    text-align: center;
+}
+/* Left Side Details */
+
+.topic{
+    font-size: large;
+    color: rgb(4, 4, 170);
+}
+.iconNdetails{
+    margin: 30px;
+}
+
+
+/* Right side Form */
+.cform{
+    position: relative;
+    width: 450px;
+    left: -20%;
+}
+.wholeForm{
+    width: 30%;
+    position: relative;
+    top: 20%;
+}
+form{
+    align-items: center;
+    width: 350px;
+    padding: 45px;
+    box-shadow: 2px 3px 37px -16px rgba(0,0,0,0.75);
+}
+
+input{
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    width: 95%;
+    margin-top: 4px;
+    background-color: rgb(217, 237, 255);
+}
+/* Form Submit Button */
+.fsubBtn{
+    padding: 10px;
+    width: 100%;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: rgb(74, 255, 195);
+    color: rgb(43, 4, 79);
+    border:none;
+}
+.dandf{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
