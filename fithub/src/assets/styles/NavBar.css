@@ -1,14 +1,17 @@
 .nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     text-align: center;
     text-align: center;
     justify-content: space-between;
     background-color: rgb(20, 20, 20);
-    height: 100px;
+    height: 80px;
     padding: 5px 0px 0px 0px;
 }
 .logo img{
-    height: 100px;
+    height: 85px;
 }
 .nav-links{
     width: 50%;
