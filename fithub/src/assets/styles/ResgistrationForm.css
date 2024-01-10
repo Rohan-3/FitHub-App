@@ -1,0 +1,41 @@
+
+.main
+{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.form
+{
+    background-color: #161A30;
+    color: #F0ECE5;
+    padding: 20px;
+    height: 673px;
+    width: 400px;
+    border-radius: 15px;
+}
+.form input
+{
+    border: none;
+    background-color: #e8f0fd;
+    border-radius: 5px;
+    height: 25px;
+    padding: 4px;
+}
+.form button
+{
+    background-color: #B9B4C7;
+    color: #352F44;
+    border: none;
+    height: 25px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(211, 211, 211, 0.2);
+}
+h5
+{
+    color: #FF004D;
+}
