@@ -42,6 +42,7 @@ const ResgistrationForm = () => {
       setPassmsg("")
     }
   },[cpass,pass])
+  
   const calBMI=()=>
   {
     let h = height/100

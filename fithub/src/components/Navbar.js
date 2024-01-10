@@ -4,6 +4,8 @@ import Logo from '../assets/images/FithubLogo.png'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
+  let linkStyle = { color: 'white', textDecoration:'none'}
+  
   return (
     <>
     <div className='nav'>
@@ -12,12 +14,12 @@ const Navbar = () => {
       </div>
       <div className='nav-links'>
       <ul>
-          <Link to='/' style={{ color: 'white', textDecoration:'none'}}>Home</Link>
-          <li>About</li>
+          <Link to='/' style={linkStyle}>Home</Link>
+          <Link to='/about' style={linkStyle}>About</Link>
           <li>Workout</li>
           <li>Nutrition</li>
-          <li>Register/Login</li>
-          <Link to='/contact' style={{ color: 'white', textDecoration:'none'}}>Contact</Link>
+          <Link to='/registration' style={linkStyle}>Register/Login</Link>
+          <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>
       </div>
 
