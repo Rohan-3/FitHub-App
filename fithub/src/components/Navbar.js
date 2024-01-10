@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   let linkStyle = { color: 'white', textDecoration:'none'}
-  
+
   return (
     <>
     <div className='nav'>
@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link to='/about' style={linkStyle}>About</Link>
           <li>Workout</li>
           <li>Nutrition</li>
-          <Link to='/registration' style={linkStyle}>Register/Login</Link>
+          <Link to='/auth' style={linkStyle}>Register/Login</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>
       </div>

@@ -1,0 +1,14 @@
+.errdiv{
+    text-align: center;
+}
+.errImage{
+    width: 45%;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    font-size: medium;
+    box-shadow: 2px 3px 5px -1px rgba(7, 128, 124, 0.75);
+    border-radius: 6px;
+    background-color: aquamarine;
+}
