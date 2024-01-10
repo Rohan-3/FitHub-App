@@ -1,41 +1,76 @@
-
-.main
-{
-    display: grid;
-    place-items: center;
-    margin-top: 50px;
-}
-
-.form
-{
-    background-color: #161A30;
-    color: #F0ECE5;
+/* Global styles */
+body {
+    font-family: sans-serif;
+  }
+  
+  /* Main container */
+  .main {
+    width: 50%;  /* adjust as needed */
+    margin: 0 auto;
     padding: 20px;
-    height: 673px;
-    width: 400px;
-    border-radius: 15px;
-}
-.form input
-{
-    border: none;
-    background-color: #e8f0fd;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    height: 25px;
-    padding: 4px;
-}
-.form button
-{
-    background-color: #B9B4C7;
-    color: #352F44;
+    max-height: 90vh;
+  }
+  
+  /* Form styles */
+  .form {
+    width: 100%;
+    text-align: left;
+    height: auto;
+  }
+  
+  .form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form span {
+    display: inline-block;
+    width: 50px;  /* Adjust label width as needed */
+  }
+  
+  .form .field-pair {
+    display: flex;
+    margin-bottom: 10px;  /* Adjust spacing between pairs */
+  }
+  
+  .rightsideInput{
+    margin-left: 50px;
+  }
+
+  .leftsideInput{
+    margin-left: 30px;
+  }
+  .form .field-pair > * {  /* Apply margin to all children of field-pair */
+    margin-right: 10px;  /* Adjust spacing between elements within pairs */
+  }
+  
+  .form .field-pair > *:last-child {  /* Remove margin from last child */
+    margin-right: 0;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="number"],
+  .form input[type="password"] {
+    width: calc(25% - 0px);  /* Quarter width for 4-column layout */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;  /* Adjust vertical spacing */
+  }
+  
+  .form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
     border: none;
-    height: 25px;
-    width: 120px;
-    padding: 5px;
-    border-radius: 4px;
-    font-weight: 700;
-    box-shadow: 0 0 10px rgba(211, 211, 211, 0.2);
-}
-h5
-{
-    color: #FF004D;
-}
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .form h5 {
+    color: red;  /* Adjust color for password mismatch messages */
+    margin-bottom: 10px;
+  }
+  

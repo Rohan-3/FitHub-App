@@ -42,7 +42,7 @@ const ResgistrationForm = () => {
       setPassmsg("")
     }
   },[cpass,pass])
-  
+
   const calBMI=()=>
   {
     let h = height/100
@@ -97,25 +97,29 @@ const ResgistrationForm = () => {
     <div className='main'>
       <form className='form'>
         <h1>Resgistration</h1>
-        <label>Username</label> <br/>
-        <input type='text' placeholder='username' required onChange={(e)=>setUserid(e.target.value)}/> <br/>
-        <label>Email</label> <br/>
-        <input type='email' placeholder='email' required onChange={(e)=>setEmail(e.target.value)}/> <br/>
-        <label>Phone Number</label> <br/>
-        <input type='number' placeholder='phone number' required onChange={(e)=>setPhone(e.target.value)}/> <br/>
-        <label>age</label> <br/>
-        <input type='number' placeholder='age' required onChange={(e)=>setAge(e.target.value)}/> <br/>
-        <label>gender</label> <br/>
-        <input type="radio" name="gender" value="male" id='male' checked={gender==="male"} onChange={(e)=>setGender(e.target.value)}/> male <br/>
-        <input type="radio" name="gender" value="female" id='female'  checked={gender==="female"} onChange={(e)=>setGender(e.target.value)}/> female <br/>
-        <label>height (in cms)</label> <br/>
-        <input type='number' placeholder='height in cms' required onChange={(e)=>setHeight(e.target.value)}/> <br/>
-        <label>weight</label> <br/>
-        <input type='number' placeholder='weight' required onChange={(e)=>setWeight(e.target.value)}/> <br/>
-        <label>Password</label> <br/>
-        <input type='password' placeholder='password' required onChange={(e)=>setPass(e.target.value)}/> <br/>
-        <label>Confirm Password</label> <br/>
-        <input type='password' placeholder='re-enter password' required onChange={(e)=>setCpass(e.target.value)}/><br/>
+        <div className="field-group">
+  <span >Username</span>
+  <input className='leftsideInput' type="text" placeholder="username" required onChange={(e) => setUserid(e.target.value)} />
+  <span className='rightsideInput' >Email</span>
+  <input type="email" placeholder="email" required onChange={(e) => setEmail(e.target.value)} /><br></br>
+</div>
+<div className='field-group'>
+  <span>Phone</span>
+  <input type="number" placeholder="phone number" required onChange={(e) => setPhone(e.target.value)} />
+  <span className='rightsideInput'>Age</span>
+  <input type="number" placeholder="age" required onChange={(e) => setAge(e.target.value)} />
+</div>
+        
+      <div className='field-group'>
+       <span>height</span>
+        <input type='number' placeholder='height in cms' required onChange={(e)=>setHeight(e.target.value)}/> 
+        <span className='rightsideInput'>weight</span>
+        <input type='number' placeholder='weight' required onChange={(e)=>setWeight(e.target.value)}/> <br/><br/>
+      </div>
+        <span>Password</span>
+        <input className='leftsideInput' type='password' placeholder='password' required onChange={(e)=>setPass(e.target.value)}/><br/>
+        <span > Confirm Password</span>
+        <input className='leftsideInput' type='password' placeholder='re-enter password' required onChange={(e)=>setCpass(e.target.value)}/>
         <h5>{passmsg}</h5>
         <button onClick={submit}>submit</button>
       </form>
