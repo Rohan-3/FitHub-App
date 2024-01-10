@@ -12,12 +12,12 @@ const Navbar = () => {
       </div>
       <div className='nav-links'>
       <ul>
-          <Link to='/'>Home</Link>
+          <Link to='/' style={{ color: 'white', textDecoration:'none'}}>Home</Link>
           <li>About</li>
           <li>Workout</li>
           <li>Nutrition</li>
           <li>Register/Login</li>
-          <Link to='/contact'>Contact</Link>
+          <Link to='/contact' style={{ color: 'white', textDecoration:'none'}}>Contact</Link>
         </ul>
       </div>
 
