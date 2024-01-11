@@ -1,76 +1,60 @@
-/* Global styles */
-body {
-    font-family: sans-serif;
-  }
-  
-  /* Main container */
-  .main {
-    width: 50%;  /* adjust as needed */
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    max-height: 90vh;
-  }
-  
-  /* Form styles */
-  .form {
-    width: 100%;
-    text-align: left;
-    height: auto;
-  }
-  
-  .form h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .form span {
-    display: inline-block;
-    width: 50px;  /* Adjust label width as needed */
-  }
-  
-  .form .field-pair {
+.main{
+height: 100%;
+width: 70%;
+position: relative;
+left: 17%;
+}
+.segregate{
     display: flex;
-    margin-bottom: 10px;  /* Adjust spacing between pairs */
-  }
-  
-  .rightsideInput{
-    margin-left: 50px;
-  }
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 100%;
 
-  .leftsideInput{
-    margin-left: 30px;
-  }
-  .form .field-pair > * {  /* Apply margin to all children of field-pair */
-    margin-right: 10px;  /* Adjust spacing between elements within pairs */
-  }
-  
-  .form .field-pair > *:last-child {  /* Remove margin from last child */
-    margin-right: 0;
-  }
-  
-  .form input[type="text"],
-  .form input[type="email"],
-  .form input[type="number"],
-  .form input[type="password"] {
-    width: calc(25% - 0px);  /* Quarter width for 4-column layout */
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    margin-bottom: 10px;  /* Adjust vertical spacing */
-  }
-  
-  .form button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+}
+.register-Header{
+    position: relative;
+    text-align: center;
+}
+.form
+{
+    background-color: #ffffff;
+    position: relative;
+    top: 50%;
+    color: #000000;
+    padding: 20px;
+    height: 50%;
+    width: 80%;
+    border-radius: 15px;
+}
+.form input
+{
     border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .form h5 {
-    color: red;  /* Adjust color for password mismatch messages */
-    margin-bottom: 10px;
-  }
-  
+    background-color: #d9edff;
+    border-radius: 5px;
+    width: 170%;
+    height: 25px;
+    padding: 10px;
+}
+.rightsideForm{
+    position: relative;
+    right: 10%;
+}
+.form button
+{
+  padding: 10px;
+  width: 30%;
+  position: relative;
+  margin-top: 15px;
+  left: 35%;
+  text-align: center;
+  align-items: center;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: rgb(74, 255, 195);
+  color: rgb(43, 4, 79);
+  border:none;
+}
+h5
+{
+    color: #FF004D;
+}

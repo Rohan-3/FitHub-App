@@ -1,0 +1,10 @@
+.toogleBtns{
+    position: relative;
+    left: 70%;
+    margin: 10px;
+    margin-bottom: 3em;
+}
+
+button{
+    margin: 10px;
+}
