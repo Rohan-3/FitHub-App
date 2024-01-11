@@ -43,12 +43,16 @@ const ResgistrationForm = () => {
       setPassmsg("")
     }
   },[cpass,pass])
+
+  useEffect(() => {
+    calBMI();
+  }, [weight, height]);
+  
   const calBMI=()=>
   {
-    let h = height/100
-    let bmi = (weight/(h * h)).toFixed(2);
-    setBMI(bmi);
-    console.log(`bmi:${BMI}`)
+    let h=height/100;
+    let bmi=weight/(h*h);
+    setBMI((weight/(h*h)).toFixed(2));
     if( bmi <= 18.5 )
     {
       setmsg("under weight");
@@ -61,7 +65,7 @@ const ResgistrationForm = () => {
     {
       setmsg("over weight");
     }
-    else if( bmi >= 30)
+    else 
     {
       setmsg("obese");
     }
@@ -118,9 +122,9 @@ const ResgistrationForm = () => {
 
       <div className='rightsideForm'>      
           <label>height (in cms)</label> <br/>
-          <input type='number' placeholder='height in cms' required onChange={(e)=>setHeight(e.target.value)}/> <br/>
+          <input type='number' placeholder='height in cms' required onChange={(e)=>setHeight(parseInt(e.target.value))}/> <br/>
           <label>weight</label> <br/>
-          <input type='number' placeholder='weight' required onChange={(e)=>setWeight(e.target.value)}/> <br/>
+          <input type='number' placeholder='weight' required onChange={(e)=>setWeight(parseInt(e.target.value))}/> <br/>
           <label>Password</label> <br/>
           <input type='password' placeholder='password' required onChange={(e)=>setPass(e.target.value)}/> <br/>
           <label>Confirm Password</label> <br/>
