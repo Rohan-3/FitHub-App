@@ -1,7 +1,11 @@
 import React from 'react'
+import WorkoutData from '../components/WorkoutData'
 
 export const About = () => {
   return (
-    <div>About</div>
+    <div>Abou t
+    <WorkoutData/>
+    </div>
+    
   )
 }

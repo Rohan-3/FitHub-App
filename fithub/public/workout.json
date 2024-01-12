@@ -1,0 +1,52 @@
+[
+    {
+        "category": "Yoga",
+        "title": "Benefits of Shavasan",
+        "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
+        "video": "https://www.youtube.com/watch?v=G1j3erpSErE",
+        "description": "Shavasan, also known as the Corpse Pose, is a relaxation pose that helps in reducing stress, calming the mind, and promoting a sense of tranquility."
+    },
+    {
+        "category": "Calisthenics",
+        "title": "Benefits of Calisthenics",
+        "image": "https://as1.ftcdn.net/v2/jpg/01/89/08/94/1000_F_189089418_F2mDjkop5945nBmJyUGjQUUoLDZxVD1a.jpg",
+        "video": "https://youtu.be/VLOKMjHEyhY?si=xKgz29SddzEjBdPZ",
+        "description": "Calisthenics is a form of exercise that utilizes body weight for resistance, enhancing strength, flexibility, and overall physical fitness."
+    },
+    {
+        "category": "Pilates",
+        "title": "Benefits of Pilates Roll-Up",
+        "image": "https://example.com/pilates-roll-up-image.jpg",
+        "video": "https://www.youtube.com/watch?v=789abc",
+        "description": "The Pilates Roll-Up is a core-strengthening exercise that targets the abdominals, improves spinal flexibility, and enhances posture."
+    },
+    {
+        "category": "Strength Training",
+        "title": "Benefits of Deadlifts",
+        "image": "https://example.com/deadlifts-image.jpg",
+        "video": "https://www.youtube.com/watch?v=def789",
+        "description": "Deadlifts are a compound exercise that targets multiple muscle groups, including the lower back, hamstrings, and glutes, promoting overall strength and stability."
+    },
+    {
+        "category": "Running",
+        "title": "Benefits of Sprinting",
+        "image": "https://example.com/running-sprinting-image.jpg",
+        "video": "https://www.youtube.com/watch?v=ghi123",
+        "description": "Sprinting is an explosive cardiovascular exercise that enhances speed, agility, and cardiovascular health."
+    },
+    {
+        "category": "Yoga",
+        "title": "Benefits of Warrior Pose",
+        "image": "https://example.com/yoga-warrior-pose-image.jpg",
+        "video": "https://www.youtube.com/watch?v=jkl456",
+        "description": "The Warrior Pose is a yoga posture that strengthens the legs, improves balance, and fosters mental focus and concentration."
+    },
+    {
+        "category": "High-Intensity Interval Training (HIIT)",
+        "title": "Benefits of Burpees",
+        "image": "https://example.com/hiit-burpees-image.jpg",
+        "video": "https://www.youtube.com/watch?v=mno789",
+        "description": "Burpees are a full-body exercise used in HIIT workouts, promoting cardiovascular fitness, strength, and endurance."
+    }
+]
+
