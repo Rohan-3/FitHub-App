@@ -8,3 +8,14 @@
 button{
     margin: 10px;
 }
+
+.wholePage{
+    display: flex;
+}
+
+.Aimage{
+    width:50vw;
+    height: 88vh;
+    /* Position: relative;
+    top:10%; */
+}
