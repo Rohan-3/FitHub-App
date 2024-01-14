@@ -13,11 +13,11 @@ const Auth = () => {
     </div>
     <div className='rightSide'>
     <div className='toogleBtns'>
-    <button onClick={()=> setFlag(true)}>Register</button>
-    <button onClick={()=> setFlag(false)}>Login</button>
+    <button className='registBtn' onClick={()=> setFlag(true)}>Register</button>
+    <button className='loginBtn' onClick={()=> setFlag(false)}>Login</button>
     </div>
     <div>
-    {flag === true? <ResgistrationForm/> : flag === false? <Login/> : <ResgistrationForm/>}
+    {flag === false? <Login /> : flag === true? <ResgistrationForm/> : <Login/> }
     </div>
     </div>
     </div>

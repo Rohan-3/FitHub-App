@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 .headContact{
     font-size: x-large;
     position: relative;
@@ -10,6 +12,9 @@
     font-size: xx-large;
     position: relative;
     text-align: center;
+}
+.map{
+    width: 100vw;
 }
 /* Left Side Details */
 
@@ -25,7 +30,7 @@
 /* Right side Form */
 .cform{
     position: relative;
-    width: 450px;
+    width: 590px;
     left: -20%;
 }
 .wholeForm{
@@ -63,4 +68,5 @@ input{
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
 }
+
 

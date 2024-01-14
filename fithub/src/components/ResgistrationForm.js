@@ -10,40 +10,24 @@ const ResgistrationForm = () => {
   let [email,setEmail] = useState("");
   let [phone,setPhone] = useState(0);
   let [age,setAge] = useState(0);
-  let [gender,setGender] = useState("male")
+  let [gender,setGender] = useState("")
   let [height,setHeight] = useState(0);
   let [weight,setWeight] = useState(0);
-  let [pass,setPass] = useState("");
-  let [cpass,setCpass] = useState("");
-  let [passmsg,setPassmsg] = useState("");
   let [BMI,setBMI] = useState(0);
   let [msg,setmsg] = useState("");
   let [users,setUsers] = useState(JSON.parse(localStorage.getItem("u"))||[]);
 
   const validForm=()=>
   {
-    if(!userid || !email || !phone || !age || !height || !weight || !pass || !cpass )
+    if(!userid || !email || !phone || !age || !height || !weight )
     {
       alert("Please fill all fields");
       return false;
     }
-    if (pass !== cpass)
-    {
-      alert("Passwords doesn't match, please re enter");
-      return false;
-    }
+
     return true;
   }
-  useEffect(()=>{
-    if( pass !== cpass)
-    {
-      setPassmsg("password doesnot match")
-    }
-    else
-    {
-      setPassmsg("")
-    }
-  },[cpass,pass])
+
 
   useEffect(() => {
     calBMI();
@@ -89,7 +73,7 @@ const ResgistrationForm = () => {
       else
       {
         calBMI();
-        let newuser = {userid,email,phone,age,gender,height,weight,pass,BMI};
+        let newuser = {userid,email,phone,age,gender,height,weight,BMI};
         setUsers([...users,newuser]);
         localStorage.setItem("u",JSON.stringify([...users,newuser]));
         alert("Registered successful")
@@ -111,10 +95,19 @@ const ResgistrationForm = () => {
         <input type='text' placeholder='username' required onChange={(e)=>setUserid(e.target.value)}/> <br/>
         <label>Email</label> <br/>
         <input type='email' placeholder='email' required onChange={(e)=>setEmail(e.target.value)}/> <br/>
-        <label>Phone Number</label> <br/>
-        <input type='number' placeholder='phone number' required onChange={(e)=>setPhone(e.target.value)}/> <br/>
+        
         <label>age</label> <br/>
         <input type='number' placeholder='age' required onChange={(e)=>setAge(e.target.value)}/> <br/>
+        <label>gender</label> <br/>
+        <select className='gender' name="gender" id="gender">
+          <option value="">Select</option>
+          <option value="male" onChange={()=>setGender("male")}>Male</option>
+          <option value="female" onChange={()=>setGender("female")}>Female</option>
+         
+        </select>
+<br></br>
+        
+        
       </div>
 
       <div className='rightsideForm'>      
@@ -122,12 +115,16 @@ const ResgistrationForm = () => {
           <input type='number' placeholder='height in cms' required onChange={(e)=>setHeight(parseInt(e.target.value))}/> <br/>
           <label>weight</label> <br/>
           <input type='number' placeholder='weight' required onChange={(e)=>setWeight(parseInt(e.target.value))}/> <br/>
-          {/* <label>gender</label> <br/>
-        <input type="radio" name="gender" value="male" id='male' checked={gender==="male"} onChange={(e)=>setGender(e.target.value)}/> male <br/>
-        <input type="radio" name="gender" value="female" id='female'  checked={gender==="female"} onChange={(e)=>setGender(e.target.value)}/> female <br/> */}
-        <label>Gender</label>
-      <p><input type="radio" name="gender" value="male" onChange={(e)=>setGender(e.target.value)}/>Male</p>   
-        <p><input type="radio" name="gender" value="Female" onChange={(e)=>setGender(e.target.value)}/>Female</p> 
+
+
+          <div className='radioBtn'>
+          <label>Phone Number</label> <br/>
+        <input type='number' placeholder='phone number' required onChange={(e)=>setPhone(e.target.value)}/> <br/>
+        <button className='sendOTP'>Send OTP</button>
+          
+          </div>
+          
+
         </div>
 </div>
 <button className='regisBtn' onClick={submit}>submit</button>

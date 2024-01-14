@@ -7,12 +7,15 @@ import 'react-phone-number-input/style.css'
 import { RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 const Login = () => {
+
+
   
   const [phone,setPhone] = useState("");
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
   let [flag,setFlag] = useState(false);
   const nav= useNavigate();
+
   const sendOtp=async()=>
   {
      try
@@ -35,7 +38,13 @@ const Login = () => {
     try
     {
       await  user.confirm(otp)
-      nav("/user")
+      if (phone==="+919967990416" || "+919966004795") {
+        localStorage.setItem('adminno', phone)
+        nav("/admin")
+      }else{
+
+        nav("/user")
+      }
         
     }
     catch(err)
@@ -43,6 +52,8 @@ const Login = () => {
        console.log(err);
     }
   }
+
+
 
   return (
     <div>

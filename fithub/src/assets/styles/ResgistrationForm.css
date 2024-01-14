@@ -1,6 +1,10 @@
+.register-Header{
+    position: relative;
+    bottom: 30px;
+}
 .main{
 height: 100%;
-width: 100%;
+width: 200%;
 position: relative;
 left: 17%;
 }
@@ -20,31 +24,47 @@ left: 17%;
     background-color: #ffffff;
     position: relative;
     top: 50%;
+    margin-top: 80px;
     color: #000000;
     padding: 20px;
     height: 50%;
     width: 80%;
     border-radius: 15px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+label{
+    font-size: large;
+    
 }
 .form input
 {
     border: none;
     background-color: #d9edff;
     border-radius: 5px;
-    width: 100%;
+    width: 120%;
     height: 25px;
     padding: 10px;
+    margin-top: 5px;
 }
+
 .rightsideForm{
     position: relative;
-    right: 10%;
+    right:7%;
+}
+.gender{
+    background-color: #d9edff;
+    width: 200px;
+    height: 40px;
+}
+.sendOTP{
+    width: 500px;
 }
 .form button
 {
   padding: 10px;
   width: 30%;
   position: relative;
-  margin-top: 15px;
+  margin-top: 25px;
   left: 35%;
   text-align: center;
   align-items: center;

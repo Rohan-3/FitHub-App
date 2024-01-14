@@ -7,6 +7,7 @@ import Error404 from '../components/Error404'
 import Auth from '../pages/Auth'
 import User from '../components/User'
 import WorkoutData from '../components/WorkoutData'
+import AdminDashboard from '../pages/AdminDashboard'
 const PrivateToutes = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const PrivateToutes = () => {
         <Route path='*' element={<Error404/>}/>
         <Route path="/workout" element={<WorkoutData/>}/>
         <Route path="/user" element={<User/>}/>
+        <Route path="/admin" element={<AdminDashboard/>}/>
     </Routes>
     </div>
   )
