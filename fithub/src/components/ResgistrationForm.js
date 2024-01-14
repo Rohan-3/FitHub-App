@@ -1,7 +1,8 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-
 import '../assets/styles/ResgistrationForm.css'
+import { auth } from './Firebase';
+import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 
 const ResgistrationForm = () => {
   
@@ -114,10 +115,6 @@ const ResgistrationForm = () => {
         <input type='number' placeholder='phone number' required onChange={(e)=>setPhone(e.target.value)}/> <br/>
         <label>age</label> <br/>
         <input type='number' placeholder='age' required onChange={(e)=>setAge(e.target.value)}/> <br/>
-        
-        {/* <label>gender</label> <br/>
-        <input type="radio" name="gender" value="male" id='male' checked={gender==="male"} onChange={(e)=>setGender(e.target.value)}/> male <br/>
-        <input type="radio" name="gender" value="female" id='female'  checked={gender==="female"} onChange={(e)=>setGender(e.target.value)}/> female <br/> */}
       </div>
 
       <div className='rightsideForm'>      
@@ -125,11 +122,12 @@ const ResgistrationForm = () => {
           <input type='number' placeholder='height in cms' required onChange={(e)=>setHeight(parseInt(e.target.value))}/> <br/>
           <label>weight</label> <br/>
           <input type='number' placeholder='weight' required onChange={(e)=>setWeight(parseInt(e.target.value))}/> <br/>
-          <label>Password</label> <br/>
-          <input type='password' placeholder='password' required onChange={(e)=>setPass(e.target.value)}/> <br/>
-          <label>Confirm Password</label> <br/>
-          <input type='password' placeholder='re-enter password' required onChange={(e)=>setCpass(e.target.value)}/><br/>
-          <h5>{passmsg}</h5>
+          {/* <label>gender</label> <br/>
+        <input type="radio" name="gender" value="male" id='male' checked={gender==="male"} onChange={(e)=>setGender(e.target.value)}/> male <br/>
+        <input type="radio" name="gender" value="female" id='female'  checked={gender==="female"} onChange={(e)=>setGender(e.target.value)}/> female <br/> */}
+        <label>Gender</label>
+      <p><input type="radio" name="gender" value="male" onChange={(e)=>setGender(e.target.value)}/>Male</p>   
+        <p><input type="radio" name="gender" value="Female" onChange={(e)=>setGender(e.target.value)}/>Female</p> 
         </div>
 </div>
 <button className='regisBtn' onClick={submit}>submit</button>
