@@ -10,10 +10,13 @@ const Login = () => {
 
 
   
+
   const [phone,setPhone] = useState("");
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
   let [flag,setFlag] = useState(false);
+
+
   const nav= useNavigate();
 
   const sendOtp=async()=>
@@ -21,13 +24,23 @@ const Login = () => {
      try
      {
       const phoneNumber = "+" + phone;
-      const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{})
-      const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
-      console.log(confirmationResult)
-      setUser(confirmationResult)
-      setFlag(true)
-     }
-     catch(err)
+      
+      let userData = JSON.parse(localStorage.getItem("u")) || []; 
+      let filteredUser = userData.filter((temp)=> temp.phone === phone)
+      console.log(filteredUser);
+
+      if (filteredUser === null) {
+        alert("Register FIRST !")
+      }else{
+        const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{
+          size:"invisible"
+        })
+        const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
+        console.log(confirmationResult)
+        setUser(confirmationResult)
+        setFlag(true)
+       }
+      }catch(err)
      {
         console.log(err)
      }
@@ -37,8 +50,9 @@ const Login = () => {
   {
     try
     {
+      // phone==="+919967990416" || 
       await  user.confirm(otp)
-      if (phone==="+919967990416" || phone=== "+919966004795") {
+      if (phone=== "+919966004795") {
         localStorage.setItem('adminno', phone)
         nav("/admin")
 
