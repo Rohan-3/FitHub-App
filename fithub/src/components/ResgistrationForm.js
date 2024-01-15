@@ -99,11 +99,10 @@ const ResgistrationForm = () => {
         <label>age</label> <br/>
         <input type='number' placeholder='age' required onChange={(e)=>setAge(e.target.value)}/> <br/>
         <label>gender</label> <br/>
-        <select className='gender' name="gender" id="gender">
-          <option value="">Select</option>
-          <option value="male" onChange={()=>setGender("male")}>Male</option>
-          <option value="female" onChange={()=>setGender("female")}>Female</option>
-         
+        <select className='gender' name="gender" onChange={(e)=>setGender(e.target.value)}>
+          <option>Select</option>
+          <option value="Male" >Male</option>
+          <option value="Female">Female</option>
         </select>
 <br></br>
         

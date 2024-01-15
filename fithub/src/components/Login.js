@@ -38,11 +38,12 @@ const Login = () => {
     try
     {
       await  user.confirm(otp)
-      if (phone==="+919967990416" || "+919966004795") {
+      if (phone==="+919967990416" || phone=== "+919966004795") {
         localStorage.setItem('adminno', phone)
         nav("/admin")
-      }else{
 
+      }else{
+        sessionStorage.setItem('user', phone)
         nav("/user")
       }
         
