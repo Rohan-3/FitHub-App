@@ -29,7 +29,7 @@ const Login = () => {
       let filteredUser = userData.filter((temp)=> temp.phone === phone)
       console.log(filteredUser);
 
-      if (filteredUser === null) {
+    if (filteredUser.length===0) {
         alert("Register FIRST !")
       }else{
         const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{

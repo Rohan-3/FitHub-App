@@ -118,7 +118,7 @@ const ResgistrationForm = () => {
 
           <div className='radioBtn'>
           <label>Phone Number</label> <br/>
-        <input type='number' placeholder='phone number' required onChange={(e)=>setPhone(e.target.value)}/> <br/>
+        <input type='text' placeholder='phone number' required onChange={(e)=>setPhone(e.target.value)}/> <br/>
         <button className='sendOTP'>Send OTP</button>
           
           </div>
