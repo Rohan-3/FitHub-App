@@ -1,0 +1,40 @@
+
+.iconcomponent{
+    position: fixed;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    background-color: #0dba4c;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 1px 0px #b4ffbf;
+    cursor: pointer;
+    left: 80%;
+    z-index: 100;
+}
+.iconcomponent:hover{
+    box-shadow: 2px 2px 1px 0px #b4ffbfa9;
+}
+.wholeicon{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.iconcomponent{
+    right: 0;
+    width: 17%;
+}
+
+.icon-text{
+    position: relative;
+    bottom: 13px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 5px;
+}
+

@@ -4,6 +4,8 @@ import '../assets/styles/ContactForm.css'
 import { FaPhone } from "react-icons/fa";
 import { FaAddressCard } from "react-icons/fa";
 import { MdMarkEmailRead } from "react-icons/md";
+import WhatsApp from '../components/WhatsApp'
+
 
 const ContactForm = () => {
     const form = useRef();
@@ -64,6 +66,8 @@ const ContactForm = () => {
         </form>
        </div>
        </div>
+       <WhatsApp/>
+
        <br></br><br></br><br></br>
 
        <h1 className='maphead'>Visit Us !</h1>
