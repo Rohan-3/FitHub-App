@@ -15,35 +15,40 @@ const Login = () => {
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
   let [flag,setFlag] = useState(false);
-
+  let admin=["+919966004795","+919967990416"]
+  
 
   const nav= useNavigate();
 
   const sendOtp=async()=>
   {
-     try
-     {
-      const phoneNumber = "+" + phone;
+      try
+      {
+        const phoneNumber = "+" + phone;
       
-      let userData = JSON.parse(localStorage.getItem("u")) || []; 
-      let filteredUser = userData.filter((temp)=> temp.phone === phone)
-      console.log(filteredUser);
+        let userData = JSON.parse(localStorage.getItem("u")) || []; 
+        let filteredUser = userData.filter((temp)=> temp.phone === phone);
+        let adminlogin=admin.filter((temp)=>temp===phone);
+        console.log(`adminno:${adminlogin}`);
+        console.log(`userno:${filteredUser}`);
 
-    if (filteredUser.length===0) {
-        alert("Register FIRST !")
-      }else{
-        const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{
-          size:"invisible"
-        })
-        const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
-        console.log(confirmationResult)
-        setUser(confirmationResult)
-        setFlag(true)
-       }
-      }catch(err)
-     {
+        if (filteredUser.length===0 && adminlogin.length===0 )
+        {
+          alert("Register FIRST !")
+        }
+        else
+        {
+          const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{size:"invisible"})
+          const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
+          console.log(confirmationResult)
+          setUser(confirmationResult)
+          setFlag(true)
+        }
+      }
+      catch(err)
+      {
         console.log(err)
-     }
+      }
   }
 
   const verifyOtp=async()=>
@@ -52,19 +57,23 @@ const Login = () => {
     {
       // phone==="+919967990416" || 
       await  user.confirm(otp)
-      if (phone=== "+919966004795") {
+      let adminlogin=admin.filter((temp)=>temp===phone);
+      console.log(`adminlogin in otp ${adminlogin}`)
+      if (adminlogin.length!==0)
+      {
         localStorage.setItem('adminno', phone)
         nav("/admin")
-
-      }else{
-        sessionStorage.setItem('user', phone)
+      }
+      else
+      {
+        localStorage.setItem('userno',phone)
         nav("/user")
       }
         
     }
     catch(err)
     {
-       console.log(err);
+      console.log(err);
     }
   }
 
@@ -75,29 +84,29 @@ const Login = () => {
       {
         flag  ? 
         <div>
-        <h1>Verify OTP</h1>
-        <OtpInput
-         numInputs={6}
-         value={otp}
-         onChange={setOtp}
-        renderSeparator={<pre> </pre>}
-        renderInput={(props) => <input {...props} />}
-    />
-        <button onClick={verifyOtp} >Verify OTP</button>
-      </div>
-      :
+          <h1>Verify OTP</h1>
+          <OtpInput
+            numInputs={6}
+            value={otp}
+            onChange={setOtp}
+            renderSeparator={<pre> </pre>}
+            renderInput={(props) => <input {...props} />}
+          />
+          <button onClick={verifyOtp} >Verify OTP</button>
+        </div>
+        :
        
-      <div>
-      <h1>Login with your Phone Number</h1>
-      <PhoneInput
-      placeholder="Enter phone number"
-      country={"in"}
-      value={phone}
-      onChange={setPhone}
-      />
-      <button onClick={sendOtp}>Send OTP</button>
+        <div>
+          <h1>Login with your Phone Number</h1>
+          <PhoneInput
+            placeholder="Enter phone number"
+            country={"in"}
+            value={phone}
+            onChange={setPhone}
+          />
+          <button onClick={sendOtp}>Send OTP</button>
       
-      </div>
+        </div>
 
       }
       

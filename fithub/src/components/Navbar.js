@@ -8,11 +8,15 @@ const Navbar = () => {
 
   let nav = useNavigate()
   const handleLogout=()=>{
-    localStorage.clear('adminno');
-    localStorage.clear('u');
+    localStorage.removeItem('adminno');
     alert("You are Logged Out");
     nav("/auth");
-
+  }
+  const handleUserLogout=()=>
+  {
+    localStorage.removeItem('userno');
+    alert("user logout");
+    nav("/auth");
   }
   return (
     <>
@@ -30,17 +34,17 @@ const Navbar = () => {
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/workout' style={linkStyle}><li>Workout</li></Link>
           <li>Nutrition</li>
-          <Link to='/' onClick={handleLogout} style={linkStyle}>Logout</Link>
+          <Link to='/auth' onClick={handleLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>
         :
-        localStorage.getItem("u") ?
+        localStorage.getItem("userno") ?
         <ul>  
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/workout' style={linkStyle}><li>Workout</li></Link>
           <li>Nutrition</li>
-          <Link to='/auth' onClick={handleLogout} style={linkStyle}>Logout</Link>
+          <Link to='/auth' onClick={handleUserLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>
 
