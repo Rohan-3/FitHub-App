@@ -8,6 +8,9 @@ import Auth from '../pages/Auth'
 import User from '../components/User'
 import WorkoutData from '../components/WorkoutData'
 import AdminDashboard from '../pages/AdminDashboard'
+import UserCategory from '../components/User_Category'
+import UserWorkout from '../components/User_Workout'
+import WorkoutVideo from '../components/WorkoutVideo'
 const PrivateToutes = () => {
   return (
     <div>
@@ -20,6 +23,9 @@ const PrivateToutes = () => {
         <Route path="/workout" element={<WorkoutData/>}/>
         <Route path="/user" element={<User/>}/>
         <Route path="/admin" element={<AdminDashboard/>}/>
+        <Route path="/user_cat" element={<UserCategory/>}/>
+        <Route path="/user_workout" element={<UserWorkout/>}/>
+        <Route path="/video" element={<WorkoutVideo/>}/>
     </Routes>
     </div>
   )

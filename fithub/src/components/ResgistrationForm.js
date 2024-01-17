@@ -1,8 +1,10 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import '../assets/styles/ResgistrationForm.css'
+import OtpInput from 'react-otp-input';
+import PhoneInput from 'react-phone-number-input'
 import { auth } from './Firebase';
-import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
+import { RecaptchaVerifier, signInWithPhoneNumber} from 'firebase/auth';
 
 const ResgistrationForm = () => {
   
@@ -10,13 +12,17 @@ const ResgistrationForm = () => {
   let [email,setEmail] = useState("");
   let [phone,setPhone] = useState(0);
   let [age,setAge] = useState(0);
+  const [otp,setOtp] = useState("");
+  const [user,setUser] = useState(null);
   let [gender,setGender] = useState("")
   let [height,setHeight] = useState(0);
   let [weight,setWeight] = useState(0);
   let [BMI,setBMI] = useState(0);
   let [msg,setmsg] = useState("");
   let [users,setUsers] = useState(JSON.parse(localStorage.getItem("u"))||[]);
-
+  let [mssg,setMssg] =useState("");
+  let resendToken;
+  
   const validForm=()=>
   {
     if(!userid || !email || !phone || !age || !height || !weight )
@@ -28,6 +34,36 @@ const ResgistrationForm = () => {
     return true;
   }
 
+  const sendOtp=async()=>
+  {
+      try
+      {
+        const phoneNumber = "+" + phone;
+        const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{size:"invisible"})
+        const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
+          console.log(confirmationResult)
+          setUser(confirmationResult)
+          resendToken = confirmationResult.forceResendingToken;
+      }
+      catch(err)
+      {
+        console.log(err)
+      }
+  }
+  
+  const verifyOtp=async()=>
+  {
+    try
+    {
+      await  user.confirm(otp) 
+      alert("Verified") 
+    }
+    catch(err)
+    {
+      setMssg("Incorrect OTP, please try again!!!!")
+      console.log(err);
+    }
+  }
 
   useEffect(() => {
     calBMI();
@@ -72,7 +108,6 @@ const ResgistrationForm = () => {
       }
       else
       {
-        calBMI();
         let newuser = {userid,email,phone,age,gender,height,weight,BMI};
         setUsers([...users,newuser]);
         localStorage.setItem("u",JSON.stringify([...users,newuser]));
@@ -118,8 +153,27 @@ const ResgistrationForm = () => {
 
           <div className='radioBtn'>
           <label>Phone Number</label> <br/>
-        <input type='text' placeholder='phone number' required onChange={(e)=>setPhone(e.target.value)}/> <br/>
-        <button className='sendOTP'>Send OTP</button>
+          <PhoneInput
+            placeholder="Enter phone number"
+            country={"in"}
+            value={phone}
+            onChange={setPhone}
+          /> <br/>
+          <div id="recaptcha"></div>
+          <div>
+            <p>Enter OTP</p>
+          <OtpInput
+            numInputs={6}
+            value={otp}
+            onChange={setOtp}
+            renderSeparator={<pre> </pre>}
+            renderInput={(props) => <input {...props} />}
+          />
+          <p>{mssg}</p>
+          <button onClick={verifyOtp}>Verify OTP</button>
+          </div> <br/>
+        <button className='sendOTP' onClick={sendOtp}>Send OTP</button> <br/>
+        <button className='sendOTP'>Re-send OTP</button>
           
           </div>
           

@@ -1,0 +1,57 @@
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { Button, CardActionArea, CardActions } from '@mui/material';
+import { Link, useLocation } from 'react-router-dom';
+import { useState,useEffect } from 'react';
+
+
+const UserWorkout=()=>
+{
+    let [data,setData] = useState([])
+    useEffect(()=>{
+       fetch("../workout.json")
+       .then((temp)=> temp.json())
+       .then((temp) => setData(temp))
+       .catch((err)=>console.log(err))
+   },[])
+    let k= useLocation();
+    let {category} = k.state; 
+    return(<>
+    <div style={{display:'flex', flexWrap:'wrap'}}>
+
+    {
+        data.filter((temp)=>temp.category===category)
+        .map((temp)=><Card sx={{ maxWidth: 345 }}>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            height="140"
+            image={temp.image}
+            alt="green iguana"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              <Link to="/video" state={{video:temp.video}} style={{color:"black"}}>{temp.title}</Link>
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              {temp.description}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+        {/* <CardActions>
+          <Button size="small" color="primary">
+            Share
+          </Button>
+        </CardActions> */}
+      </Card>
+  )
+    }
+    </div>
+    
+    </>)
+}
+
+export default UserWorkout;

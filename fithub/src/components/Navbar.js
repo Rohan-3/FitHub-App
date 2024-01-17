@@ -42,7 +42,7 @@ const Navbar = () => {
         <ul>  
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
-          <Link to='/workout' style={linkStyle}><li>Workout</li></Link>
+          <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
           <li>Nutrition</li>
           <Link to='/auth' onClick={handleUserLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
