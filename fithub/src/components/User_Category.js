@@ -21,7 +21,7 @@ const UserCategory=()=>
     return(<div style={{display:'flex', flexWrap:'wrap'}}>
 
      {
-       data.map((temp)=> <Card sx={{width:"400px", heigth:"400px" }}>
+       data.map((temp)=> <Link style={{color:"black", textDecoration:"none"}} state={{category:temp.category}} to="/user_workout"> <Card sx={{width:"400px", heigth:"400px" }}>
        <CardActionArea style={{width:"400px", heigth:"400px" }}>
          <CardMedia
            component="img"
@@ -32,12 +32,12 @@ const UserCategory=()=>
          <CardContent>
            <Typography gutterBottom variant="h5" component="div">
              <div style={{textAlign:'center', fontSize:"45px"}}>
-               <Link style={{color:"black", textDecoration:"none"}} state={{category:temp.category}} to="/user_workout">{temp.category}</Link>
+               {temp.category}
              </div>
            </Typography>
          </CardContent>
        </CardActionArea>
-     </Card>)
+     </Card> </Link>)
      }
     
     </div>)

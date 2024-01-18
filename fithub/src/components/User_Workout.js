@@ -24,19 +24,19 @@ const UserWorkout=()=>
 
     {
         data.filter((temp)=>temp.category===category)
-        .map((temp)=><Card sx={{ maxWidth: 345 }}>
-        <CardActionArea>
+        .map((temp)=><Link to="/video" state={{video:temp.video}} style={{color:"black", textDecoration:"none"}}><Card sx={{ width: "450px" }}>
+        <CardActionArea style={{height:"500px"}}>
           <CardMedia
             component="img"
-            height="140"
+            height="400"
             image={temp.image}
             alt="green iguana"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              <Link to="/video" state={{video:temp.video}} style={{color:"black"}}>{temp.title}</Link>
+              {temp.title}
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" style={{height:"150px"}}>
               {temp.description}
             </Typography>
           </CardContent>
@@ -47,6 +47,7 @@ const UserWorkout=()=>
           </Button>
         </CardActions> */}
       </Card>
+      </Link>
   )
     }
     </div>
