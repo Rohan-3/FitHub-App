@@ -1,0 +1,109 @@
+[
+    {
+        "category":"Weight Loss",
+        "image": "https://media.istockphoto.com/id/1372798207/photo/a-woman-with-belly-with-excess-fat-and-toned-slim-stomach-with-abs-before-and-after-losing.jpg?s=612x612&w=0&k=20&c=ll1S4FDYWlH4IePLO_Ep8jst34V4rm324W0vXnm7MbY=",
+        "routine":{
+            "days":[
+                {
+                    "d":"1",
+                    "day":[
+                        {"time":"6:30 AM" , "diet":"Cucumber Detox Water (1 glass), Oats Porridge in Skimmed Milk (1 bowl)"},
+                        {"time":"8:00 AM" , "diet":"Mixed Nuts (25 grams)" },
+                        {"time":"12:00 PM", "diet":"Skimmed Milk Paneer (100 grams)" },
+                        {"time":"2:00 PM" , "diet":"Mixed Vegetable Salad (1 katori),Dal(1 katori)Gajar Matar Sabzi (1 katori)"},
+                        {"time":"2:10 PM",  "diet":"Roti (1 roti/chapati)"},
+                        {"time":"4:00 PM",  "diet":"Cut Fruits (1 cup) Buttermilk (1 glass)"},
+                        {"time":"5:30 PM",  "diet":"Tea with Less Sugar and Milk (1 teacup)"},
+                        {"time":"8:50 PM",  "diet":"Mixed Vegetable Salad (1 katori),Dal (1 katori) Lauki Sabzi (1 katori)"},
+                        {"time":"9:00 PM",  "diet":"Roti (1 roti/chapati)"}
+                        ]
+                },
+                {
+                    "d":"2",
+                    "day":[
+                        {"time":"6:30 AM" , "diet":"Cucumber Detox Water (1 glass)"},
+                        {"time":"8:00 AM" , "diet":"Curd (1.5 katori) Mixed Vegetable Stuffed Roti (2 pieces)" },
+                        {"time":"12:00 PM", "diet":"Skimmed Milk Paneer (100 grams)" },
+                        {"time":"2:00 PM" , "diet":"Mixed Vegetable Salad (1 katori)"},
+                        {"time":"2:10 PM",  "diet":"Lentil Curry (0.75 bowl) Methi Rice (0.5 katori)"},
+                        {"time":"4:00 PM",  "diet":"Apple (0.5 small (2-3/4″ dia)) Buttermilk (1 glass)"},
+                        {"time":"5:30 PM",  "diet":"Coffee with Milk and Less Sugar (0.5 tea cup)"},
+                        {"time":"8:50 PM",  "diet":"Mixed Vegetable Salad (1 katori),Sauteed Vegetables with Paneer (1 katori) Roti (1 roti/chapati) "},
+                        {"time":"9:00 PM",  "diet":"Green Chutney (2 tablespoon)"}
+                        ]
+                },
+                {
+                    "d":"3",
+                    "day":[
+                        {"time":"6:30 AM" , "diet":"Cucumber Detox Water (1 glass)"},
+                        {"time":"8:00 AM" , "diet":"Skim Milk Yoghurt (1 cup (8 fl oz)) Multigrain Toast (2 toast)" },
+                        {"time":"12:00 PM", "diet":"Skimmed Milk Paneer (100 grams)" },
+                        {"time":"2:00 PM" , "diet":"Mixed Vegetable Salad (1 katori),Sauteed Vegetables with Paneer (1 katori) Roti (1 roti/chapati)"},
+                        {"time":"2:10 PM",  "diet":"Green Chutney (2 tablespoon)"},
+                        {"time":"4:00 PM",  "diet":"Banana (0.5 small (6″ to 6-7/8″ long)) Buttermilk (1 glass)"},
+                        {"time":"5:30 PM",  "diet":"Tea with Less Sugar and Milk (1 teacup)"},
+                        {"time":"8:50 PM",  "diet":"Mixed Vegetable Salad (1 katori)"},
+                        {"time":"9:00 PM",  "diet":"Lentil Curry (0.75 bowl) Methi Rice (0.5 katori)"}
+                        ]
+                },
+                {
+                    "d":"4",
+                    "day":[
+                        {"time":"6:30 AM" , "diet":"Cucumber Detox Water (1 glass),Fruit and Nuts Yogurt Smoothie (0.75 glass) "},
+                        {"time":"8:00 AM" , "diet":"Egg Omelette (1 serve(one egg))" },
+                        {"time":"12:00 PM", "diet":"Skimmed Milk Paneer (100 grams)" },
+                        {"time":"2:00 PM" , "diet":"Mixed Vegetable Salad (1 katori),Green Gram Whole Dal Cooked (1 katori) Bhindi sabzi (1 katori) "},
+                        {"time":"2:10 PM",  "diet":"Roti (1 roti/chapati)"},
+                        {"time":"4:00 PM",  "diet":"Orange (1 fruit (2-5/8″ dia)) Buttermilk (1 glass)"},
+                        {"time":"5:30 PM",  "diet":"Coffee with Milk and Less Sugar (0.5 teacup)"},
+                        {"time":"8:50 PM",  "diet":"Mixed Vegetable Salad (1 katori)"},
+                        {"time":"9:00 PM",  "diet":"Palak Chole (1 bowl) Steamed Rice (0.5 katori)"}
+                        ]
+                },
+                {
+                    "d":"5",
+                    "day":[
+                        {"time":"6:30 AM" , "diet":"Cucumber Detox Water (1 glass)"},
+                        {"time":"8:00 AM" , "diet":"Skimmed Milk (1 glass) Peas Poha (1.5 katori)" },
+                        {"time":"12:00 PM", "diet":"Skimmed Milk Paneer (100 grams)" },
+                        {"time":"2:00 PM" , "diet":"Mixed Vegetable Salad (1 katori)"},
+                        {"time":"2:10 PM",  "diet":"Low Fat Paneer Curry (1.5 katori) Missi Roti (1 roti)"},
+                        {"time":"4:00 PM",  "diet":"Papaya (1 cup 1″ pieces) Buttermilk (1 glass)"},
+                        {"time":"5:30 PM",  "diet":"Tea with Less Sugar and Milk (1 teacup)"},
+                        {"time":"8:50 PM",  "diet":"Mixed Vegetable Salad (1 katori),Curd (1.5 katori) Aloo Baingan Tamatar Ki Sabzi (1 katori) "},
+                        {"time":"9:00 PM",  "diet":"Roti (1 roti/chapati)"}
+                        ]
+                },
+
+                {
+                    "d":"6",
+                    "day":[
+                        {"time":"6:30 AM" , "diet":"Cucumber Detox Water (1 glass)"},
+                        {"time":"8:00 AM" , "diet":"Mixed Sambar (1 bowl) Idli (2 idli)" },
+                        {"time":"12:00 PM", "diet":"Skimmed Milk Paneer (100 grams)" },
+                        {"time":"2:00 PM" , "diet":"Mixed Vegetable Salad (1 katori),Curd (1.5 katori) Aloo Baingan Tamatar Ki Sabzi (1 katori) "},
+                        {"time":"2:10 PM",  "diet":"Roti (1 roti/chapati)"},
+                        {"time":"4:00 PM",  "diet":"Cut Fruits (1 cup) Buttermilk (1 glass)"},
+                        {"time":"5:30 PM",  "diet":"Coffee with Milk and Less Sugar (0.5 tea cup)"},
+                        {"time":"8:50 PM",  "diet":"Mixed Vegetable Salad (1 katori),Green Gram Whole Dal Cooked (1 katori)Bhindi sabzi (1 katori)"},
+                        {"time":"9:00 PM",  "diet":"Roti (1 roti/chapati)"}
+                        ]
+                },
+                {
+                    "d":"7",
+                    "day":[
+                        {"time":"6:30 AM" , "diet":"Cucumber Detox Water (1 glass)"},
+                        {"time":"8:00 AM" , "diet":"Besan Chilla (2 cheela) Green Garlic Chutney (3 tablespoon)" },
+                        {"time":"12:00 PM", "diet":"Skimmed Milk Paneer (100 grams)" },
+                        {"time":"2:00 PM" , "diet":"Mixed Vegetable Salad (1 katori)"},
+                        {"time":"2:10 PM",  "diet":"Palak Chole (1 bowl) Steamed Rice (0.5 katori)"},
+                        {"time":"4:00 PM",  "diet":"Apple(0.5 small (2-3/4″ dia)) Buttermilk (1 glass)"},
+                        {"time":"5:30 PM",  "diet":"Tea with Less Sugar and Milk (1 teacup)"},
+                        {"time":"8:50 PM",  "diet":"Mixed Vegetable Salad (1 katori)"},
+                        {"time":"9:00 PM",  "diet":"Low Fat Paneer Curry (1 katori) Missi Roti (1 roti)"}
+                        ]
+                }
+            ]
+        }
+    }
+]

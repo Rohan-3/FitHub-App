@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link to='/admin' style={linkStyle}>Dashboard</Link>
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/workout' style={linkStyle}><li>Workout</li></Link>
-          <li>Nutrition</li>
+          <li>Diet</li>
           <Link to='/auth' onClick={handleLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>
@@ -43,7 +43,7 @@ const Navbar = () => {
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
-          <li>Nutrition</li>
+          <Link to='/diet_cat' style={linkStyle}><li>Diet</li></Link> 
           <Link to='/auth' onClick={handleUserLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>
@@ -54,7 +54,7 @@ const Navbar = () => {
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/workout' style={linkStyle}><li>Workout</li></Link>
-          <li>Nutrition</li>
+          <li>Diet</li>
           <Link to='/auth' style={linkStyle}> Register/Login</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>

@@ -11,6 +11,8 @@ import AdminDashboard from '../pages/AdminDashboard'
 import UserCategory from '../components/User_Category'
 import UserWorkout from '../components/User_Workout'
 import WorkoutVideo from '../components/WorkoutVideo'
+import DietCategory from '../components/Diet_Category'
+import Diet from '../components/Diet'
 const PrivateToutes = () => {
   return (
     <div>
@@ -26,6 +28,8 @@ const PrivateToutes = () => {
         <Route path="/user_cat" element={<UserCategory/>}/>
         <Route path="/user_workout" element={<UserWorkout/>}/>
         <Route path="/video" element={<WorkoutVideo/>}/>
+        <Route path="/diet_cat" element={<DietCategory/>}/>
+        <Route path="/diet" element={<Diet/>}/> 
     </Routes>
     </div>
   )
