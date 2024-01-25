@@ -66,7 +66,10 @@ const Login = () => {
       }
       else
       {
-        localStorage.setItem('userno',phone)
+        let ldata=JSON.parse(localStorage.getItem('u'));
+        let data=ldata.filter((temp)=>temp.phone===phone);
+        let login={phoneno:phone,userid:data[0].userid}
+        localStorage.setItem('userno',JSON.stringify(login))
         nav("/user")
       }
         

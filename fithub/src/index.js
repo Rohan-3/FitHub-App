@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import UserCategory from './components/User_Category';
 import {BrowserRouter} from 'react-router-dom'
-import UserWorkout from './components/User_Workout';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

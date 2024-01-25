@@ -13,6 +13,8 @@ import UserWorkout from '../components/User_Workout'
 import WorkoutVideo from '../components/WorkoutVideo'
 import DietCategory from '../components/Diet_Category'
 import Diet from '../components/Diet'
+import CreateBlog from '../components/Create_Blog'
+import Blogs from '../components/Blogs'
 const PrivateToutes = () => {
   return (
     <div>
@@ -30,6 +32,8 @@ const PrivateToutes = () => {
         <Route path="/video" element={<WorkoutVideo/>}/>
         <Route path="/diet_cat" element={<DietCategory/>}/>
         <Route path="/diet" element={<Diet/>}/> 
+        <Route path="/create_blog" element={<CreateBlog/>}/>
+        <Route path="/blogs" element={<Blogs/>}/>
     </Routes>
     </div>
   )

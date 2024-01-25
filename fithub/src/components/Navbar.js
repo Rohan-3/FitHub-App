@@ -2,6 +2,7 @@ import React from 'react'
 import '../assets/styles/NavBar.css'
 import Logo from '../assets/images/FithubLogo.png'
 import { Link, useNavigate } from 'react-router-dom'
+import BlogsMenu from './BlogsMenu'
 
 const Navbar = () => {
   let linkStyle = { color: 'white', textDecoration:'none'}
@@ -44,6 +45,7 @@ const Navbar = () => {
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
           <Link to='/diet_cat' style={linkStyle}><li>Diet</li></Link> 
+          <li ><BlogsMenu/></li>
           <Link to='/auth' onClick={handleUserLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>

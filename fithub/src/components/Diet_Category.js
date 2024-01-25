@@ -19,26 +19,29 @@ const DietCategory=()=>
     
     return(<>
 
-    {
+      <div style={{display:"flex", flexWrap:"wrap"}}>
+      {
 
-        data.map((temp)=><Link to="/diet" style={{textDecoration:"none"}} state={{routine:temp.routine}}>
-        <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-          component="img"
-          height="194"
-          image={temp.image}
-          alt="Paella dish"
-        />
-        <CardContent style={{height:"50px"}}>
-          <h1 style={{position:'relative',top:"0"}}><span style={{textAlign:"center"}}>{temp.category}</span> <IconButton aria-label="add to favorites" style={{boxShadow:"none", width:"auto"}}>
-            <FavoriteIcon />
-          </IconButton></h1>
-        </CardContent>
-      </Card>
-        
-        </Link>)
+data.map((temp)=><Link to="/diet" style={{textDecoration:"none"}} state={{routine:temp.routine}}>
+<Card sx={{ maxWidth: 345 }}>
+<CardMedia
+  component="img"
+  height="194"
+  image={temp.image}
+  alt="Paella dish"
+/>
+<CardContent style={{height:"50px"}}>
+  <h1 style={{position:'relative',top:"0"}}><span style={{textAlign:"center"}}>{temp.category}</span> <IconButton aria-label="add to favorites" style={{boxShadow:"none", width:"auto"}}>
+    <FavoriteIcon />
+  </IconButton></h1>
+</CardContent>
+</Card>
 
-    }
+</Link>)
+
+}
+      </div>
+    
     </>);
 }
 
