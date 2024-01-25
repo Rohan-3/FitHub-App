@@ -15,13 +15,14 @@ const Login = () => {
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
   let [flag,setFlag] = useState(false);
-  let admin=["+919967990416"]
+  let admin=[""]
   
 
   const nav= useNavigate();
 
   const sendOtp=async()=>
   {
+    alert("PReesed enets")
       try
       {
         const phoneNumber = "+" + phone;
@@ -53,6 +54,7 @@ const Login = () => {
 
   const verifyOtp=async()=>
   {
+    alert("PReesed OTP")
     try
     {
       // phone==="+919967990416" || 
@@ -95,6 +97,7 @@ const Login = () => {
             renderSeparator={<pre> </pre>}
             renderInput={(props) => <input {...props} />}
           />
+
           <button onClick={verifyOtp} >Verify OTP</button>
         </div>
         :
@@ -106,6 +109,10 @@ const Login = () => {
             country={"in"}
             value={phone}
             onChange={setPhone}
+            onKeyDown={(e) => {
+          if (e.key === "Enter")
+          sendOtp();
+        }}
           />
           <button onClick={sendOtp}>Send OTP</button>
       

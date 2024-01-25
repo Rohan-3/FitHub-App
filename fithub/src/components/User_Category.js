@@ -12,7 +12,7 @@ const UserCategory=()=>
 //    let data = useFetch("../workout.json");
      let [data,setData] = useState([])
      useEffect(()=>{
-        fetch("../workout_category.json")
+        fetch("http://localhost:4000/workout_category")
         .then((temp)=> temp.json())
         .then((temp) => setData(temp))
         .catch((err)=>console.log(err))

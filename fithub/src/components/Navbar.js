@@ -19,11 +19,15 @@ const Navbar = () => {
     alert("user logout");
     nav("/auth");
   }
+
+  const handleAlert = (temp)=>{
+    alert(`Login first to View ${temp} Page !`)
+  }
   return (
     <>
     <div className='nav'>
       <div className='logo'>
-      <img src={Logo} alt=''/>
+      <Link to='/'><img src={Logo} alt=''/></Link>
       </div>
       <div className='nav-links'>
       {
@@ -33,8 +37,9 @@ const Navbar = () => {
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/admin' style={linkStyle}>Dashboard</Link>
           <Link to='/about' style={linkStyle}>About</Link>
-          <Link to='/workout' style={linkStyle}><li>Workout</li></Link>
-          <li>Diet</li>
+          <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
+          <Link to='/diet_cat' style={linkStyle}><li>Diet</li></Link> 
+          <Link style={linkStyle} ><BlogsMenu/></Link>
           <Link to='/auth' onClick={handleLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>
@@ -44,7 +49,7 @@ const Navbar = () => {
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
-          <Link to='/diet_cat' style={linkStyle}><li>Diet</li></Link> 
+          <Link to='/diet_cat'  style={linkStyle}><li>Diet</li></Link> 
           <li ><BlogsMenu/></li>
           <Link to='/auth' onClick={handleUserLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
@@ -55,8 +60,9 @@ const Navbar = () => {
         <ul>  
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
-          <Link to='/workout' style={linkStyle}><li>Workout</li></Link>
-          <li>Diet</li>
+          <Link to='/auth' onClick={()=>handleAlert("workout")} style={linkStyle}><li>Workout</li></Link>
+          <Link to='/auth' onClick={()=>handleAlert("Diet")} style={linkStyle}><li>Diet</li></Link> 
+          <Link to='/auth' onClick={()=>handleAlert("blogs")} style={linkStyle}>Blogs</Link>
           <Link to='/auth' style={linkStyle}> Register/Login</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>

@@ -1,31 +1,45 @@
 import { useState, useEffect } from "react";
 const CreateBlog=()=>
 {
+    
 
     let [title,setTitle] = useState("");
     let [description,setDes] = useState("");
-    let [data2,setData2] = useState([]);
+    let [data,setData] = useState([]);
+    let [blog,setBlog] = useState();
+
     useEffect(()=>{
-        fetch("../blogs.json")
-        .then((temp)=> temp.json())
-        .then((temp) => setData2(temp))
-        .catch((err)=>console.log(err));
-    },[])
+        fetch("http://localhost:4000/Blogs", {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+        blog
+        })
+        }).then(response => response.json())
+        .then(console.log(data))
+            },[])
 
-   
-
-    const post=()=>
-    {
-        let details = JSON.parse(localStorage.getItem("userno"));
-        console.log(details.userid)
-        let uname=details.userid;
-        let d = new Date();
-        let dnt=d.toLocaleDateString();
-        let id=parseInt(data2[data2.length-1].id)+1;
-       let data1={id,uname,dnt,title,description};
-       alert("Posted successfully");
-    }
+            useEffect(()=>{
+                fetch("http://localhost:4000/Blogs")
+                .then((temp)=> temp.json())
+                .then((temp) => setData(temp))
+                .catch((err)=>console.log(err));
+            },[])
     
+    const post=()=>
+   {
+      let details = JSON.parse(localStorage.getItem("userno"))
+      let d= new Date();
+      let dnt = d.toLocaleString();
+      let id=data.length>0?data[data.length-1].id+1:1;
+       setBlog({id:id,uname:details.userid,dnt:dnt,title:title,description:description})
+      console.log(data);
+      setData([blog,...data])
+      
+      alert("Posted successfully")
+   }
     return(<>
     
     <div>

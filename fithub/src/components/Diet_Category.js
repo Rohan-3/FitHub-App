@@ -11,7 +11,7 @@ const DietCategory=()=>
 {
     let [data,setData] = useState([])
      useEffect(()=>{
-        fetch("../diet.json")
+        fetch("http://localhost:4000/diet")
         .then((temp)=> temp.json())
         .then((temp) => setData(temp))
         .catch((err)=>console.log(err))
