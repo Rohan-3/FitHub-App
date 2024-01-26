@@ -3,6 +3,7 @@ import BlogsCard from "./BlogsCard";
 
 const Blogs=()=>
 {
+    
     let [data,setData] = useState([]);
 
     useEffect(()=>{
@@ -12,16 +13,12 @@ const Blogs=()=>
         .catch((err)=>console.log(err));
     },[])
 
-
     return(<>
-
-        
-  
-      {
-          data.map((temp)=><BlogsCard uname={temp.uname} dnt={temp.dnt} title={temp.title} description={temp.description} />)
-      }
-       
       
+          <h1>Display Blogs</h1>
+          {
+            data.map((temp)=> <BlogsCard title={temp.title} description={temp.description} />)
+          }
   
       </>)
   

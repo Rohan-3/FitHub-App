@@ -83,7 +83,7 @@ export default function BlogsMenu() {
                     style={{color:"white", backgroundColor:"rgb(20, 20, 20)", display:"flex", flexDirection:"column"}}
                   >
                  <Link to="/blogs" style={linkStyle}> <MenuItem onClick={handleClose}>Blogs</MenuItem></Link>  
-                  <Link to="/create_blog" style={linkStyle}><MenuItem onClick={handleClose}>My Blogs</MenuItem></Link>  
+                  <Link to="/create_blog" style={linkStyle}><MenuItem onClick={handleClose}>Create Blogs</MenuItem></Link>  
                   </MenuList>
                 </ClickAwayListener>
               </Paper>

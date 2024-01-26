@@ -8,9 +8,6 @@ import { RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
 const Login = () => {
 
-
-  
-
   const [phone,setPhone] = useState("");
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
@@ -22,7 +19,7 @@ const Login = () => {
 
   const sendOtp=async()=>
   {
-    alert("PReesed enets")
+    
       try
       {
         const phoneNumber = "+" + phone;
