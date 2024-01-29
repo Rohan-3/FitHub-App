@@ -5,7 +5,7 @@ const Blogs=()=>
 {
     
     let [data,setData] = useState([]);
-
+   
     useEffect(()=>{
         fetch("http://localhost:4000/Blogs")
         .then((temp)=> temp.json())
@@ -17,7 +17,7 @@ const Blogs=()=>
       
           <h1>Display Blogs</h1>
           {
-            [...data].reverse().map((temp)=> <BlogsCard title={temp.title} description={temp.description} dnt={temp.dnt} uname={temp.uname} />)
+            [...data].reverse().map((temp)=> <BlogsCard title={temp.title} description={temp.description} dnt={temp.dnt} uname={temp.uname} id={temp.id} />)
           }
   
       </>)

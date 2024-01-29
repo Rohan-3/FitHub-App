@@ -1037,12 +1037,56 @@
       "phone": "+919966004795"
     },
     {
-      "id": "14",
-      "title": "update",
-      "description": "this is updated post",
-      "dnt": "1/29/2024, 12:10:45 PM(Edited)",
-      "uname": "xyz",
-      "phone": "+919966004795"
+      "id": "12",
+      "title": "First Blog",
+      "description": "Hi All;\n\nThis is my blog.\n\nThanks ",
+      "dnt": "29/1/2024, 4:06:11 pm(Edited)",
+      "uname": "Rohan",
+      "phone": "+918770147315"
+    },
+    {
+      "id": "13",
+      "title": "Second Blog",
+      "description": "Hii,\n  \nThis is my second blog.",
+      "dnt": "29/1/2024, 4:09:43 pm",
+      "uname": "Rohan",
+      "phone": "+918770147315"
+    }
+  ],
+  "Comments": [
+    {
+      "blogId": "13",
+      "uname": "Sruti",
+      "dnt": "29/1/2024, 4:09:43 pm",
+      "comment": "Add some content to this blog."
+    },
+    {
+      "id": "b8fb",
+      "blogId": "13",
+      "uname": "Rohan",
+      "dnt": "29/1/2024, 5:23:39 pm",
+      "comment": "Hii"
+    },
+    {
+      "id": "8521",
+      "blogId": "13",
+      "uname": "Rohan",
+      "dnt": "29/1/2024, 5:57:33 pm",
+      "comment": "Hellolo"
+    },
+    {
+      "id": "b35b",
+      "blogId": "12",
+      "uname": "Rohan",
+      "dnt": "29/1/2024, 5:57:53 pm",
+      "comment": "Hiii"
+    },
+    {
+      "id": "1bae",
+      "blogId": "13",
+      "uname": "Rohan",
+      "dnt": "29/1/2024, 6:04:45 pm",
+      "comment": "Hey"
     }
   ]
 }

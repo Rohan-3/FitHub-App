@@ -8,9 +8,9 @@ import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
 import CommentTwoToneIcon from '@mui/icons-material/CommentTwoTone';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import CommentsCard from './CommentsCard';
+
 
 
 const ExpandMore = styled((props) => {
@@ -30,6 +30,10 @@ const BlogsCard=(props)=>
 {
     const [expanded, setExpanded] = React.useState(false);
     const [color,setColor]=React.useState();
+    const [comments,setComments] = React.useState([]);
+  const [comment, setComment] = React.useState("");
+  const [details,setDetails] = React.useState("");
+
     const handleExpandClick = () => {
       setExpanded(!expanded);
     };
@@ -38,6 +42,39 @@ const BlogsCard=(props)=>
        let color = "#" + hex.toString(16);
        setColor(color)
     },[props.title])
+
+    React.useEffect(()=>{
+      fetch("http://localhost:4000/Comments")
+      .then((temp)=> temp.json())
+      .then((temp) => setComments(temp))
+      .catch((err)=>console.log(err));
+      let data=JSON.parse(localStorage.getItem("userno"))
+    setDetails(data)
+    },[])
+
+    const PostComments = ()=>{
+      let d = new Date();
+      let dnt=d.toLocaleString()
+      let uname=details.userid
+      let newComment = {
+        blogId:props.id, 
+        uname:uname,
+        dnt:dnt, 
+        comment:comment
+      }
+      fetch("http://localhost:4000/Comments",
+      {
+          method: "POST",
+          body: JSON.stringify(newComment)
+      })
+      .then((data) => data.json())
+      .then((data) => console.log(data))
+      .catch((err)=> console.log(err))
+      alert(`Comments sent successfully`)
+      setComments([...comments, newComment])
+      setComment("")
+
+  }
 
     return(<>
 
@@ -71,7 +108,11 @@ const BlogsCard=(props)=>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-           <p>Comments will come here</p>
+        <input type="text" placeholder='Enter your comments here....' onChange={(e)=>setComment(e.target.value)} /> 
+        <button onClick={PostComments}>Send</button>
+        {
+            comments.filter((temp)=>temp.blogId===props.id).map((temp)=><CommentsCard uname={temp.uname} dnt={temp.dnt} comment={temp.comment}/>)
+           }
         </CardContent>
       </Collapse>
     </Card>
