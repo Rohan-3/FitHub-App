@@ -17,7 +17,7 @@ const Blogs=()=>
       
           <h1>Display Blogs</h1>
           {
-            data.map((temp)=> <BlogsCard title={temp.title} description={temp.description} />)
+            [...data].reverse().map((temp)=> <BlogsCard title={temp.title} description={temp.description} dnt={temp.dnt} uname={temp.uname} />)
           }
   
       </>)

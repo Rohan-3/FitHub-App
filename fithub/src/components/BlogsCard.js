@@ -10,6 +10,8 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
 import CommentTwoToneIcon from '@mui/icons-material/CommentTwoTone';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
+
 
 const ExpandMore = styled((props) => {
     const { expand, ...other } = props;
@@ -27,23 +29,29 @@ const ExpandMore = styled((props) => {
 const BlogsCard=(props)=>
 {
     const [expanded, setExpanded] = React.useState(false);
-
+    const [color,setColor]=React.useState();
     const handleExpandClick = () => {
-        setExpanded(!expanded);
-      };
-    
+      setExpanded(!expanded);
+    };
+    React.useEffect(()=>{
+      let hex = Math.floor(Math.random()* 0xFFFFFF);
+       let color = "#" + hex.toString(16);
+       setColor(color)
+    },[props.title])
+
     return(<>
-    
+
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+          <Avatar sx={{ bgcolor: color }} aria-label="recipe">
+            {props.uname[0].toUpperCase()}
           </Avatar>
         }
         title={props.uname}
         subheader={props.dnt}
       />
+      
       <CardContent>
         <Typography variant="body2" color="text.secondary">
           <h1>{props.title}</h1>

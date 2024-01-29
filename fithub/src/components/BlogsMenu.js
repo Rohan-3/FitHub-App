@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 let linkStyle = { color: 'white', textDecoration:'none'}
 
-export default function BlogsMenu() {
+export default function BlogsMenu(props) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
@@ -53,9 +53,9 @@ export default function BlogsMenu() {
           id="composition-button"
           aria-controls={open ? 'composition-menu' : undefined}
           onClick={handleToggle}
-          style={{color:"white", backgroundColor:"rgb(20, 20, 20)", boxShadow:"none", width:"auto", height:"auto", cursor: "pointer"}}
+          style={{color:props.color, backgroundColor:props.bgcolor, boxShadow:"none", width:"auto", height:"auto", cursor: "pointer"}}
         >
-          Blogs
+          {props.title}
         </li>
         <Popper
           open={open}
@@ -80,10 +80,10 @@ export default function BlogsMenu() {
                     id="composition-menu"
                     aria-labelledby="composition-button"
                     onKeyDown={handleListKeyDown}
-                    style={{color:"white", backgroundColor:"rgb(20, 20, 20)", display:"flex", flexDirection:"column"}}
+                    style={{color:props.color, backgroundColor:props.bgcolor, display:"flex", flexDirection:"column"}}
                   >
-                 <Link to="/blogs" style={linkStyle}> <MenuItem onClick={handleClose}>Blogs</MenuItem></Link>  
-                  <Link to="/create_blog" style={linkStyle}><MenuItem onClick={handleClose}>Create Blogs</MenuItem></Link>  
+                 <Link to="/blogs" style={linkStyle}> <MenuItem onClick={handleClose}>{props.op1}</MenuItem></Link>  
+                  <Link to="/create_blog" style={linkStyle}><MenuItem onClick={handleClose}>{props.op2}</MenuItem></Link>  
                   </MenuList>
                 </ClickAwayListener>
               </Paper>
