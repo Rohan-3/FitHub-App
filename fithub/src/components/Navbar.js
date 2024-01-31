@@ -51,6 +51,7 @@ const Navbar = () => {
           <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
           <Link to='/diet_cat'  style={linkStyle}><li>Diet</li></Link> 
           <li ><BlogsMenu title="Blogs" color="white" bgcolor="rgb(20,20,20)" op1="Blogs" op2="My Blogs"/></li>
+          <Link to='/user' style={linkStyle}>user</Link>
           <Link to='/auth' onClick={handleUserLogout} style={linkStyle}>Logout</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>

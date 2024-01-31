@@ -1051,6 +1051,38 @@
       "dnt": "29/1/2024, 4:09:43 pm",
       "uname": "Rohan",
       "phone": "+918770147315"
+    },
+    {
+      "id": "14",
+      "title": "test",
+      "description": "this is test post",
+      "dnt": "1/30/2024, 12:25:51 AM",
+      "uname": "xyz",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "15",
+      "title": "test 2",
+      "description": "ok lets see how it is working",
+      "dnt": "1/30/2024, 12:26:33 AM",
+      "uname": "xyz",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "16",
+      "title": "test 3",
+      "description": "kjlkjljl",
+      "dnt": "1/30/2024, 12:27:58 AM",
+      "uname": "xyz",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "17",
+      "title": "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+      "description": "hello everyone",
+      "dnt": "1/30/2024, 4:19:48 PM(Edited)",
+      "uname": "xyz",
+      "phone": "+919966004795"
     }
   ],
   "Comments": [
@@ -1058,7 +1090,8 @@
       "blogId": "13",
       "uname": "Sruti",
       "dnt": "29/1/2024, 4:09:43 pm",
-      "comment": "Add some content to this blog."
+      "comment": "Add some content to this blog.",
+      "id": "bef6"
     },
     {
       "id": "b8fb",
@@ -1087,6 +1120,78 @@
       "uname": "Rohan",
       "dnt": "29/1/2024, 6:04:45 pm",
       "comment": "Hey"
+    },
+    {
+      "id": "0ef4",
+      "blogId": "11",
+      "uname": "xyz",
+      "dnt": "1/30/2024, 12:17:50 AM",
+      "comment": "hiii"
+    },
+    {
+      "id": "8ef6",
+      "blogId": "11",
+      "uname": "xyz",
+      "dnt": "1/30/2024, 12:18:38 AM",
+      "comment": "hey"
+    },
+    {
+      "id": "0b5d",
+      "blogId": "11",
+      "uname": "xyz",
+      "dnt": "1/30/2024, 12:22:05 AM",
+      "comment": "how is your day?"
+    },
+    {
+      "id": "5b32",
+      "blogId": "13",
+      "uname": "xyz",
+      "dnt": "1/30/2024, 1:19:28 PM",
+      "comment": "hii"
+    },
+    {
+      "id": "2ca8",
+      "blogId": "17",
+      "uname": "xyz",
+      "dnt": "1/30/2024, 4:20:31 PM",
+      "comment": "add more"
+    }
+  ],
+  "BMIChart":[
+    {
+      "phone": "+919966004795",
+      "weight": "80",
+      "height": "180",
+      "BMI": "24.7",
+      "date":"29/11/2023"
+    },
+    {
+      "phone": "+919966004795",
+      "weight": "90",
+      "height": "180",
+      "BMI": "27.8",
+      "date":"12/12/2023"
+    },
+    {
+      "phone": "+919966004795",
+      "weight": "70",
+      "height": "180",
+      "BMI": "21.6",
+      "date":"23/12/2023"
+    },
+    {
+      "phone": "+919966004795",
+      "weight": "60",
+      "height": "180",
+      "BMI": "18.5",
+      "date":"2/1/2024"
+    },
+    {
+      "phone": "+919966004795",
+      "weight": "65",
+      "height": "180",
+      "BMI": "20.1",
+      "date":"13/1/2024"
     }
   ]
 }

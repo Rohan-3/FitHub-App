@@ -28,20 +28,50 @@ const ExpandMore = styled((props) => {
 
 const BlogsCard=(props)=>
 {
-    const [expanded, setExpanded] = React.useState(false);
-    const [color,setColor]=React.useState();
-    const [comments,setComments] = React.useState([]);
+  const [expanded, setExpanded] = React.useState(false);
+  const [color,setColor]=React.useState();
+  const [comments,setComments] = React.useState([]);
   const [comment, setComment] = React.useState("");
   const [details,setDetails] = React.useState("");
 
     const handleExpandClick = () => {
       setExpanded(!expanded);
     };
-    React.useEffect(()=>{
-      let hex = Math.floor(Math.random()* 0xFFFFFF);
-       let color = "#" + hex.toString(16);
-       setColor(color)
-    },[props.title])
+
+
+  const getHashOfString=(str)=>
+  {
+    let hash = 0;
+    for(let i=0;i<str.length;i++)
+    {
+      hash = str.charCodeAt(i) + ((hash<<5)-hash);
+    }
+    hash = Math.abs(hash);
+    return hash;
+  }
+
+  const normalizaHash = (hash,min,max)=>
+  {
+    return Math.floor((hash % (max - min)) + min);
+  }
+
+  const hRange = [0, 360];
+  const sRange = [35, 75];
+  const lRange = [10, 50];
+
+
+  const generateHSL = () =>
+  {
+    const hash = getHashOfString(props.uname);
+    const h =normalizaHash(hash, hRange[0], hRange[1]);
+    const s =normalizaHash(hash, sRange[0], sRange[1]);
+    const l =normalizaHash(hash, lRange[0], lRange[1]);
+    return `hsl(${h},${s}%,${l}%)`;
+  }
+
+   React.useEffect(()=>{
+    setColor(generateHSL());
+  },[props.uname]);
 
     React.useEffect(()=>{
       fetch("http://localhost:4000/Comments")

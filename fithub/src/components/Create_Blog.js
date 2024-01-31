@@ -22,12 +22,18 @@ const CreateBlog=()=>{
         let uname=details.userid
         let phone=details.phoneno
         let id=parseInt(data1[data1.length-1].id)+1;
+        let newpost = {
+            id:id.toString(),
+            title:title,
+            description:description,
+            dnt:dnt,
+            uname:uname,
+            phone:phone
+        }
         fetch("http://localhost:4000/Blogs",
         {
             method: "POST",
-            body: JSON.stringify({
-                id:id.toString(),title:title,description:description,dnt:dnt,uname:uname,phone:phone
-            })
+            body: JSON.stringify(newpost)
         })
         .then((data) => data.json())
         .then((data) => setData(data))

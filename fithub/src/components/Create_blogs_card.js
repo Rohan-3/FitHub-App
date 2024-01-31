@@ -26,7 +26,6 @@ const ExpandMore = styled((props) => {
 const CreateBlogsCard=(props)=> {
   const [expanded, setExpanded] = React.useState(false);
   const [color,setColor]=React.useState();
-  const [usedcolor,setUsedColor]=React.useState([]);
   const [flag,setFlag]=React.useState(false);
   const [ntitle,setNtitle]=React.useState(props.title);
   const [ndes,setNdes]=React.useState(props.description);
@@ -36,11 +35,40 @@ const CreateBlogsCard=(props)=> {
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
-  React.useEffect(()=>{
-    let hex = Math.floor(Math.random()* 0xFFFFFF);
-    let color = "#" + hex.toString(16).substring(-6);
-    setColor(color)
-  },[])
+
+  const getHashOfString=(str)=>
+  {
+    let hash = 0;
+    for(let i=0;i<str.length;i++)
+    {
+      hash = str.charCodeAt(i) + ((hash<<5)-hash);
+    }
+    hash = Math.abs(hash);
+    return hash;
+  }
+
+  const normalizaHash = (hash,min,max)=>
+  {
+    return Math.floor((hash % (max - min)) + min);
+  }
+
+  const hRange = [0, 360];
+  const sRange = [35, 75];
+  const lRange = [10, 50];
+
+
+  const generateHSL = () =>
+  {
+    const hash = getHashOfString(props.uname);
+    const h =normalizaHash(hash, hRange[0], hRange[1]);
+    const s =normalizaHash(hash, sRange[0], sRange[1]);
+    const l =normalizaHash(hash, lRange[0], lRange[1]);
+    return `hsl(${h},${s}%,${l}%)`;
+  }
+
+   React.useEffect(()=>{
+    setColor(generateHSL());
+  },[props.uname]);
   
   const edit=(f)=>
   {

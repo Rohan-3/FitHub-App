@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea } from '@mui/material';
 import { Link, useLocation } from 'react-router-dom';
 import { useState,useEffect } from 'react';
 
@@ -25,7 +25,7 @@ const UserWorkout=()=>
     {
         data.filter((temp)=>temp.category===category)
         .map((temp)=><Link to="/video" state={{video:temp.video}} style={{color:"black", textDecoration:"none"}}><Card sx={{ width: "450px" }}>
-        <CardActionArea style={{height:"500px"}}>
+        <CardActionArea style={{height:"550px"}}>
           <CardMedia
             component="img"
             height="400"
