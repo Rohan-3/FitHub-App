@@ -738,6 +738,234 @@
       }
     }
   ],
+  "favorite": [
+    {
+      "category": "workout",
+      "title": "HALASANA",
+      "image": "https://i0.wp.com/pixahive.com/wp-content/uploads/2021/02/Halasana-Plough-pose-357653-pixahive.jpg?fit=2560%2C1684&ssl=1",
+      "video": "https://www.youtube.com/embed/qpuY0jXimtQ?si=ZHkeUqcSOpd6naLH",
+      "phone": "+919966004795",
+      "id": "1146"
+    },
+    {
+      "id": "627b",
+      "category": "workout",
+      "title": "Shavasan",
+      "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
+      "video": "https://www.youtube.com/embed/ogaDPQ85508?si=NWcsIO1893gHeV3U",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "2efe",
+      "category": "workout",
+      "title": "Trunk twists",
+      "image": "https://media1.popsugar-assets.com/files/thumbor/IRQuD6m7VGV8zB6a5N35GwAZDDs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/08/25/861/n/40863086/aad4438e05eb72a9_1Circuit-1Seated-Russian-Twist/i/How-Do-Russian-Twist.jpg",
+      "video": "https://www.youtube.com/embed/GSJ3Xa93gXs?si=qMqWgVn4GkA4lv5q",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "842d",
+      "category": "diet",
+      "title": "Thyroid",
+      "image": "https://static.wixstatic.com/media/bd6518_8c8dad84de4d44c79344c6db3e45c4fb~mv2.jpg/v1/fill/w_980,h_490,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bd6518_8c8dad84de4d44c79344c6db3e45c4fb~mv2.jpg",
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 dosa + 1/2 cup sambar + 1 tsp methi chutney + 1 glass milk/ 1 cup tea"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 medium-size Apple"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rice + 1 portion (150gm) chicken curry + 1 glass buttermilk + ½ cup beans sabzi"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "3 whole wheat biscuits + 1 glass milk/ 1 cup tea (without sugar)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 chapatis (multigrain-wheat; jowar; bajra) + lauki methi sabji + 1/2 cup vegetable salad"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cup roasted oats upma with vegetables+1 glass milk/1 cup tea"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 banana"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "2 chapati + ½ cup french beans curry + 1/2 cup pumpkin sabzi + 1 glass buttermilk"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup boiled green gram sprouts with lemon+1 glass milk/ 1 cup tea"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 chapati + 1/2 cup bitter gourd sabji + 1/2 cup vegetable salad"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cup broken wheat upma with vegetables + 1 glass milk / 1 cup tea"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "100gm musk melon"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "2 chapatis + 1 portion (100gm) grilled/stewed fish (tuna/ salmon/ sardine) + 1/2 cup rajma curry"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Bread omelette (eggs-2) (whole wheat bread-1 slices) + 1 glass milk / 1 cup tea"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 chapati 1/2 cup ridge gourd sabzi + ½ cup vegetable salad"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 parathas (methi) with 2 tsp green chutney + 1 glass milk/ 1 cup tea"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "100gm pomegranate"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "2 chapati + ½ cup cluster beans curry + ½ cup capsicum sabji + 1 glass buttermilk"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "2 wheat rusk + 1 glass milk/1 cup tea"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 chapati + ½ cup raw banana sabzi + 1/2 cup vegetable salad + 1 cup curd"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 Idly +1/2 cup sambhar+1 tsp coconut chutney+1 glass milk/ 1 cup tea"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 medium-size apple"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "½ cup rice + 1 chapati + 1 portion (100gm) fish (tuna/ salmon/ sardine/ black pomfret) curry + green peas sabzi"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 roasted black gram laddu+1 glass milk/ 1 cup tea"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "3 chapati+1/2 cup baingan sabji+1/2 cup rajma vegetable salad"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "½ cup Oats in 1 glass of skim milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 medium-size guava"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "2 chapathi+1/2 cup chana dal+1/2 cup methi sabji+1 glass buttermilk"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup boiled Bengal gram with lemon+1 glass milk/ 1 cup tea"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 chapati 1/2 cup bhindi sabji + 1 cup vegetable salad + 1 cup dal"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Vegetable cheese sandwich with whole wheat bread slices + cucumber, tomato, onion + 1 glass milk/1 cup tea"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 wedge(100gm) watermelon"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rice + ½ cup skin out chicken(150gm) curry + 1/2 cup mix veg sabji + 1 glass buttermilk"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup chiwda + 1 glass milk/1 cup tea"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 chapatis (multigrain-wheat/jowar/bajra) + ½ cup tinda sabzi + ½ cup vegetable salad + ½ cup moong curry"
+              }
+            ]
+          }
+        ]
+      },
+      "phone": "+919966004795"
+    },
+    {
+      "id": "21b2",
+      "category": "workout",
+      "title": "PASCIMOTHANASANA",
+      "image": "https://www.harithayogshala.com/upload/blog/steps-benefits-paschimottanasana-seated-forward-bend-pose_1580800401.jpg",
+      "video": "https://www.youtube.com/embed/_eWWLp3Dc_I?si=lm_VoCC6hF016gU9",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "6463",
+      "category": "workout",
+      "title": "SIRSASANA",
+      "image": "https://cdn.shopify.com/s/files/1/0077/7587/9266/files/kopfstand-yoga_600x600.jpg?v=1631703732",
+      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
+      "phone": "+919966004795"
+    }
+  ],
   "Blogs": [
     {
       "id": "1",
@@ -800,7 +1028,7 @@
       "title": "hello",
       "description": "this is test post",
       "dnt": "1/27/2024, 6:49:40 PM",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "phone": "+919966004795"
     },
     {
@@ -808,7 +1036,7 @@
       "title": "hii",
       "description": "this is test post 2",
       "dnt": "1/27/2024, 6:49:59 PM",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "phone": "+919966004795"
     },
     {
@@ -816,7 +1044,7 @@
       "title": "hello again",
       "description": "this is test post 3",
       "dnt": "1/27/2024, 6:52:35 PM",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "phone": "+919966004795"
     },
     {
@@ -824,7 +1052,7 @@
       "title": "hi again",
       "description": "this is test post for updating",
       "dnt": "1/28/2024, 12:16:53 PM(Edited)",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "phone": "+919966004795"
     },
     {
@@ -836,34 +1064,19 @@
       "phone": "+918770147315"
     },
     {
-<<<<<<< Updated upstream
       "id": "13",
-      "title": "Second Blog",
-      "description": "Hii,\n  \nThis is my second blog.",
-      "dnt": "29/1/2024, 4:09:43 pm",
-      "uname": "Rohan",
-      "phone": "+918770147315"
-=======
-      "id": "14",
-      "title": "Hellooadlkfndsf",
-      "description": "This is description"
->>>>>>> Stashed changes
-    },
-    {
-      "id": "14",
       "title": "test",
       "description": "this is test post",
       "dnt": "1/30/2024, 12:25:51 AM",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "phone": "+919966004795"
     },
     {
-<<<<<<< Updated upstream
       "id": "15",
       "title": "test 2",
       "description": "ok lets see how it is working",
       "dnt": "1/30/2024, 12:26:33 AM",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "phone": "+919966004795"
     },
     {
@@ -871,7 +1084,7 @@
       "title": "test 3",
       "description": "kjlkjljl",
       "dnt": "1/30/2024, 12:27:58 AM",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "phone": "+919966004795"
     },
     {
@@ -879,7 +1092,7 @@
       "title": "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
       "description": "hello everyone",
       "dnt": "1/30/2024, 4:19:48 PM(Edited)",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "phone": "+919966004795"
     }
   ],
@@ -929,83 +1142,117 @@
     {
       "id": "8ef6",
       "blogId": "11",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "dnt": "1/30/2024, 12:18:38 AM",
-      "comment": "hey"
+      "comment": "hey",
+      "phone": "+919966004795"
     },
     {
       "id": "0b5d",
       "blogId": "11",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "dnt": "1/30/2024, 12:22:05 AM",
-      "comment": "how is your day?"
+      "comment": "how is your day?",
+      "phone": "+919966004795"
     },
     {
       "id": "5b32",
       "blogId": "13",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "dnt": "1/30/2024, 1:19:28 PM",
-      "comment": "hii"
+      "comment": "hii",
+      "phone": "+919966004795"
     },
     {
       "id": "2ca8",
       "blogId": "17",
-      "uname": "xyz",
+      "uname": "vaishnavi",
       "dnt": "1/30/2024, 4:20:31 PM",
-      "comment": "add more"
+      "comment": "add more",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "179f",
+      "blogId": "17",
+      "uname": "vaishnavi",
+      "dnt": "2/1/2024, 11:55:42 PM",
+      "comment": "lets see",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "195a",
+      "blogId": "17",
+      "uname": "vaishnavi",
+      "dnt": "2/1/2024, 11:56:34 PM",
+      "comment": "let's test",
+      "phone": "+919966004795"
+    },
+    {
+      "id": "19d9",
+      "blogId": "17",
+      "uname": "vaishnavi",
+      "dnt": "2/1/2024, 11:58:07 PM",
+      "comment": "ok",
+      "phone": "+919966004795"
     }
   ],
-  "BMIChart":[
+  "BMIChart": [
     {
       "phone": "+919966004795",
       "weight": "80",
       "height": "180",
       "BMI": "24.7",
-      "date":"29/11/2023"
+      "date": "29/11/2023",
+      "id": "9bfa"
     },
     {
       "phone": "+919966004795",
       "weight": "90",
       "height": "180",
       "BMI": "27.8",
-      "date":"12/12/2023"
+      "date": "12/12/2023",
+      "id": "6e06"
     },
     {
       "phone": "+919966004795",
       "weight": "70",
       "height": "180",
       "BMI": "21.6",
-      "date":"23/12/2023"
+      "date": "23/12/2023",
+      "id": "1916"
     },
     {
       "phone": "+919966004795",
       "weight": "60",
       "height": "180",
       "BMI": "18.5",
-      "date":"2/1/2024"
+      "date": "2/1/2024",
+      "id": "b20c"
     },
     {
       "phone": "+919966004795",
       "weight": "65",
       "height": "180",
       "BMI": "20.1",
-      "date":"13/1/2024"
+      "date": "13/1/2024",
+      "id": "5fb5"
     },
     {
       "phone": "+919876543210",
       "weight": "65",
       "height": "180",
       "BMI": "20.1",
-      "date":"13/1/2024"
-=======
       "id": "70df",
       "title": "Aakash Blogs",
       "description": "Best BLOGS"
     },
     {
-      "id": "5c60",
-      "body": "{\"title\":\"Hello Master Blog\",\"description\":\"Kjbsdjbf\"}"
->>>>>>> Stashed changes
+      "id": "5f20",
+      "phone": "+919966004795",
+      "weight": 23,
+      "height": 123,
+      "BMI": "15.20",
+      "date": "2/9/2024"
     }
   ]
 }

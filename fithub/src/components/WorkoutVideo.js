@@ -1,14 +1,14 @@
-import { useState,useEffect } from "react"
+//import { useState,useEffect } from "react"
 import { useLocation } from "react-router-dom"
 const WorkoutVideo=()=>
 {
-    let [data,setData] = useState([])
-    useEffect(()=>{
-        fetch("http://localhost:4000/workouts")
-       .then((temp)=> temp.json())
-       .then((temp) => setData(temp))
-       .catch((err)=>console.log(err))
-   },[])
+//     let [data,setData] = useState([])
+//     useEffect(()=>{
+//         fetch("http://localhost:4000/workouts")
+//        .then((temp)=> temp.json())
+//        .then((temp) => setData(temp))
+//        .catch((err)=>console.log(err))
+//    },[])
     let k= useLocation();
     let {video} = k.state;
     

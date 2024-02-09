@@ -86,11 +86,13 @@ const BlogsCard=(props)=>
       let d = new Date();
       let dnt=d.toLocaleString()
       let uname=details.userid
+      let phone=details.phoneno
       let newComment = {
         blogId:props.id, 
         uname:uname,
         dnt:dnt, 
-        comment:comment
+        comment:comment,
+        phone:phone
       }
       fetch("http://localhost:4000/Comments",
       {

@@ -1,21 +1,22 @@
 import { useEffect, useState } from "react";
 import BMILineChart from "./BMI_Line_Chart";
+import UserProfile from "./User_Profile";
 
 const User=()=>
 {
     const [Data,setData] = useState([]);
-    let [userDetails,setUserDetails] = useState([])
+    const [userDetails,setUserDetails] = useState([])
     const [userData,setUserData] = useState({
         labels: [],
                 datasets: [{
-                    label: "User BMI",
+                    label: "",
                     data: [],
                 }],
     })
     const [userWeight,setUserWeight] = useState({
         labels: [],
                 datasets: [{
-                    label: "User Weight",
+                    label: "",
                     data: [],
                 }],
     })
@@ -25,6 +26,7 @@ const User=()=>
         .then((temp) => setData(temp))
         .catch((err)=>console.log(err));
         setUserDetails(JSON.parse(localStorage.getItem("userno")))
+        
     },[])
 
    
@@ -39,10 +41,6 @@ const User=()=>
                 }],
             }
         );
-    },[Data])
-
-    useEffect(()=>{
-        let data1=Data.filter((temp)=>temp.phone===userDetails.phoneno)
         setUserWeight(
             {
                 labels: data1.map((temp)=>temp.date),
@@ -54,14 +52,13 @@ const User=()=>
         );
     },[Data])
 
+
    return(<>
-   <h1>Login Successfully</h1>
+   <UserProfile/>
    <div style={{display:"flex", columnGap:"6rem"}}>
    {Data.length > 0 ? <div style={{width:"700px",height:"600px"}}><BMILineChart chartData={userData}/></div>:<div>no data</div>}
    {Data.length > 0 ? <div style={{width:"700px",height:"600px"}}><BMILineChart chartData={userWeight}/></div>:<div>no data</div>}
    </div>
-   
-   
     </>)
 }
 

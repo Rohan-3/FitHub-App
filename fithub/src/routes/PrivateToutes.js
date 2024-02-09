@@ -17,6 +17,8 @@ import CreateBlog from '../components/Create_Blog'
 import Blogs from '../components/Blogs'
 import CrudWorkout from '../components/admin/CrudWorkout'
 import CrudDiet from '../components/admin/CrudDiet'
+import Favorite from '../components/Favorite'
+import Analytics from '../components/admin/Analytics'
 const PrivateToutes = () => {
   return (
     <div>
@@ -32,13 +34,14 @@ const PrivateToutes = () => {
         <Route path="/admin" element={<AdminDashboard/>}/>
         <Route path="/user_cat" element={<UserCategory/>}/>
         <Route path="/user_workout" element={<UserWorkout/>}/>
-        <Route path="/analytics" element={<UserWorkout/>}/>
+        <Route path="/analytics" element={<Analytics/>}/>
         <Route path="/video" element={<WorkoutVideo/>}/>
         <Route path="/cruddiet" element={<CrudDiet/>}/>
         <Route path="/diet_cat" element={<DietCategory/>}/>
         <Route path="/diet" element={<Diet/>}/> 
         <Route path="/create_blog" element={<CreateBlog/>}/>
         <Route path="/blogs" element={<Blogs/>}/>
+        <Route path="/favorite" element={<Favorite/>}/>
     </Routes>
     </div>
   )

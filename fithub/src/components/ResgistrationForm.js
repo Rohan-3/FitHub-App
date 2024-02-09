@@ -23,7 +23,7 @@ const ResgistrationForm = () => {
   let [users,setUsers] = useState(JSON.parse(localStorage.getItem("u"))||[]);
   let [mssg,setMssg] =useState("");
   const myRef = useRef(null);
-  var recaptchaWidgetId;
+  // var recaptchaWidgetId;
 
   const validForm=()=>
   {
@@ -38,6 +38,7 @@ const ResgistrationForm = () => {
 
   const sendOtp=async()=>
   {
+    
       try
       {
         const phoneNumber = "+" + phone;
@@ -81,8 +82,8 @@ const ResgistrationForm = () => {
     {
       const phoneNumber = "+" + phone;
       const recaptcha =new RecaptchaVerifier(auth,"recaptcha-resend",{size:"invisible"})
-      recaptcha.reset(recaptchaWidgetId);
-      recaptchaWidgetId = await recaptcha.render();
+      // recaptcha.reset(recaptchaWidgetId);
+      // recaptchaWidgetId = await recaptcha.render();
       const confirmationResult = await signInWithPhoneNumber(auth, phoneNumber, recaptcha);
       console.log(confirmationResult)
       setUser(confirmationResult)
@@ -144,7 +145,7 @@ const ResgistrationForm = () => {
     }
     else
     {
-      let data=users.filter((temp)=>temp.userid===userid);
+      let data=users.filter((temp)=>temp.phone===phone);
       if(data.length>0)
       {
         alert("user already exist, please retry with new user id");
@@ -215,18 +216,18 @@ const ResgistrationForm = () => {
             renderInput={(props) => <input {...props} />}
           />
           <p>{mssg}</p>
-          <button onClick={verifyOtp}>Verify OTP</button>
+          <button type='button' onClick={verifyOtp}>Verify OTP</button>
           </div> <br/>
-        <button className='sendOTP' onClick={sendOtp}>Send OTP</button> <br/>
-        <button className='sendOTP' onClick={resendOtp}>Re-send OTP</button>
-          
-          </div>
-          
+          <button type='button' className='sendOTP' onClick={sendOtp}>Send OTP</button> <br/>
+          <button type='button' className='sendOTP' onClick={resendOtp}>Re-send OTP</button>
+            
+            </div>
+            
 
-        </div>
-</div>
-<button className='regisBtn' onClick={submit}>submit</button>
-      </form>
+          </div>
+          </div>
+          <button className='regisBtn' onClick={submit}>submit</button>
+                </form>
           
     </div>
     </div>

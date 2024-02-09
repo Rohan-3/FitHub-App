@@ -13,13 +13,7 @@ const Navbar = () => {
     alert("You are Logged Out");
     nav("/auth");
   }
-  const handleUserLogout=()=>
-  {
-    localStorage.removeItem('userno');
-    alert("user logout");
-    nav("/auth");
-  }
-
+  
   const handleAlert = (temp)=>{
     alert(`Login first to View ${temp} Page !`)
   }
@@ -33,7 +27,7 @@ const Navbar = () => {
       {
         localStorage.getItem("adminno") ?
         
-        <ul>  
+        <ul className='navbar_ul'>  
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/admin' style={linkStyle}>Dashboard</Link>
           <Link to='/about' style={linkStyle}>About</Link>
@@ -45,20 +39,20 @@ const Navbar = () => {
         </ul>
         :
         localStorage.getItem("userno") ?
-        <ul>  
+        <ul className='navbar_ul'>  
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
           <Link to='/diet_cat'  style={linkStyle}><li>Diet</li></Link> 
           <li ><BlogsMenu title="Blogs" color="white" bgcolor="rgb(20,20,20)" op1="Blogs" op2="My Blogs"/></li>
           <Link to='/user' style={linkStyle}>user</Link>
-          <Link to='/auth' onClick={handleUserLogout} style={linkStyle}>Logout</Link>
+          <Link to='/favorite' style={linkStyle}>Favorite</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link>
         </ul>
 
         :  
         
-        <ul>  
+        <ul className='navbar_ul'>  
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
           <Link to='/auth' onClick={()=>handleAlert("workout")} style={linkStyle}><li>Workout</li></Link>
