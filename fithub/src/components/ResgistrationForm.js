@@ -4,6 +4,7 @@ import '../assets/styles/ResgistrationForm.css'
 import OtpInput from 'react-otp-input';
 import PhoneInput from 'react-phone-number-input'
 import { auth } from './Firebase';
+import { useRef } from 'react';
 import { RecaptchaVerifier, signInWithPhoneNumber} from 'firebase/auth';
 
 const ResgistrationForm = () => {
@@ -21,8 +22,9 @@ const ResgistrationForm = () => {
   let [msg,setmsg] = useState("");
   let [users,setUsers] = useState(JSON.parse(localStorage.getItem("u"))||[]);
   let [mssg,setMssg] =useState("");
-  let resendToken;
-  
+  const myRef = useRef(null);
+  var recaptchaWidgetId;
+
   const validForm=()=>
   {
     if(!userid || !email || !phone || !age || !height || !weight )
@@ -40,10 +42,10 @@ const ResgistrationForm = () => {
       {
         const phoneNumber = "+" + phone;
         const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{size:"invisible"})
+        recaptchaWidgetId = await recaptcha.render();
         const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
           console.log(confirmationResult)
           setUser(confirmationResult)
-          resendToken = confirmationResult.forceResendingToken;
       }
       catch(err)
       {
@@ -61,7 +63,33 @@ const ResgistrationForm = () => {
     catch(err)
     {
       setMssg("Incorrect OTP, please try again!!!!")
+      // clearCaptcha();
       console.log(err);
+    }
+  }
+
+  // const clearCaptcha=()=>
+  // {
+  //   myRef.current.innerHTML = "";
+  //   myRef.current = document.createElement("div");
+  //   myRef.current.id = "captcha";
+  // }
+
+  const resendOtp=async()=>
+  {
+    try
+    {
+      const phoneNumber = "+" + phone;
+      const recaptcha =new RecaptchaVerifier(auth,"recaptcha-resend",{size:"invisible"})
+      recaptcha.reset(recaptchaWidgetId);
+      recaptchaWidgetId = await recaptcha.render();
+      const confirmationResult = await signInWithPhoneNumber(auth, phoneNumber, recaptcha);
+      console.log(confirmationResult)
+      setUser(confirmationResult)
+    }
+    catch(err)
+    {
+      console.log(err)
     }
   }
 
@@ -91,6 +119,21 @@ const ResgistrationForm = () => {
       setmsg("obese");
     }
   }
+
+  const storeBmi=()=>
+  {
+    let d = new Date();
+    let date=d.toLocaleDateString();
+    let newbmi={phone,weight,height,BMI,date}
+    fetch("http://localhost:4000/BMIChart",
+        {
+            method: "POST",
+            body: JSON.stringify(newbmi)
+        })
+        .then((data) => data.json())
+        .then((data) => console.log(data))
+        .catch((err)=> console.log(err))
+  }
   const submit=(e)=>
   {
     console.log();
@@ -111,8 +154,9 @@ const ResgistrationForm = () => {
         let newuser = {userid,email,phone,age,gender,height,weight,BMI};
         setUsers([...users,newuser]);
         localStorage.setItem("u",JSON.stringify([...users,newuser]));
+        storeBmi();
         alert("Registered successful")
-        console.log(`your BMI is ${BMI} and your weight is ${msg}`)
+        console.log(`your BMI is ${BMI} and your weight is ${mssg}`)
       }
     }
   }
@@ -160,6 +204,7 @@ const ResgistrationForm = () => {
             onChange={setPhone}
           /> <br/>
           <div id="recaptcha"></div>
+          <div id="recaptcha-resend"></div>
           <div>
             <p>Enter OTP</p>
           <OtpInput
@@ -173,7 +218,7 @@ const ResgistrationForm = () => {
           <button onClick={verifyOtp}>Verify OTP</button>
           </div> <br/>
         <button className='sendOTP' onClick={sendOtp}>Send OTP</button> <br/>
-        <button className='sendOTP'>Re-send OTP</button>
+        <button className='sendOTP' onClick={resendOtp}>Re-send OTP</button>
           
           </div>
           
