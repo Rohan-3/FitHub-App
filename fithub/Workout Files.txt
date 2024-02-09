@@ -1,78 +1,342 @@
-{
-  "workouts": [
-    {
-      "id": "2b2a",
-      "_id": "bd2f7e39-11a9-434b-99cc-a74ae575ec80",
-      "categoryId": "bbdaf3e6-b170-403e-9b32-24120b2b99c0",
+//Workout_category line No. *302*.
+// Diet !! Line no *336*.
+
+
+
+// USER WORKOUT  !
+"Workout": [{
       "category": "Yoga",
-      "title": "hello World",
+      "title": "Shavasan",
+      "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
+      "video": "https://www.youtube.com/embed/ogaDPQ85508?si=NWcsIO1893gHeV3U",
+      "description": "Shavasan, also known as the Corpse Pose, is a relaxation pose that helps in reducing stress, calming the mind, and promoting a sense of tranquility.",
+      "id": "c833"
+    },
+    {
+      "category": "Yoga",
+      "title": "SIRSASANA",
+      "image": "https://cdn.shopify.com/s/files/1/0077/7587/9266/files/kopfstand-yoga_600x600.jpg?v=1631703732",
+      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
+      "description": "excellent for improving concentration, increasing memory, and transforming libido into powerful life force",
+      "id": "c745"
+    },
+    {
+      "category": "Yoga",
+      "title": "SARVANGASANA",
+      "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/shoulderstand.jpg",
+      "video": "https://www.youtube.com/embed/g3wvIPXZ-Qo?si=Gu1DwKWKdczwyhmy",
+      "description": "This asana strengthens the entire body; it gives many of the benefits of the Headstand, but here the circulation is directed to the thyroid gland instead of the head.",
+      "id": "28c4"
+    },
+    {
+      "category": "Yoga",
+      "title": "HALASANA",
+      "image": "https://i0.wp.com/pixahive.com/wp-content/uploads/2021/02/Halasana-Plough-pose-357653-pixahive.jpg?fit=2560%2C1684&ssl=1",
+      "video": "https://www.youtube.com/embed/qpuY0jXimtQ?si=ZHkeUqcSOpd6naLH",
+      "description": "It stretches the back of the body completely which invigorates the entire spine. It also loosens tight hamstrings.",
+      "id": "cff7"
+    },
+    {
+      "category": "Yoga",
+      "title": "MATSYASANA",
+      "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg",
+      "video": "https://www.youtube.com/embed/V7V4TEfCx-s?si=EJfwJJlA2HP4Hlpa",
+      "description": " it is very effective in correcting any tendency to round the shoulders as well as helping to tone the nerves of the neck and the back area.",
+      "id": "6bb8"
+    },
+    {
+      "category": "Yoga",
+      "title": "PASCIMOTHANASANA",
+      "image": "https://www.harithayogshala.com/upload/blog/steps-benefits-paschimottanasana-seated-forward-bend-pose_1580800401.jpg",
+      "video": "https://www.youtube.com/embed/_eWWLp3Dc_I?si=lm_VoCC6hF016gU9",
+      "description": "helps to counter the typical postural problems developed working a desk job by keeping the spine supple, the joints mobile, the internal organs toned, and the nervous system invigorated.",
+      "id": "ad4e"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Jumping jacks",
+      "image": "https://www.squareboxfitness.com/wp-content/uploads/2015/11/Jumping-Jacks-popsugar.jpg",
+      "video": "https://www.youtube.com/embed/nGaXj3kkmrU?si=HAie_vZFJXphLNaY",
+      "description": "strengthen your muscles, improve coordination, and boost your fitness.",
+      "id": "3e05"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Trunk twists",
+      "image": "https://media1.popsugar-assets.com/files/thumbor/IRQuD6m7VGV8zB6a5N35GwAZDDs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/08/25/861/n/40863086/aad4438e05eb72a9_1Circuit-1Seated-Russian-Twist/i/How-Do-Russian-Twist.jpg",
+      "video": "https://www.youtube.com/embed/GSJ3Xa93gXs?si=qMqWgVn4GkA4lv5q",
+      "description": "improve core strength, stability, flexibility and provide greater spine mobility.",
+      "id": "a738"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Push-ups",
+      "image": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg",
+      "video": "https://www.youtube.com/embed/bt5b9x9N0KU?si=CwObEpORWZ8EcggW",
+      "description": "strengthen and tone upper-body muscles, including your chest, triceps, and shoulders.",
+      "id": "ed33"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Pull-ups",
+      "image": "https://www.ironmaster.com/blog-assets/image_1624051891.png",
+      "video": "https://www.youtube.com/embed/fO3dKSQayfg?si=_p7HzvkSfb_UpbqE",
+      "description": "a good exercise to challenge your arm, shoulder, and back muscles.",
+      "id": "6072"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Chin-ups",
+      "image": "https://bodybuilding-wizard.com/wp-content/uploads/2015/01/chin-up-exercise-12543.jpg",
+      "video": "https://www.youtube.com/embed/_71FpEaq-fQ?si=LrQncOJf4np7I5dA",
+      "description": "Improvements in grip strength. Improvements to your posture. A lowered chance of upper back pain and shoulder injury. A decreased risk for heart problems, obesity, and other health issues",
+      "id": "5426"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Sit-ups",
+      "image": "https://gethealthyu.com/wp-content/uploads/2014/08/Full-Sit-Up_Exercise.jpg",
+      "video": "https://www.youtube.com/embed/UMaZGY6CbC4?si=BJyiyM3QY_med71q",
+      "description": "Core strength is one of the biggest motivators for doing situps. Situps build muscle strength in the abdominal and hip muscles.",
+      "id": "fb73"
+    },
+    {
+      "category": "Pilates",
+      "title": "Plank",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh15842-1545237096.png?crop=0.668xw:1.00xh;0.117xw,0&resize=1200:*",
+      "video": "https://www.youtube.com/embed/pvIjsG5Svck?si=DIuqeWC0MJ1KB4uo",
+      "description": " The plank position helps target the core muscles and give them a good burn to build muscle strength.",
+      "id": "ca9b"
+    },
+    {
+      "category": "Pilates",
+      "title": "Crisscross",
+      "image": "https://img.freepik.com/free-photo/young-sporty-woman-doing-crisscross-exercise_1163-5080.jpg",
+      "video": "https://www.youtube.com/embed/xdi0SnfdznA?si=Ucdq7KXCj_ZwI5Uw",
+      "description": "Challenges pelvic stability and control. Works the obliques which not only helps build a strong core, but also helps define the waist. Challenges your entire core system and breathing mechanics.",
+      "id": "6dbe"
+    },
+    {
+      "category": "Pilates",
+      "title": "Roll down",
+      "image": "https://www.health.com/thmb/_01xTdMuGrzBjli1m-unlErjIgo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pilates-27bb0ee84f994f7fb370dde3b4cbf37f.jpg",
+      "video": "https://www.youtube.com/embed/zTqCd39YcbE?si=1Sqcvblh9OBtftgR",
+      "description": "stretches the back and the hamstrings along the back of our legs and is great for improving our posture.",
+      "id": "700b"
+    },
+    {
+      "category": "Pilates",
+      "title": "Leg pull front prep",
+      "image": "https://static.silhouettedonna.it/wp-content/uploads/2016/10/RED.jpg",
+      "video": "https://www.youtube.com/embed/tmtLfkpidQc?si=zbzqD6-5t0tdsyQs",
+      "description": "Strengthens and tones the arms, seat, and legs. Stretches the achilles tendon. Creates stability and control in the whole body. Lengthens the body from the crown of the head to toes.",
+      "id": "2813"
+    },
+    {
+      "category": "Pilates",
+      "title": "Swan dive",
+      "image": "https://www.sonima.com/wp-content/uploads/2015/12/8C2A7303.jpg",
+      "video": "https://www.youtube.com/embed/H46PeYhAuA4?si=XlVYxK4wTqJY-AXf",
+      "description": " works the back, abdominals, glutes, hamstrings and inner thighs. It will strengthen the back of the body while stretching out the front of the body, making it a full-body exercise.",
+      "id": "1e14"
+    },
+    {
+      "category": "Pilates",
+      "title": "Side leg lifts",
+      "image": "https://staticg.sportskeeda.com/editor/2022/06/be28a-16562258511725-1920.jpg",
+      "video": "https://www.youtube.com/embed/pNismoYr1Fg?si=Z0Ft3Po0v8TOJfDz",
+      "description": "better range of motion in the hips. better body stabilization. use of muscles that aren't usually active in those who sit for prolonged periods each day. improved muscle endurance.",
+      "id": "8cde"
+    },
+    {
+      "category": "Strength Training",
+      "title": "Deadlifts",
+      "image": "https://images.squarespace-cdn.com/content/v1/582b3c8220099eab9d5921b1/a303f742-d7fd-40d5-8ee1-68e01c441615/fitness-expert-performs-a-standard-deadlift-using-mirafit-gym-equipment-1024x683.jpeg",
+      "video": "https://www.youtube.com/embed/p2OPUi4xGrM?si=x60M7eIVI72WyUXJ",
+      "description": "Deadlifts are a compound exercise that targets multiple muscle groups, including the lower back, hamstrings, and glutes, promoting overall strength and stability.",
+      "id": "afbc"
+    },
+    {
+      "category": "Strength Training",
+      "title": "Bench Press",
+      "image": "https://images.pexels.com/photos/3837781/pexels-photo-3837781.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3837781.jpg&fm=jpg",
+      "video": "https://www.youtube.com/embed/rxD321l2svE?si=TDZKcL13Sest8P6z",
+      "description": "The bench press is a classic upper body strength training exercise that primarily works the chest, shoulders, and triceps.",
+      "id": "7f1d"
+    },
+    {
+      "category": "Strength Training",
+      "title": "Overhead Press",
+      "image": "https://st2.depositphotos.com/1017986/8745/i/450/depositphotos_87450846-stock-photo-young-man-flexing-muscles-with.jpg",
+      "video": "https://www.youtube.com/embed/8dacy5hjaE8?si=92VhbV6JnoGLDj_8",
+      "description": "The overhead press, or shoulder press, is an exercise that targets the deltoid muscles of the shoulder, as well as the triceps and upper back.",
+      "id": "0bed"
+    },
+    {
+      "category": "Strength Training",
+      "title": "Lunges",
+      "image": "https://i.pinimg.com/736x/ee/1e/96/ee1e96d7dc9f8b65fcd3b217f283672e.jpg",
+      "video": "https://www.youtube.com/embed/3XDriUn0udo?si=t2Prx-bV7OBOGGn_",
+      "description": "Lunges are a lower body exercise that targets the quadriceps, hamstrings, and glutes, helping to improve leg strength and stability.",
+      "id": "090c"
+    },
+    {
+      "category": "Strength Training",
+      "title": "Chest Flyes",
+      "image": "https://www.shutterstock.com/image-photo/young-woman-doing-exercise-on-600nw-1974427841.jpg",
+      "video": "https://www.youtube.com/embed/QENKPHhQVi4?si=d-2wddWMj7ia3PM6",
+      "description": "Chest flyes are an isolation exercise that targets the pectoral muscles, helping to develop and define the chest.",
+      "id": "d4df"
+    },
+    {
+      "category": "Strength Training",
+      "title": "Hammer Curls",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/hammer-curls-1581441441.jpg?resize=980:*",
+      "video": "https://www.youtube.com/embed/TwD-YGVP4Bk?si=j25CV4vlYS-pJxcQ",
+      "description": "Hammer curls are a bicep exercise that targets the brachialis and brachioradialis muscles, contributing to overall arm strength.",
+      "id": "68f1"
+    },
+    {
+      "category": "Running",
+      "title": "Sprinting",
+      "image": "https://www.muscleandfitness.com/wp-content/uploads/2014/10/sprinter-workout.jpg?quality=86&strip=all",
+      "video": "https://www.youtube.com/embed/QLBT4-iN2yg?si=JeiCRARckRXtE_nN",
+      "description": "Sprinting is an explosive cardiovascular exercise that enhances speed, agility, and cardiovascular health.",
+      "id": "8c49"
+    },
+    {
+      "category": "Running",
+      "title": "Hill Running",
+      "image": "https://media.istockphoto.com/id/1070069898/photo/silhouette-of-slim-girl-is-jogging-in-foggy-mountains.jpg?s=612x612&w=0&k=20&c=hRpZv-AeEGIKbNFWg8-Ke3BSBBUUjeS_DWVaOy9sXow=",
+      "video": "https://www.youtube.com/embed/DxQ0DfoQy38?si=oyaHTt7kqOyYkBz7",
+      "description": "Running uphill engages different muscles and adds intensity to your workout. It builds strength in your legs, enhances cardiovascular fitness, and can improve overall running performance.",
+      "id": "3ed4"
+    },
+    {
+      "category": "Running",
+      "title": "Interval Training",
+      "image": "https://media.istockphoto.com/id/1328634722/photo/determined-fit-female-athlete-running-on-mountain-against-sky.jpg?s=612x612&w=0&k=20&c=vX33C_sg3osXbUurq1_bqW8vo-1W4_u55aiBDjaoqwg=",
+      "video": "https://www.youtube.com/embed/O78pemR9xdM?si=12kZ8inFyiiBkVpF",
+      "description": "Interval training involves alternating between high-intensity running and periods of rest or lower intensity. It helps improve cardiovascular fitness, speed, and endurance. Example: 30 seconds sprint followed by 1 minute jog.",
+      "id": "c1c7"
+    },
+    {
+      "category": "High-Intensity Interval Training (HIIT)",
+      "title": "Burpees",
+      "image": "https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/603dd1763291d9bd431bee19_Burpees--(1)-min-p-500.jpeg",
+      "video": "https://www.youtube.com/embed/qLBImHhCXSw?si=4DGucJdX6LUqIBa8",
+      "description": "Burpees are a full-body exercise used in HIIT workouts, promoting cardiovascular fitness, strength, and endurance.",
+      "id": "6c7c"
+    },
+    {
+      "category": "High-Intensity Interval Training (HIIT)",
+      "title": "Tabata Workout",
+      "image": "https://www.usnews.com/object/image/00000165-a584-d161-a57f-edecabba0000/180904-fitness-stock.jpg?update-time=1536080340116&size=responsive640",
+      "video": "https://www.youtube.com/embed/ttkq49P_7ds?si=kkqvw1RHZq2slDMY",
+      "description": "Tabata is a specific form of HIIT, consisting of 20 seconds of all-out effort followed by 10 seconds of rest, repeated for four minutes. It's a quick but intense workout that can be adapted to various exercises.",
+      "id": "f5ca"
+    },
+    {
+      "category": "High-Intensity Interval Training (HIIT)",
+      "title": "Bodyweight HIIT",
+      "image": "https://s.yimg.com/ny/api/res/1.2/czxOWjrvsq4OpVdNXL2_6A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/real_simple_700/06e320de1c0803c3eb883e142d683eac",
+      "video": "https://www.youtube.com/embed/w8ZaOs94_fg?si=gtJWVoJoe3WNapSZ",
+      "description": "Bodyweight HIIT workouts are convenient and can be done anywhere. Exercises may include squats, lunges, burpees, and push-ups. The focus is on using your own body as resistance for a challenging workout.",
+      "id": "307d"
+    },
+    { 
+      "category": "High-Intensity Interval Training (HIIT)",
+      "title": "HIIT for Fat Loss",
+      "image": "https://www.stylecraze.com/wp-content/uploads/2017/11/15-Best-HIIT-Exercises-For-Women-To-Burn-Fat-And-Be-Fit-Banner.jpg.webp",
+      "video": "https://www.youtube.com/embed/_eB3z1mhlBw?si=jj-tKwNsyvmiE6dj",
+      "description": "HIIT is known for its effectiveness in burning fat. The high-intensity intervals elevate heart rate and metabolism, promoting fat burning during and after the workout. It also helps preserve muscle mass.",
+      "id": "e1cc"
+    },
+    {
+      "id": "6914",
+      "category": "Test Category",
+      "title": "Test Workout",
       "imageurl2": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
-      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
-      "description": "Test Description"
+      "video": "https://www.youtube.com/watch?v=6niXo_L_q3Y",
+      "description": "This is Demo Description"
     },
     {
-      "id": "7b2c",
-      "_id": "78be2c3a-58e0-4cba-a7a7-d4588e2f81b2",
-      "categoryId": "bbdaf3e6-b170-403e-9b32-24120b2b99c0",
+      "id": "b467",
+      "category": "Hello CAtegory",
+      "title": "Hello Workout Info",
+      "imageurl2": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/shoulderstand.jpg",
+      "video": "https://www.youtube.com/embed/nGaXj3kkmrU?si=HAie_vZFJXphLNaY",
+      "description": "DescriptionInfoWorkout Info"
+    },
+    {
+      "id": "e3de",
+      "category": "Hello CAtegory",
+      "title": "Hello Workout Info",
+      "imageurl2": "https://www.sbl-workout.com/wp-content/uploads/2019/07/Daryl-Polor-SBLworkout-Full-Planche-sunset.png",
+      "video": "https://www.youtube.com/embed/nGaXj3kkmrU?si=HAie_vZFJXphLNaY",
+      "description": "DescriptionInfoWorkout Info"
+    },
+    {
+      "id": "4a1f",
+      "category": "Category of Work ",
+      "title": "Workout Title",
+      "imageurl2": "https://post.greatist.com/wp-content/uploads/2020/01/Runner-training-on-running-track-1200x628-facebook.jpg",
+      "video": "https://www.youtube.com/embed/ogaDPQ85508?si=NWcsIO1893gHeV3U",
+      "description": "Hello Decs"
+    },
+    {
+      "id": "6a48",
       "category": "Yoga",
-      "title": "Bye Yoga",
-      "imageurl2": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg",
-      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
-      "description": "BYE BYE Yoga"
-    },
-    {
-      "id": "10cb",
-      "_id": "9acef60f-eb07-41b1-a607-11554b14e7de",
-      "categoryId": "447538c1-8dd7-49f2-b35a-e2c53b2708ea",
-      "category": "New Category",
-      "title": "as",
-      "imageurl2": "as",
-      "video": "as",
-      "description": "as"
-    },
-    {
-      "id": "3775",
-      "_id": "968f463e-feee-4e57-ac25-0208915a17ee",
-      "categoryId": "447538c1-8dd7-49f2-b35a-e2c53b2708ea",
-      "category": "New Category",
-      "title": "qw",
-      "imageurl2": "qw",
-      "video": "qw",
-      "description": "qw"
-    },
-    {
-      "id": "acbf",
-      "_id": "71307f90-35c5-48d4-985f-1847c815e53b",
-      "categoryId": "3f1df7d4-5b85-4a39-aa78-9dc1c2da49de",
-      "category": "Bee",
-      "title": "Hello Nice",
-      "imageurl2": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg",
-      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
-      "description": "THIS IS Again NOT NICE"
-    }
-  ],
-  "workout_category": [
-    {
-      "id": "109",
-      "_id": "447538c1-8dd7-49f2-b35a-e2c53b2708ea",
-      "category": "New Category",
-      "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
-      "imageurl": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg"
-    },
-    {
-      "id": "1",
-      "_id": "bbdaf3e6-b170-403e-9b32-24120b2b99c0",
+      "title": "yesyes",
+      "imageurl2": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
+      "video": "https://www.youtube.com/embed/ogaDPQ85508?si=NWcsIO1893gHeV3U",
+      "description": "yesyesyesyesyesyes"
+    }]
+
+
+
+
+
+
+
+
+
+Workout_category :[
+	    {
       "category": "Yoga",
-      "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
-      "imageurl": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp"
+      "image": "https://wallpapercave.com/wp/wp3157179.jpg",
+      "id": "fa75"
     },
     {
-      "id": "123",
-      "_id": "3f1df7d4-5b85-4a39-aa78-9dc1c2da49de",
-      "category": "Nice",
-      "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg"
-    }
-  ],
+      "category": "Calisthenics",
+      "image": "https://www.sbl-workout.com/wp-content/uploads/2019/07/Daryl-Polor-SBLworkout-Full-Planche-sunset.png",
+      "id": "6eb3"
+    },
+    {
+      "category": "Pilates",
+      "image": "https://i.pinimg.com/originals/15/a5/e4/15a5e494e41d69b8675df8f10417b363.jpg",
+      "id": "03fe"
+    },
+    {
+      "category": "Strength Training",
+      "image": "https://thekangaroomethod.com/wp-content/uploads/2020/03/women-strength-training.jpg",
+      "id": "c971"
+    },
+    {
+      "category": "Running",
+      "image": "https://post.greatist.com/wp-content/uploads/2020/01/Runner-training-on-running-track-1200x628-facebook.jpg",
+      "id": "1ab9"
+    },
+    {
+      "category": "High-Intensity Interval Training (HIIT)",
+      "image": "https://th.bing.com/th/id/R.818e8b62ce69a1049a379db3e14142fa?rik=UNTWiq7En3YxTA&riu=http%3a%2f%2fwww.bodybuilding.com%2fimages%2f2016%2fjuly%2fhigh-intensity-interval-training-the-ultimate-guide-v2-2.jpg&ehk=s55zqbazNn0QjTBr97f9t72NL%2fusiGnC6Qwvsyp%2fItc%3d&risl=&pid=ImgRaw&r=0",
+      "id": "fac8"
+    },
+	]
+
+
+// Diet !!
+
   "diet": [
     {
       "category": "Weight Loss",
@@ -738,274 +1002,9 @@
       }
     }
   ],
-  "Blogs": [
-    {
-      "id": "1",
-      "uname": "abc",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "xyz",
-      "description": "Trying blogs",
-      "phone": "9876543210"
-    },
-    {
-      "id": "2",
-      "uname": "mno",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "Best OF ALL",
-      "description": "This is description",
-      "phone": "9876543210"
-    },
-    {
-      "id": "3",
-      "uname": "pqr",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "LORD ROHAN",
-      "description": "HAS GOOD BEHAVIOUR",
-      "phone": "9876543210"
-    },
-    {
-      "id": "4",
-      "uname": "kyc",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "Hellooadlkfndsf",
-      "description": "This is description",
-      "phone": "9876543210"
-    },
-    {
-      "id": "5",
-      "uname": "opq",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "HELLO BLOG",
-      "description": "BYE BYE BLOG",
-      "phone": "9876543210"
-    },
-    {
-      "id": "6",
-      "uname": "tuv",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "Aakash Blogs",
-      "description": "Best BLOGS",
-      "phone": "9876543210"
-    },
-    {
-      "id": "7",
-      "uname": "qwe",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "hii",
-      "description": "hii everyone",
-      "phone": "9876543210"
-    },
-    {
-      "id": "8",
-      "title": "hello",
-      "description": "this is test post",
-      "dnt": "1/27/2024, 6:49:40 PM",
-      "uname": "xyz",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "9",
-      "title": "hii",
-      "description": "this is test post 2",
-      "dnt": "1/27/2024, 6:49:59 PM",
-      "uname": "xyz",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "10",
-      "title": "hello again",
-      "description": "this is test post 3",
-      "dnt": "1/27/2024, 6:52:35 PM",
-      "uname": "xyz",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "11",
-      "title": "hi again",
-      "description": "this is test post for updating",
-      "dnt": "1/28/2024, 12:16:53 PM(Edited)",
-      "uname": "xyz",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "12",
-      "title": "First Blog",
-      "description": "Hi All;\n\nThis is my blog.\n\nThanks ",
-      "dnt": "29/1/2024, 4:06:11 pm(Edited)",
-      "uname": "Rohan",
-      "phone": "+918770147315"
-    },
-    {
-<<<<<<< Updated upstream
-      "id": "13",
-      "title": "Second Blog",
-      "description": "Hii,\n  \nThis is my second blog.",
-      "dnt": "29/1/2024, 4:09:43 pm",
-      "uname": "Rohan",
-      "phone": "+918770147315"
-=======
-      "id": "14",
-      "title": "Hellooadlkfndsf",
-      "description": "This is description"
->>>>>>> Stashed changes
-    },
-    {
-      "id": "14",
-      "title": "test",
-      "description": "this is test post",
-      "dnt": "1/30/2024, 12:25:51 AM",
-      "uname": "xyz",
-      "phone": "+919966004795"
-    },
-    {
-<<<<<<< Updated upstream
-      "id": "15",
-      "title": "test 2",
-      "description": "ok lets see how it is working",
-      "dnt": "1/30/2024, 12:26:33 AM",
-      "uname": "xyz",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "16",
-      "title": "test 3",
-      "description": "kjlkjljl",
-      "dnt": "1/30/2024, 12:27:58 AM",
-      "uname": "xyz",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "17",
-      "title": "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
-      "description": "hello everyone",
-      "dnt": "1/30/2024, 4:19:48 PM(Edited)",
-      "uname": "xyz",
-      "phone": "+919966004795"
-    }
-  ],
-  "Comments": [
-    {
-      "blogId": "13",
-      "uname": "Sruti",
-      "dnt": "29/1/2024, 4:09:43 pm",
-      "comment": "Add some content to this blog.",
-      "id": "bef6"
-    },
-    {
-      "id": "b8fb",
-      "blogId": "13",
-      "uname": "Rohan",
-      "dnt": "29/1/2024, 5:23:39 pm",
-      "comment": "Hii"
-    },
-    {
-      "id": "8521",
-      "blogId": "13",
-      "uname": "Rohan",
-      "dnt": "29/1/2024, 5:57:33 pm",
-      "comment": "Hellolo"
-    },
-    {
-      "id": "b35b",
-      "blogId": "12",
-      "uname": "Rohan",
-      "dnt": "29/1/2024, 5:57:53 pm",
-      "comment": "Hiii"
-    },
-    {
-      "id": "1bae",
-      "blogId": "13",
-      "uname": "Rohan",
-      "dnt": "29/1/2024, 6:04:45 pm",
-      "comment": "Hey"
-    },
-    {
-      "id": "0ef4",
-      "blogId": "11",
-      "uname": "xyz",
-      "dnt": "1/30/2024, 12:17:50 AM",
-      "comment": "hiii"
-    },
-    {
-      "id": "8ef6",
-      "blogId": "11",
-      "uname": "xyz",
-      "dnt": "1/30/2024, 12:18:38 AM",
-      "comment": "hey"
-    },
-    {
-      "id": "0b5d",
-      "blogId": "11",
-      "uname": "xyz",
-      "dnt": "1/30/2024, 12:22:05 AM",
-      "comment": "how is your day?"
-    },
-    {
-      "id": "5b32",
-      "blogId": "13",
-      "uname": "xyz",
-      "dnt": "1/30/2024, 1:19:28 PM",
-      "comment": "hii"
-    },
-    {
-      "id": "2ca8",
-      "blogId": "17",
-      "uname": "xyz",
-      "dnt": "1/30/2024, 4:20:31 PM",
-      "comment": "add more"
-    }
-  ],
-  "BMIChart":[
-    {
-      "phone": "+919966004795",
-      "weight": "80",
-      "height": "180",
-      "BMI": "24.7",
-      "date":"29/11/2023"
-    },
-    {
-      "phone": "+919966004795",
-      "weight": "90",
-      "height": "180",
-      "BMI": "27.8",
-      "date":"12/12/2023"
-    },
-    {
-      "phone": "+919966004795",
-      "weight": "70",
-      "height": "180",
-      "BMI": "21.6",
-      "date":"23/12/2023"
-    },
-    {
-      "phone": "+919966004795",
-      "weight": "60",
-      "height": "180",
-      "BMI": "18.5",
-      "date":"2/1/2024"
-    },
-    {
-      "phone": "+919966004795",
-      "weight": "65",
-      "height": "180",
-      "BMI": "20.1",
-      "date":"13/1/2024"
-    },
-    {
-      "phone": "+919876543210",
-      "weight": "65",
-      "height": "180",
-      "BMI": "20.1",
-      "date":"13/1/2024"
-=======
-      "id": "70df",
-      "title": "Aakash Blogs",
-      "description": "Best BLOGS"
-    },
-    {
-      "id": "5c60",
-      "body": "{\"title\":\"Hello Master Blog\",\"description\":\"Kjbsdjbf\"}"
->>>>>>> Stashed changes
-    }
-  ]
-}
+
+
+
+
+
+

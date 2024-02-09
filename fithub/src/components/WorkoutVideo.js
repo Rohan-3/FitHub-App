@@ -4,7 +4,7 @@ const WorkoutVideo=()=>
 {
     let [data,setData] = useState([])
     useEffect(()=>{
-       fetch("../workout.json")
+        fetch("http://localhost:4000/workouts")
        .then((temp)=> temp.json())
        .then((temp) => setData(temp))
        .catch((err)=>console.log(err))

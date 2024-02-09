@@ -19,18 +19,30 @@ const UserWorkout=()=>
    },[])
     let k= useLocation();
     let {category} = k.state; 
+    console.log(category);
     return(<>
     <div style={{display:'flex', flexWrap:'wrap'}}>
 
     {
-        data.filter((temp)=>temp.category===category)
+      
+        data.filter((temp)=>{
+       
+        console.log(temp)
+        return  temp.categoryId===category
+        }
+        )
         .map((temp)=><Link to="/video" state={{video:temp.video}} style={{color:"black", textDecoration:"none"}}><Card sx={{ width: "450px" }}>
+<<<<<<< Updated upstream
         <CardActionArea style={{height:"550px"}}>
+=======
+
+        <CardActionArea style={{height:"500px"}}>
+>>>>>>> Stashed changes
           <CardMedia
             component="img"
             height="400"
-            image={temp.image}
-            alt="green iguana"
+            image={temp.imageurl2}
+            alt="Category Image"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -48,7 +60,10 @@ const UserWorkout=()=>
         </CardActions> */}
       </Card>
       </Link>
+
+      
   )
+
     }
     </div>
     

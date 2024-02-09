@@ -21,13 +21,13 @@ const UserCategory=()=>
     return(<div style={{display:'flex', flexWrap:'wrap'}}>
 
      {
-       data.map((temp)=> <Link style={{color:"black", textDecoration:"none"}} state={{category:temp.category}} to="/user_workout"> <Card sx={{width:"400px", heigth:"400px" }}>
+       data.map((temp)=> <Link style={{color:"black", textDecoration:"none"}} state={{category:temp._id}} to="/user_workout"> <Card sx={{width:"400px", heigth:"400px" }}>
        <CardActionArea style={{width:"400px", heigth:"400px" }}>
          <CardMedia
            component="img"
-           height="195"
+           height="350"
            image={temp.image}
-           alt="green iguana"
+           alt="Category Image"
          />
          <CardContent>
            <Typography gutterBottom variant="h5" component="div">

@@ -1,0 +1,15 @@
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+.numbers h4{
+    margin: 4px;
+}
+.categoryChart{
+    
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+}
