@@ -14,7 +14,9 @@ const CreateBlog=()=>{
         .then((temp) => setData1(temp))
         .catch((err)=>console.log(err));
         let data=JSON.parse(localStorage.getItem("userno"))
-        setDetails(data)
+        let admin=JSON.parse(localStorage.getItem("adminno"))
+        admin?setDetails(admin):setDetails(data)
+        
     },[data])
     const Post = ()=>{
         let d = new Date();

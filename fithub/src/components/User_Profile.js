@@ -169,13 +169,15 @@ const UserProfile=()=>
             open ?
                 <div ref={menuRef}>
                     <ul style={{cursor:"pointer"}} onClick={()=>setOpen(true)}>
-                        <li>
+                        <li style={{textDecoration:"none", color:"black"}}>
                             {flag===false ? 
                             <div>{details?details.userid:null}<MdEdit onClick={()=>setFlag(true)}/></div>
                             :
                             <div><input type="text" value={uname} onChange={(e)=>setUname(e.target.value)} style={{width:"150px"}} /><MdDone onClick={handleUserName} /></div>}
                         </li>
-                        <Link to='/auth' onClick={handleUserLogout} style={{textDecoration:"none", color:"black"}}>Logout<FiLogOut/></Link>
+                        <li>
+                            <Link to='/auth' onClick={handleUserLogout} style={{textDecoration:"none", color:"black"}}>Logout<FiLogOut/></Link>
+                        </li>
                     </ul>
                 </div>
             :null

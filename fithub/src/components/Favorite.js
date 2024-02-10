@@ -13,11 +13,14 @@ const Favorite=()=>
     let nav=useNavigate()
     useEffect(()=>{
         let local=JSON.parse(localStorage.getItem("userno"))
+        let admin=JSON.parse(localStorage.getItem("adminno"))
+        let phone
+        admin?phone=admin.phoneno:phone=local.phoneno
 
         fetch("http://localhost:4000/favorite")
         .then((temp)=> temp.json())
         .then((temp) => {
-            let fav=temp.filter((favdata)=>favdata.phone===local.phoneno)
+            let fav=temp.filter((favdata)=>favdata.phone===phone)
             setFav(fav)
         })
         .catch((err)=>console.log(err))
