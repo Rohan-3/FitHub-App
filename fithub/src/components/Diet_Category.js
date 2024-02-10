@@ -17,8 +17,8 @@ const DietCategory=()=>
      useEffect(()=>
      {
         let local=JSON.parse(localStorage.getItem("userno"))
-        let admin=localStorage.getItem("adminno")
-        admin ? setPhone(admin) : setPhone(local.phoneno)
+        let admin=JSON.parse(localStorage.getItem("adminno"))
+        admin ? setPhone(admin.phoneno) : setPhone(local.phoneno)
 
         fetch("http://localhost:4000/diet")
         .then((temp)=> temp.json())

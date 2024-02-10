@@ -1389,6 +1389,240 @@
         ]
       },
       "phone": "+919966004795"
+    },
+    {
+      "id": "e933",
+      "category": "workout",
+      "title": "HALASANA",
+      "image": "https://i0.wp.com/pixahive.com/wp-content/uploads/2021/02/Halasana-Plough-pose-357653-pixahive.jpg?fit=2560%2C1684&ssl=1",
+      "video": "https://www.youtube.com/embed/qpuY0jXimtQ?si=ZHkeUqcSOpd6naLH",
+      "phone": "+919441805250"
+    },
+    {
+      "id": "4d34",
+      "category": "workout",
+      "title": "PASCIMOTHANASANA",
+      "image": "https://www.harithayogshala.com/upload/blog/steps-benefits-paschimottanasana-seated-forward-bend-pose_1580800401.jpg",
+      "video": "https://www.youtube.com/embed/_eWWLp3Dc_I?si=lm_VoCC6hF016gU9",
+      "phone": "+919441805250"
+    },
+    {
+      "id": "3151",
+      "category": "workout",
+      "title": "Trunk twists",
+      "image": "https://media1.popsugar-assets.com/files/thumbor/IRQuD6m7VGV8zB6a5N35GwAZDDs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/08/25/861/n/40863086/aad4438e05eb72a9_1Circuit-1Seated-Russian-Twist/i/How-Do-Russian-Twist.jpg",
+      "video": "https://www.youtube.com/embed/GSJ3Xa93gXs?si=qMqWgVn4GkA4lv5q",
+      "phone": "+919441805250"
+    },
+    {
+      "id": "aaaa",
+      "category": "workout",
+      "title": "Sit-ups",
+      "image": "https://gethealthyu.com/wp-content/uploads/2014/08/Full-Sit-Up_Exercise.jpg",
+      "video": "https://www.youtube.com/embed/UMaZGY6CbC4?si=BJyiyM3QY_med71q",
+      "phone": "+919441805250"
+    },
+    {
+      "id": "705f",
+      "category": "workout",
+      "title": "Crisscross",
+      "image": "https://img.freepik.com/free-photo/young-sporty-woman-doing-crisscross-exercise_1163-5080.jpg",
+      "video": "https://www.youtube.com/embed/xdi0SnfdznA?si=Ucdq7KXCj_ZwI5Uw",
+      "phone": "+919441805250"
+    },
+    {
+      "id": "18cd",
+      "category": "workout",
+      "title": "Side leg lifts",
+      "image": "https://staticg.sportskeeda.com/editor/2022/06/be28a-16562258511725-1920.jpg",
+      "video": "https://www.youtube.com/embed/pNismoYr1Fg?si=Z0Ft3Po0v8TOJfDz",
+      "phone": "+919441805250"
+    },
+    {
+      "id": "e947",
+      "category": "diet",
+      "title": "Weight Gain",
+      "image": "https://i.pinimg.com/736x/36/1b/49/361b497b4384c63f308f12cd298fa9b7--before-after-body-fitness-transformation.jpg",
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 egg brown bread sandwich + green chutney + 1 cup milk + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup banana shake"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup arhar dal + 1 cup potato curry + 3 chapatti + 1/2 cup rice + 1/2 cup low fat curd + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup strawberry smoothie + 1 cup vegetable poha"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1.5 cup chicken curry + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "3 onion stuffed parantha + 1 cup curd + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup mango shake"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup moong dal/ chicken curry + 1 cup potato and caulifllower vegetable + 3 chapatti + 1/2 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup pomegranate juice + 2 butter toasted bread"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup beans potato vegetable + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "3 paneer stuffed besan cheela + green chutney + 1 cup curd + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 apple smoothie with maple syrup"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup masoor dal + 1 cup calocasia + 3 chapatti + 1/2 cup rice + 1 cup low curd + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup tomato soup with bread crumbs + 1 cup aloo chaat"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup carrot peas vegetable +3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1.5 cup vegetable bread upma + 1 cup milk + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup ripe banana with 2 tsp ghee"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rajma curry + 1 cup spinach potato + 3 chapatti + 1/2 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup vegetable juice + 1 cup upma"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1.5 cup parwal vegetable + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 cucmber potato sandwich + 1 tsp green chutney + 1 orange juice + 3 cshews + 2 walnuts + 4 almonds"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup buttermilk + 1 cup sweet potato chaat "
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup white chana/ fish curry + 3 chapatti + 1/2 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup almond milk + banana "
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup cauliflower potato vegetable + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 cup vegetable poha + 1 cup curd + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "2 cups watermelon juice"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup chana dal + 1 cup bhindi vegetable + 3 chapatti + 1/2 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup sprouts salad + 2 potato cheela + green chutney"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup peas mushroom vegetable + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "3 vegetable suji cheela + 1 cup strawberry shake + 4 cashews + 4 almonds + 3 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup coconut water + 1 cup pomegrate "
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup mix dal + 1 cup soybean curry + 3 chapatti + 1/2 cup curd + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup fruit salad + 4 pc vegetable cutlets + green chutney"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup karela vegetable + 3 chaptti + salad"
+              }
+            ]
+          }
+        ]
+      },
+      "phone": "+919441805250"
     }
   ],
   "Blogs": [
