@@ -15,12 +15,14 @@ const UserWorkout=()=>
     let [data,setData] = useState([])
     let [fav,setFav] = useState([])
     let [work,setWork]=useState([])
-    let [details,setDetails] = useState()
+    let [phone,setPhone] = useState()
     let nav=useNavigate()
     useEffect(()=>
     {
       let local=JSON.parse(localStorage.getItem("userno"))
-      setDetails(local)
+      let admin=localStorage.getItem("adminno")
+      admin ? setPhone(admin) : setPhone(local.phoneno)
+      
 
 
       fetch("http://localhost:4000/workouts")
@@ -54,7 +56,7 @@ const UserWorkout=()=>
       fetch("http://localhost:4000/favorite")
       .then((temp)=> temp.json())
       .then((temp) => {
-        let fav=temp.filter((favdata)=>favdata.phone===details.phoneno)
+        let fav=temp.filter((favdata)=>favdata.phone===phone)
         setFav(fav)
       })
       .catch((err)=>console.log(err))
@@ -65,11 +67,12 @@ const UserWorkout=()=>
       e.stopPropagation()
 
       const clickedWorkout = work[index]
+      let phoneno=phone
+
 
       if(clickedWorkout.isFav)
       {
         let favdata=fav.filter((temp)=>temp.title===clickedWorkout.title)
-        console.log(favdata[0].id)
         fetch(`http://localhost:4000/favorite/${favdata[0].id}`,
         {
             method: "DELETE",
@@ -89,7 +92,7 @@ const UserWorkout=()=>
         let title = clickedWorkout.title
         let image = clickedWorkout.image
         let video = clickedWorkout.video
-        let phone = details.phoneno
+        let phone = phoneno
         let addfav = {
           category:category,
           title:title,

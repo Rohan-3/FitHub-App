@@ -12,12 +12,13 @@ const DietCategory=()=>
     let [data,setData] = useState([])
     let [fav,setFav] = useState([])
     let [diet,setDiet] = useState([])
-    let [details,setDetails] = useState()
+    let [phone,setPhone] = useState()
     let nav=useNavigate()
      useEffect(()=>
      {
         let local=JSON.parse(localStorage.getItem("userno"))
-        setDetails(local)
+        let admin=localStorage.getItem("adminno")
+        admin ? setPhone(admin) : setPhone(local.phoneno)
 
         fetch("http://localhost:4000/diet")
         .then((temp)=> temp.json())
@@ -44,7 +45,7 @@ const DietCategory=()=>
       fetch("http://localhost:4000/favorite")
       .then((temp)=> temp.json())
       .then((temp) => {
-        let fav=temp.filter((favdata)=>favdata.phone===details.phoneno)
+        let fav=temp.filter((favdata)=>favdata.phone===phone)
         setFav(fav)
       })
       .catch((err)=>console.log(err))
@@ -55,6 +56,7 @@ const DietCategory=()=>
       e.stopPropagation()
 
       const clickedDiet = diet[index]
+      const phoneno=phone
       const isFav=clickedDiet.isFav
 
       const toggleFavorite=(newIsFav)=>{
@@ -67,9 +69,7 @@ const DietCategory=()=>
 
       if(isFav)
       {
-        console.log(clickedDiet.category)
         let favdata=fav.filter((temp)=>temp.title===clickedDiet.category)
-        console.log(favdata[0].id)
         fetch(`http://localhost:4000/favorite/${favdata[0].id}`,
         {
             method: "DELETE",
@@ -85,7 +85,7 @@ const DietCategory=()=>
         let title = clickedDiet.category
         let image = clickedDiet.image
         let routine = clickedDiet.routine
-        let phone = details.phoneno
+        let phone = phoneno
         let addfav ={
           category:category,
           title:title,
@@ -93,7 +93,6 @@ const DietCategory=()=>
           routine:routine,
           phone:phone
         }
-        console.log(addfav)
         fetch("http://localhost:4000/favorite",
         {
             method: "POST",

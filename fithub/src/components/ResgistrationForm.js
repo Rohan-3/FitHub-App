@@ -43,7 +43,7 @@ const ResgistrationForm = () => {
       {
         const phoneNumber = "+" + phone;
         const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{size:"invisible"})
-        recaptchaWidgetId = await recaptcha.render();
+        //recaptchaWidgetId = await recaptcha.render();
         const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
           console.log(confirmationResult)
           setUser(confirmationResult)

@@ -12,7 +12,7 @@ const Login = () => {
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
   let [flag,setFlag] = useState(false);
-  let admin=[""]
+  let admin=[{phoneno:"+919966004795",userid:"vaishnavi"},{phoneno:"+919967990416",userid:"rohan"}]
   
 
   const nav= useNavigate();
@@ -26,7 +26,7 @@ const Login = () => {
       
         let userData = JSON.parse(localStorage.getItem("u")) || []; 
         let filteredUser = userData.filter((temp)=> temp.phone === phone);
-        let adminlogin=admin.filter((temp)=>temp===phone);
+        let adminlogin=admin.filter((temp)=>temp.phoneno===phone);
         console.log(`adminno:${adminlogin}`);
         console.log(`userno:${filteredUser}`);
 
@@ -56,11 +56,11 @@ const Login = () => {
     {
       // phone==="+919967990416" || 
       await  user.confirm(otp)
-      let adminlogin=admin.filter((temp)=>temp===phone);
+      let adminlogin=admin.filter((temp)=>temp.phoneno===phone);
       console.log(`adminlogin in otp ${adminlogin}`)
       if (adminlogin.length!==0)
       {
-        localStorage.setItem('adminno', phone)
+        localStorage.setItem('adminno', JSON.stringify(adminlogin[0]))
         nav("/admin")
       }
       else
