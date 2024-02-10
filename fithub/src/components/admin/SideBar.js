@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import "./SideBar.css"
 import CrudWorkout from './CrudWorkout'
 import Analytics from './Analytics'
+import { FaRegEdit } from "react-icons/fa";
+import { IoAnalyticsOutline } from "react-icons/io5";
 
 
 const SideBar = () => {
@@ -16,11 +18,13 @@ const SideBar = () => {
    
     <div className='sideBar'>
 
-       <h2 className='adminDashHead'> Admin Dashboard</h2>
+       <div className='adminDashHead'> Admin Dashboard</div>
        <br></br>
        <div className='links' >
-       <li style={linkStyle} ><button onClick={()=>setFlag(false)} className='dashLinks'>Workout</button></li>
-       <li style={linkStyle} ><button onClick={()=>setFlag(true)} className='dashLinks'>Analytics</button></li>
+       <li style={linkStyle} ><button onClick={()=>setFlag(true)} className='dashALinks'>
+         <IoAnalyticsOutline style={{fontSize:'25px'}} /> Analytics</button></li>
+
+       <li style={linkStyle} ><button onClick={()=>setFlag(false)} className='dashWLinks'><FaRegEdit style={{fontSize:'20px'}}/> Workout</button></li>
        </div>
        <div>
        </div>

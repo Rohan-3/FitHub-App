@@ -206,22 +206,21 @@ const updateCategory =(id)=>{
   return (
     <>
     <div className='crudPage'>
-    <h1>Workout</h1>
-    <div>
+    <div className='crudcategory'>
    <h2> Category :</h2> <input className='winputs' type='number' placeholder='WorkOut Id' onChange={(e)=> setId(e.target.value)} />
     <input className='winputs' type='text' placeholder='Category Name' onChange={(e)=> setCategory(e.target.value)} />
     <input className='winputs' type='text' placeholder='Image Url' onChange={(e)=> setImageurl(e.target.value)} />
     <br></br>
-    <button onClick={postWorkoutCategory}>Add Category</button>
-    <button onClick={removeCategory}>Delete Category</button>
-    <button onClick={getcat}>Update Category</button>
+    <button className='crudcategorybtn' onClick={postWorkoutCategory}>Add Category</button>
+    <button className='crudcategorybtn' onClick={removeCategory}>Delete Category</button>
+    <button className='crudcategorybtn' onClick={getcat}>Update Category</button>
     </div>
     <div className='workoutInfo'>
     <h2> Workout Info :</h2> 
 
-    <label>Select Category</label> 
+    {/* <label>Select Category</label>  */}
 
-    <select className='winputs' name="category" id="category" >
+    <select className='selecInput' name="category" id="category" >
     {categoryList.map((temp)=> {
         return (
             <option onClick={()=>setSelectedCategory(temp)}>{temp.category}</option>
@@ -236,9 +235,9 @@ const updateCategory =(id)=>{
     <input className='winputs' type='text' placeholder='Description' onChange={(e)=> setDescription(e.target.value)}  />
     <br></br>
     <br></br>
-    <button onClick={addInfo}> Add Info</button>
-    <button onClick={getData}> Update Info</button>
-    <button onClick={removeInfo}> Delete Info</button>
+    <button className='crudInfobtn' onClick={addInfo}> Add Info</button>
+    <button className='crudInfobtn' onClick={getData}> Update Info</button>
+    <button className='crudInfobtn' onClick={removeInfo}> Delete Info</button>
     </div>
     </div>
     </>

@@ -1065,6 +1065,14 @@
     },
     {
       "id": "13",
+      "title": "Second Blog",
+      "description": "Hii,\n  \nThis is my second blog.",
+      "dnt": "29/1/2024, 4:09:43 pm",
+      "uname": "Rohan",
+      "phone": "+918770147315"
+    },
+    {
+      "id": "14",
       "title": "test",
       "description": "this is test post",
       "dnt": "1/30/2024, 12:25:51 AM",
@@ -1242,17 +1250,7 @@
       "weight": "65",
       "height": "180",
       "BMI": "20.1",
-      "id": "70df",
-      "title": "Aakash Blogs",
-      "description": "Best BLOGS"
-    },
-    {
-      "id": "5f20",
-      "phone": "+919966004795",
-      "weight": 23,
-      "height": 123,
-      "BMI": "15.20",
-      "date": "2/9/2024"
+      "date":"13/1/2024"
     }
   ]
 }
