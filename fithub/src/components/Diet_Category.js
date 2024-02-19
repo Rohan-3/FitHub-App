@@ -6,6 +6,7 @@ import { MdOutlineFavorite } from "react-icons/md";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { useState,useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import '../assets/styles/Diet.css'
 
 const DietCategory=()=>
 {
@@ -112,20 +113,23 @@ const DietCategory=()=>
     
     return(<>
 
-      <div style={{display:"flex", flexWrap:"wrap"}}>
+      <div className='Alldiet'>
         {
           diet.map((temp,index)=>
             //<Link to="/diet" style={{textDecoration:"none"}} state={{routine:temp.routine}}>
-            <Card sx={{ maxWidth: 345 }} onClick={()=>handlelink(temp)}>
-              <CardMedia
+            <Card sx={{width:"400px", heigth:"400px", marginTop:"40px",backgroundColor:"black", color:"white", boxShadow:"10px 10px 20px rgba(0, 0, 0, 0.5)"}} onClick={()=>handlelink(temp)}>
+              {/* <CardMedia
                 component="img"
                 height="194"
                 image={temp.image}
                 alt="Paella dish"
-              />
+              /> */}
+
+                  <img src={temp.image} alt={temp.category} className='DietImage'/>
+
               <CardContent style={{height:"50px"}}>
                 <h1 style={{position:'relative',top:"0"}}>
-                  <span style={{textAlign:"center"}}>{temp.category}</span>
+                  <span className='DietContent'>{temp.category}</span>
                   { temp.isFav ? <MdOutlineFavorite onClick={(e)=>handlefavorite(e,index)} style={{color:"red"}} /> : <MdOutlineFavoriteBorder onClick={(e)=>handlefavorite(e,index)} style={{color:"grey"}} />  } 
                 </h1>
               </CardContent>

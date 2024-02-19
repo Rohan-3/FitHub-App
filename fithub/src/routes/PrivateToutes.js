@@ -6,7 +6,6 @@ import { About } from '../pages/About'
 import Error404 from '../components/Error404'
 import Auth from '../pages/Auth'
 import User from '../components/User'
-import WorkoutData from '../components/WorkoutData'
 import AdminDashboard from '../pages/AdminDashboard'
 import UserCategory from '../components/User_Category'
 import UserWorkout from '../components/User_Workout'
@@ -19,6 +18,8 @@ import CrudWorkout from '../components/admin/CrudWorkout'
 import CrudDiet from '../components/admin/CrudDiet'
 import Favorite from '../components/Favorite'
 import Analytics from '../components/admin/Analytics'
+import BotDiet from '../components/BotDiet'
+
 const PrivateToutes = () => {
   return (
     <div>
@@ -28,7 +29,6 @@ const PrivateToutes = () => {
         <Route path='/auth' element={<Auth/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='*' element={<Error404/>}/>
-        <Route path="/workout" element={<WorkoutData/>}/>
         <Route path="/crudworkout" element={<CrudWorkout/>}/>
         <Route path="/user" element={<User/>}/>
         <Route path="/admin" element={<AdminDashboard/>}/>
@@ -42,6 +42,7 @@ const PrivateToutes = () => {
         <Route path="/create_blog" element={<CreateBlog/>}/>
         <Route path="/blogs" element={<Blogs/>}/>
         <Route path="/favorite" element={<Favorite/>}/>
+        <Route path="/botdiet" element={<BotDiet/>}/>
     </Routes>
     </div>
   )

@@ -6,6 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { useNavigate } from "react-router-dom";
+import '../assets/styles/Favourites.css'
 
 const Favorite=()=>
 {
@@ -41,18 +42,19 @@ const Favorite=()=>
 
     return(
     <div >
-        <div>
+        <div className="favourites">
         {
             [...fav].reverse().map((temp,index)=>
             <div >
-            <Card sx={{ maxWidth: 450 }} onClick={()=>handlelink(temp)}>
+            <Card sx={{width:"400px", heigth:"400px", marginTop:"40px",backgroundColor:"black", color:"white", boxShadow:"10px 10px 20px rgba(0, 0, 0, 0.5)"}} onClick={()=>handlelink(temp)}>
                 <CardActionArea>
-                    <CardMedia
+                    {/* <CardMedia
                     component="img"
                     height="400"
                     image={temp.image}
                     alt=""
-                    />
+                    /> */}
+                    <img src={temp.image} alt={temp.category} className='FImage'/>
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {temp.title}

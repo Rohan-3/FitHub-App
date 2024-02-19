@@ -8,6 +8,7 @@ import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { CardActionArea } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useState,useEffect } from 'react';
+import '../assets/styles/Workouts.css';
 
 
 const UserWorkout=()=>
@@ -123,26 +124,32 @@ const UserWorkout=()=>
 
 
     return(<>
-    <div style={{display:'flex', flexWrap:'wrap'}}>
+    <div className='main1'>
 
     {
       work.map((temp,index)=>
-        <Card sx={{ width: "450px" }} onClick={()=>handlelink(temp)}>
-          <CardActionArea style={{height:"550px"}}>
-            <CardMedia
+        <Card sx={{width:"450px", marginTop:"40px",backgroundColor:"black", color:"white", boxShadow:"10px 10px 20px rgba(0, 0, 0, 0.5)"}} onClick={()=>handlelink(temp)}>
+          <CardActionArea style={{height:"450px"}}>
+            {/* <CardMedia
               component="img"
-              height="400"
+              height="300"
               image={temp.image}
               alt=""
-            />
+            /> */}
+  
+              <img src={temp.image} alt={temp.category} className='Image2'/>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                {temp.title} 
-                { temp.isFav ? <MdOutlineFavorite onClick={(e)=>handlefavorite(e,index)} style={{color:"red"}} /> : <MdOutlineFavoriteBorder onClick={(e)=>handlefavorite(e,index)} style={{color:"grey"}} />  }
+              <Typography gutterBottom variant="h5" component="div" >
+                <div className='content1'>
+                <div className='Title'>{temp.title} 
+                <span> { temp.isFav ? <MdOutlineFavorite onClick={(e)=>handlefavorite(e,index)} style={{color:"red"}} /> : <MdOutlineFavoriteBorder onClick={(e)=>handlefavorite(e,index)} style={{color:"white"}} />  }
+                </span>
+               </div>
+                </div>
               </Typography>
-              <Typography variant="body2" color="text.secondary" style={{height:"150px"}}>
-                {temp.description}
-              </Typography>
+              <Typography variant="body2"  style={{height:"150px"}}>
+                <div className='Title1'>{temp.description}</div>              
+                </Typography>
             </CardContent>
           </CardActionArea>
         </Card>

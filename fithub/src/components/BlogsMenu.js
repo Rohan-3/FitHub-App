@@ -8,6 +8,7 @@ import MenuList from '@mui/material/MenuList';
 import Stack from '@mui/material/Stack';
 import { Link } from 'react-router-dom';
 
+
 let linkStyle = { color: 'white', textDecoration:'none'}
 
 export default function BlogsMenu(props) {
@@ -46,7 +47,8 @@ export default function BlogsMenu(props) {
   }, [open]);
 
   return (
-    <Stack direction="row" spacing={2}>
+   <div>
+     <Stack direction="row" spacing={2}>
       <div>
         <li
           ref={anchorRef}
@@ -92,5 +94,6 @@ export default function BlogsMenu(props) {
         </Popper>
       </div>
     </Stack>
+   </div>
   );
 }

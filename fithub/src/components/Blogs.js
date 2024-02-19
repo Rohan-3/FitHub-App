@@ -1,5 +1,6 @@
 import { useState,useEffect } from "react";
 import BlogsCard from "./BlogsCard";
+import '../assets/styles/CreateBlogs.css'
 
 const Blogs=()=>
 {
@@ -14,12 +15,13 @@ const Blogs=()=>
     },[])
 
     return(<>
-      
-          <h1>Display Blogs</h1>
+      <div className="main">
           {
             [...data].reverse().map((temp)=> <BlogsCard title={temp.title} description={temp.description} dnt={temp.dnt} uname={temp.uname} id={temp.id} />)
           }
   
+      </div>
+          
       </>)
   
 }

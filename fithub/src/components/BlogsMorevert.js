@@ -56,8 +56,12 @@ const BlogsMorevert = (props) => {
 				onClose={handleClose}
 				open={open}
 			>
-                <MenuItem onClick={handleClose} style={{ backgroundColor:"black"}}>Edit</MenuItem>
-                <MenuItem onClick={()=>remove(props.id)} style={{ backgroundColor:"black"}}>Remove</MenuItem>
+				<div style={{display:"flex", flexDirection:"column",color:"black"}}>
+
+				<MenuItem onClick={handleClose}>Edit</MenuItem>
+                <MenuItem onClick={()=>remove(props.id)}>Remove</MenuItem>
+
+				</div>
 			</Menu>
 		</div>
 	);

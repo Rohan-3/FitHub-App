@@ -1,13 +1,13 @@
-import React from 'react'
-import WorkoutData from '../components/WorkoutData'
+
 import WhatsApp from '../components/WhatsApp'
 
+
 export const About = () => {
-  return (
+  return (<div>
     <div>Abou t
-    <WorkoutData/>
     <WhatsApp/>
 
+    </div>
     </div>
     
   )

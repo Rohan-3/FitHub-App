@@ -88,31 +88,33 @@ const BlogsCard=(props)=>
       let dnt=d.toLocaleString()
       let uname=details.userid
       let phone=details.phoneno
-      let newComment = {
-        blogId:props.id, 
-        uname:uname,
-        dnt:dnt, 
-        comment:comment,
-        phone:phone
-      }
-      fetch("http://localhost:4000/Comments",
+      if(comment.length>0)
       {
-          method: "POST",
-          body: JSON.stringify(newComment)
-      })
-      .then((data) => data.json())
-      .then((data) => console.log(data))
-      .catch((err)=> console.log(err))
-      alert(`Comments sent successfully`)
-      setComments([...comments, newComment])
-      setComment("")
-
+        let newComment = {
+          blogId:props.id, 
+          uname:uname,
+          dnt:dnt, 
+          comment:comment,
+          phone:phone
+        }
+        fetch("http://localhost:4000/Comments",
+        {
+            method: "POST",
+            body: JSON.stringify(newComment)
+        })
+        .then((data) => data.json())
+        .then((data) => console.log(data))
+        .catch((err)=> console.log(err))
+        alert(`Comments sent successfully`)
+        setComments([...comments, newComment])
+      }
   }
 
     return(<>
 
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth:"90%", height:"auto" , position: 'relative', left:"5%", marginTop:"20px", border:"black 1px solid", background: "radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%)",boxShadow:"none"}}>
       <CardHeader
+      style={{color:"black",fontSize:"bold"}}
         avatar={
           <Avatar sx={{ bgcolor: color }} aria-label="recipe">
             {props.uname[0].toUpperCase()}
@@ -123,9 +125,9 @@ const BlogsCard=(props)=>
       />
       
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="black">
           <h1>{props.title}</h1>
-          <p>{props.description}</p>
+          <p style={{ whiteSpace: 'pre-wrap' }}>{props.description}</p>
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -140,12 +142,15 @@ const BlogsCard=(props)=>
         </ExpandMore>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-        <input type="text" placeholder='Enter your comments here....' onChange={(e)=>setComment(e.target.value)} /> 
-        <button onClick={PostComments}>Send</button>
-        {
+      <div className='cInputCont'>
+          <input type="text" placeholder='Enter your comments here....' onChange={(e)=>setComment(e.target.value)} className="commentsInput"/> <button onClick={PostComments} className='cButton'>Comment</button>
+         </div>
+        <CardContent style={{height:"200px", overflow:"hidden", overflowY:"scroll", marginTop:"10px"}}>
+         
+         {
             comments.filter((temp)=>temp.blogId===props.id).map((temp)=><CommentsCard uname={temp.uname} dnt={temp.dnt} comment={temp.comment}/>)
            }
+           
         </CardContent>
       </Collapse>
     </Card>

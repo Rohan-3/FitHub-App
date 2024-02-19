@@ -1,54 +1,28 @@
 {
   "workouts": [
     {
-      "id": "2b2a",
-      "_id": "bd2f7e39-11a9-434b-99cc-a74ae575ec80",
-      "categoryId": "bbdaf3e6-b170-403e-9b32-24120b2b99c0",
       "category": "Yoga",
-      "title": "hello World",
-      "imageurl2": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
-      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
-      "description": "Test Description"
+      "title": "Shavasan",
+      "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
+      "video": "https://www.youtube.com/embed/ogaDPQ85508?si=NWcsIO1893gHeV3U",
+      "description": "Shavasan, also known as the Corpse Pose, is a relaxation pose that helps in reducing stress, calming the mind, and promoting a sense of tranquility.",
+      "id": "c833"
     },
     {
-      "id": "7b2c",
-      "_id": "78be2c3a-58e0-4cba-a7a7-d4588e2f81b2",
-      "categoryId": "bbdaf3e6-b170-403e-9b32-24120b2b99c0",
       "category": "Yoga",
-      "title": "Bye Yoga",
-      "imageurl2": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg",
+      "title": "SIRSASANA",
+      "image": "https://cdn.shopify.com/s/files/1/0077/7587/9266/files/kopfstand-yoga_600x600.jpg?v=1631703732",
       "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
-      "description": "BYE BYE Yoga"
+      "description": "excellent for improving concentration, increasing memory, and transforming libido into powerful life force",
+      "id": "c745"
     },
     {
-      "id": "10cb",
-      "_id": "9acef60f-eb07-41b1-a607-11554b14e7de",
-      "categoryId": "447538c1-8dd7-49f2-b35a-e2c53b2708ea",
-      "category": "New Category",
-      "title": "as",
-      "imageurl2": "as",
-      "video": "as",
-      "description": "as"
-    },
-    {
-      "id": "3775",
-      "_id": "968f463e-feee-4e57-ac25-0208915a17ee",
-      "categoryId": "447538c1-8dd7-49f2-b35a-e2c53b2708ea",
-      "category": "New Category",
-      "title": "qw",
-      "imageurl2": "qw",
-      "video": "qw",
-      "description": "qw"
-    },
-    {
-      "id": "acbf",
-      "_id": "71307f90-35c5-48d4-985f-1847c815e53b",
-      "categoryId": "3f1df7d4-5b85-4a39-aa78-9dc1c2da49de",
-      "category": "Bee",
-      "title": "Hello Nice",
-      "imageurl2": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg",
-      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
-      "description": "THIS IS Again NOT NICE"
+      "category": "Yoga",
+      "title": "SARVANGASANA",
+      "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/shoulderstand.jpg",
+      "video": "https://www.youtube.com/embed/g3wvIPXZ-Qo?si=Gu1DwKWKdczwyhmy",
+      "description": "This asana strengthens the entire body; it gives many of the benefits of the Headstand, but here the circulation is directed to the thyroid gland instead of the head.",
+      "id": "28c4"
     },
     {
       "category": "Yoga",
@@ -73,30 +47,6 @@
       "video": "https://www.youtube.com/embed/_eWWLp3Dc_I?si=lm_VoCC6hF016gU9",
       "description": "helps to counter the typical postural problems developed working a desk job by keeping the spine supple, the joints mobile, the internal organs toned, and the nervous system invigorated.",
       "id": "ad4e"
-    },
-    {
-      "category": "Calisthenics",
-      "title": "Jumping jacks",
-      "image": "https://www.squareboxfitness.com/wp-content/uploads/2015/11/Jumping-Jacks-popsugar.jpg",
-      "video": "https://www.youtube.com/embed/nGaXj3kkmrU?si=HAie_vZFJXphLNaY",
-      "description": "strengthen your muscles, improve coordination, and boost your fitness.",
-      "id": "3e05"
-    },
-    {
-      "category": "Calisthenics",
-      "title": "Trunk twists",
-      "image": "https://media1.popsugar-assets.com/files/thumbor/IRQuD6m7VGV8zB6a5N35GwAZDDs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/08/25/861/n/40863086/aad4438e05eb72a9_1Circuit-1Seated-Russian-Twist/i/How-Do-Russian-Twist.jpg",
-      "video": "https://www.youtube.com/embed/GSJ3Xa93gXs?si=qMqWgVn4GkA4lv5q",
-      "description": "improve core strength, stability, flexibility and provide greater spine mobility.",
-      "id": "a738"
-    },
-    {
-      "category": "Calisthenics",
-      "title": "Push-ups",
-      "image": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg",
-      "video": "https://www.youtube.com/embed/bt5b9x9N0KU?si=CwObEpORWZ8EcggW",
-      "description": "strengthen and tone upper-body muscles, including your chest, triceps, and shoulders.",
-      "id": "ed33"
     },
     {
       "category": "Calisthenics",
@@ -243,7 +193,7 @@
       "id": "c1c7"
     },
     {
-      "category": "High-Intensity Interval Training (HIIT)",
+      "category": "High-Intensity Interval Training",
       "title": "Burpees",
       "image": "https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/603dd1763291d9bd431bee19_Burpees--(1)-min-p-500.jpeg",
       "video": "https://www.youtube.com/embed/qLBImHhCXSw?si=4DGucJdX6LUqIBa8",
@@ -251,7 +201,7 @@
       "id": "6c7c"
     },
     {
-      "category": "High-Intensity Interval Training (HIIT)",
+      "category": "High-Intensity Interval Training",
       "title": "Tabata Workout",
       "image": "https://www.usnews.com/object/image/00000165-a584-d161-a57f-edecabba0000/180904-fitness-stock.jpg?update-time=1536080340116&size=responsive640",
       "video": "https://www.youtube.com/embed/ttkq49P_7ds?si=kkqvw1RHZq2slDMY",
@@ -259,12 +209,20 @@
       "id": "f5ca"
     },
     {
-      "category": "High-Intensity Interval Training (HIIT)",
+      "category": "High-Intensity Interval Training",
       "title": "Bodyweight HIIT",
       "image": "https://s.yimg.com/ny/api/res/1.2/czxOWjrvsq4OpVdNXL2_6A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/real_simple_700/06e320de1c0803c3eb883e142d683eac",
       "video": "https://www.youtube.com/embed/w8ZaOs94_fg?si=gtJWVoJoe3WNapSZ",
       "description": "Bodyweight HIIT workouts are convenient and can be done anywhere. Exercises may include squats, lunges, burpees, and push-ups. The focus is on using your own body as resistance for a challenging workout.",
       "id": "307d"
+    },
+    {
+      "category": "High-Intensity Interval Training",
+      "title": "HIIT for Fat Loss",
+      "image": "https://www.stylecraze.com/wp-content/uploads/2017/11/15-Best-HIIT-Exercises-For-Women-To-Burn-Fat-And-Be-Fit-Banner.jpg.webp",
+      "video": "https://www.youtube.com/embed/_eB3z1mhlBw?si=jj-tKwNsyvmiE6dj",
+      "description": "HIIT is known for its effectiveness in burning fat. The high-intensity intervals elevate heart rate and metabolism, promoting fat burning during and after the workout. It also helps preserve muscle mass.",
+      "id": "e1cc"
     }
   ],
   "workout_category": [
@@ -280,34 +238,33 @@
     },
     {
       "category": "Pilates",
-      "image": "https://i.pinimg.com/originals/15/a5/e4/15a5e494e41d69b8675df8f10417b363.jpg",
+      "image": "https://complete-pilates.co.uk/wp-content/uploads/2018/08/bridging-on-a-stability-ball.jpg",
       "id": "03fe"
     },
     {
-      "id": "109",
-      "_id": "447538c1-8dd7-49f2-b35a-e2c53b2708ea",
-      "category": "New Category",
-      "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
-      "imageurl": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg"
+      "category": "Strength Training",
+      "image": "https://thekangaroomethod.com/wp-content/uploads/2020/03/women-strength-training.jpg",
+      "id": "c971"
     },
     {
-      "id": "1",
-      "_id": "bbdaf3e6-b170-403e-9b32-24120b2b99c0",
-      "category": "Yoga",
-      "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
-      "imageurl": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp"
+      "category": "Running",
+      "image": "https://post.greatist.com/wp-content/uploads/2020/01/Runner-training-on-running-track-1200x628-facebook.jpg",
+      "id": "1ab9"
     },
     {
-      "id": "123",
-      "_id": "3f1df7d4-5b85-4a39-aa78-9dc1c2da49de",
-      "category": "Nice",
-      "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg"
+      "category": "High-Intensity Interval Training",
+      "image": "https://th.bing.com/th/id/R.818e8b62ce69a1049a379db3e14142fa?rik=UNTWiq7En3YxTA&riu=http%3a%2f%2fwww.bodybuilding.com%2fimages%2f2016%2fjuly%2fhigh-intensity-interval-training-the-ultimate-guide-v2-2.jpg&ehk=s55zqbazNn0QjTBr97f9t72NL%2fusiGnC6Qwvsyp%2fItc%3d&risl=&pid=ImgRaw&r=0",
+      "id": "fac8"
     }
   ],
   "diet": [
     {
       "category": "Weight Loss",
       "image": "https://media.istockphoto.com/id/1372798207/photo/a-woman-with-belly-with-excess-fat-and-toned-slim-stomach-with-abs-before-and-after-losing.jpg?s=612x612&w=0&k=20&c=ll1S4FDYWlH4IePLO_Ep8jst34V4rm324W0vXnm7MbY=",
+      "benefits": [
+        "overweight",
+        "obese"
+      ],
       "routine": {
         "days": [
           {
@@ -598,12 +555,14 @@
             ]
           }
         ]
-      },
-      "id": "001e"
+      }
     },
     {
       "category": "Weight Gain",
       "image": "https://i.pinimg.com/736x/36/1b/49/361b497b4384c63f308f12cd298fa9b7--before-after-body-fitness-transformation.jpg",
+      "benefits": [
+        "underweight"
+      ],
       "routine": {
         "days": [
           {
@@ -782,12 +741,14 @@
             ]
           }
         ]
-      },
-      "id": "ef93"
+      }
     },
     {
       "category": "Thyroid",
       "image": "https://static.wixstatic.com/media/bd6518_8c8dad84de4d44c79344c6db3e45c4fb~mv2.jpg/v1/fill/w_980,h_490,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bd6518_8c8dad84de4d44c79344c6db3e45c4fb~mv2.jpg",
+      "benefits": [
+        "thyroid"
+      ],
       "routine": {
         "days": [
           {
@@ -966,8 +927,1681 @@
             ]
           }
         ]
-      },
-      "id": "163e"
+      }
+    },
+    {
+      "category": "Diabetes",
+      "image": "https://images.hindustantimes.com/img/2022/12/16/550x309/diabetes_thumb_1671193786782_1671193800077_1671193800077.jpg",
+      "benefits": [
+        "diabetes"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "4 Idli + Sambar 1/2 cup/ 1 table spoon Green chutney/ Tomato Chutney"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "green gram sprouts 1 cup"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "3 Roti+1/2 cup salad + Fish curry ( 100 gm fish)+ 1/2 cup cabbage subji"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 Roti / chappati.+ Tomato subji 1/2 cup"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 Slice brown bread.+1 slice low fat cheese+1Boiled egg+ 1/2 cup low fat milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Veg pulav rice 1 cup+ 1/2 cup Soya Chunk curry+ 1/2 cup Low fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup light tea+ 2 wheat rusk"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 roti/ Chapathi+ Ladies finger subji 1/2 cup"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Chappati 3 + 1/2 cup Potato green peas curry"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1/2 cup boilled black channa"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rice+ 1/2 cup Dhal+ Palak subji 1/2 cup+ 1/2 cup low fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Brocken wheat upma 1 cup+ 1/2 cup green beans subji"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Methi Parata 2+ 1 tbs green chutney"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rice+ chicken curry( 150 gm chicken+ 1 cup cucumber salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Cup light tea+ Brown rice flakes poha 1 cup"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Wheat dosa 3 + 1/2 cup Bitter guard subji"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Vegetable Oats Upma 1 cup+ 1/2 cup low fat milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "plane Yoghurt with raw vegetables / grilled vegetables -1 cup"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1/2 cup rice + 2 medium chappati+1/2 cup Kidney beans curry+ Snake guard subji 1/2 cup"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup boilled channa+ light tea 1 cup"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 Roti/ chapati+ 1/2 cup mix veg curry"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Mix veg Poha 1 cup+ 1/2 cup low fat milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "3 Chappati+ 1/2 cup cluster beans subji+ Fish curry(100g fish) 1/2 cup"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup tea+ + 2 biscuits ( Nutrichoice or Digestiva or Oatmeal.)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 Roti / chappathi+Ridge guard subji 1/2 cup"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Utappam 2+ 1 tbs green chutney"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup boilled channa"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rice+ Soya chunk curry1/2 cup+ Ladies finger subji 1/2 cup+ small cup low fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Brocken wheat upma 1 cup+ 1/2 cup green beans subji"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "PCOD/PCOS",
+      "image": "https://brahmhomeo.com/public/img/homepage/pcod-pcos-disease-cure.jpg",
+      "benefits": [
+        "PCOD/PCOS"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "4 Idli + Sambar 1/2 cup/ 1 table spoon Green chutney/ Tomato Chutney"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup of green gram sprouts"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "3 Roti+1/2 cup salad + Fish curry ( 100 gm fish)+ 1/2 cup cabbage subji"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2 rotis and a cup of tomato sabzi"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Brown bread 1- 2 slices, with a slice of low-fat cheese and egg whites of 2 boiled eggs"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Any one fruit, (However, avoid consuming fruits high in energy like bananas)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "A cup of Vegetable pulav made of rice, along with half a cup of curry made from soya chunks and half a cup of buttermilk"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup light tea+ 2 wheat rusk"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Bhindi or ladies’ finger sabzi half cup with 1-2 rotis"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2-3 rotis along with half a cup of green peas and potato curry"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1/2 cup boilled black channa"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Half a cup of palak sabzi, a cup of rice with a half cup of dal, and half a cup low fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "A cup of broken wheat upma along with half a cup of green beans sabzi"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1-2 Methi paratha with some green chutney"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "A cup of rice with some chicken curry and cucumber salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "A cup of light tea and half a cup of poha made from brown rice flakes"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "2-3 wheat dosas, along with half a cup of bitter guard sabzi "
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "A cup of oats upma with vegetables along with half a cup of low-fat milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Yoghurt (Plain) with some raw or grilled vegetables"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Half a cup of kidney beans curry, rice, and snake guard sabzi, along with 1-2 rotis"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "A cup of light tea and boiled Channa"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1-2 rotis with half a cup of miz vegetable curry"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "A cup of vegetable mixed poha and half a cup of low-fat milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "2-3 rotis along with half a cup of fish curry (100gms fish) and half a cup cluster bean sabzi"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup of light tea with 1-2 digestive biscuits"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1-2 rotis with ridge guard sabzi"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1-2 uthappam with some green chutney"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup boilled channa"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Half a cup of soya chunk curry and ladies’ finger sabzi, along with a cup of rice and some low-fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Portion fruit(Avoid high energy fruits. Eg: Banana, Mango, Chikku.)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "A cup of broken wheat upma along with half a cup of green beans sabzi"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "Fatty Liver",
+      "image": "https://www.kottakkalayurveda.ae/uploads/thumb/232-174-1648018153.jpg",
+      "benefits": [
+        "fatty liver"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "7:00 AM",
+                "diet": "1 cup black coffee+ 2 biscuits (oats)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "¼ cup boiled kidney beans"
+              },
+              {
+                "time": "1:00 PM",
+                "diet": "half cup rice + 2 multi grain roti + 1 bowl lentil/ daal"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup green tea/ herbal tea"
+              },
+              {
+                "time": "7:00 PM",
+                "diet": "half cup tofu sabji + 2-3"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "7:00 AM",
+                "diet": "1 cup veg upma + 1 cup herbal tea"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 bowl fruit salad"
+              },
+              {
+                "time": "1:00 PM",
+                "diet": "2-3 missi roti+ half cup boiled rice + 1 cup daal + vegetable salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup sprouts"
+              },
+              {
+                "time": "7:00 PM",
+                "diet": "2 plain chappati + half cup soyabean sabji+ half cup brown rice"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "7:00 AM",
+                "diet": "1 bowl vermicelli + 1 cup black coffee"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "half cup boiled black chana"
+              },
+              {
+                "time": "1:00 PM",
+                "diet": "2-3 whole wheat roti+ half cup boiled rice + 1 cup masoor daal + vegetable salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup green tea"
+              },
+              {
+                "time": "7:00 PM",
+                "diet": "2 missi chappati + half cup bitter gourd sabji + salad"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "7:00 AM",
+                "diet": "1 bowl veg poha + 1 cup herbal tea"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 1 bowl fruit salad"
+              },
+              {
+                "time": "1:00 PM",
+                "diet": "3 Roti+ half cup salad + half cup cabbage subji + half cup dal"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup sprouts"
+              },
+              {
+                "time": "7:00 PM",
+                "diet": "2 multi grain chappati + half cup any lentil + half cup steamed rice"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "7:00 AM",
+                "diet": "1 bowl veg daliya"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "half cup boiled black chana"
+              },
+              {
+                "time": "1:00 PM",
+                "diet": "2-3 plain roti+ half cup boiled rice + 1 cup pink dal + vegetable salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup green tea"
+              },
+              {
+                "time": "7:00 PM",
+                "diet": "2 plain chappati + half cup soyabean sabji+ half cup brown rice"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "7:00 AM",
+                "diet": "5-6 pieces of veg idli + 1 cup black coffee"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 bowl fruit salad"
+              },
+              {
+                "time": "1:00 PM",
+                "diet": "1 cup rice+ 1/2 cup Dhal+ Palak subji 1/2 cup+ 1/2 cup low fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup sprouts"
+              },
+              {
+                "time": "7:00 PM",
+                "diet": "2 missi chappati + half cup bitter gourd sabji + salad"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "7:00 AM",
+                "diet": "1 bowl oat meal"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "2 glass of coconut water or half cup of different dry fruits"
+              },
+              {
+                "time": "1:00 PM",
+                "diet": "2-3 missi roti+ 1cup kidney bean + 1 bowl rice+ vegetable salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1bowl of mixed fruits"
+              },
+              {
+                "time": "7:00 PM",
+                "diet": "2 multi grain chappati + half cup broccoli sabji + 1/4 cup spinach sabji"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "Diet Plan For Beginners",
+      "image": "https://www.organicfacts.net/wp-content/uploads/bestvegetablesforweightloss.jpg",
+      "benefits": [
+        "beginners"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Aloo Paratha (2) + Raita (1 cup)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Salad (1 cup) + Tender Coconut Water (1 glass)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup moong dal + 1 cup bhindi + 2 chapatti + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Tea/ Coffee (1 cup) + Boiled Chana Chat (1 cup)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Chapati (2) + Jeera Aloo (1 cup)"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Chapati (2) + Daal (1 cup)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Salad (1 cup) + Tender Coconut Water (1 glass)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rajma + 1 cup gobhi aloo + 1 cup cucumber raita + 1 cup rice + 1 chapatti + onion salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Tea/ Coffee (1 cup) + Aloo Chat (1 cup)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Chapati (2) + Mix Veg"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Cheela (2) + Raita (1 cup)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Salad (1 cup) + Tender Coconut Water (1 glass)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup chicken curry + 1 cup boiled rice + 2 chapatti + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Tea/ Coffee (1 cup) + Papri Chat (1 cup)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Chapati (2) + Fish Curry (1 cup)"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Veg. Poha (1 cup) + Raita (1/2 cup)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Salad (1 cup) + Tender Coconut Water (1 glass)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup white chana + palak paneer + 1 cup rice + 1 chapatti + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Tea/ Coffee (1 cup) + Mur-mure Chat (1 cup)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Chapati (2) + Mustard Greens (1 cup)"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Aloo Paratha (2) + Raita (1 cup)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Salad (1 cup) + Tender Coconut Water (1 glass)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup soy bean curry + 1 cup tinda vegetable + 2 chapatti + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Tea/ Coffee (1 cup) + Boiled Chana Chat (1 cup)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Chapati (2) + Bottle Gourd Curry (1 cup)"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Chapati (2) + Daal (1 cup)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Salad (1 cup) + Tender Coconut Water (1 glass)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup fish curry + 1 cup boiled rice + 1 chapatti + 1 cup ghia raita + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Tea/ Coffee (1 cup) + Aloo Chat (1 cup)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Chapati (2) + Matar n Mushroom Curry (1 cup)"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Veg Upma (1 cup) + Raita (1/2 cup)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Salad (1 cup) + Tender Coconut Water (1 glass)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup chicken curry + 1 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Tea/ Coffee (1 cup) + Papri Chat (1 cup)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Chapati (2) + Kofta (1 cup)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "Keto Diet",
+      "image": "https://d.newsweek.com/en/full/1287066/keto-diet.jpg",
+      "benefits": [
+        "keto"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cup strawberry smoothie + 1 cup cottage cheese + 5-6 tofu pakora"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup black beans soup + 1 cup sauteed vegetables (mushrooms, spinach, capsicum- with butter and olive oil)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 plate chicken salad with veggies (chicken breast) (onion, tomato, capsicum, mushrooms)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 sliced cucumber"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup creamy spinach soup with cottage cheese"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cup blackberry smoothie + 1 cup soybean salad + 1 cup grilled cottage cheese"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup vegetable poha"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup black chana salad (cucumber, tomato, spinach)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup vegetable upma"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup creamy mushroom soup with cottage cheese pakora"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cup blueberry smoothie + 3 boiled eggs + 1 cup suteed veggies (capsicum, mushroom, tomato)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup vegetable poha"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 bowl fish stew + 1 cup brown rice"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup avocado smoothie"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup creamy cauliflower soup"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cheese omelette (2 eggs, 20 gm cheese, tomato, capsicum) + 1 portion cucumber lettuce salad with olive oil dressing"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup greek yogurt"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 grilled chicken breat with green salad (cucumber, lettuce, capsicum, mushroom)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup raspberry smoothie"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup creamy chicken soup"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cup soy milk + fish pakora + green salad (cucumber, tomamto, lettuce, capsicum, spinach)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup Cooked broad beans salad"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup grilled soy chaap with mint chutney"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 sliced cucumber"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup creamy toamto soup"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 vegetable omelette (2 eggs) + 1 cup strawberry smoothie + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup kidney beans salad"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 plate chicken salad with veggies (chicken breast) (onion, tomato, capsicum, mushrooms)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup of chicken stew with garlic and pepper"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup creamy broccoli soup"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cup scrambled egg (2 eggs) + green salad (lettuce, capsicum, spinach) + 1 cup soy milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup Broccoli cream soup"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 bowl fish stew + 1 cup brown rice"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup vegetable upma"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup chicken stew"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "Muscle Gain",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-2b716f6dc0e1c8d2866480d6e88991aa-pjlq",
+      "benefits": [
+        "muscle gain"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "chapati-4 + Egg roast 1/2 cup 2 egg"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "green gram sprouts 1 cup"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "4 Roti +1/2 cup salad + Fish curry (180 gm fish) + 1/2 cup cabbage subji"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Portion fruit+ cottage cheese"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "3 Roti/Chapati + Tomato subji 1/2 cup"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Chicken sandwich (4 slice bread) + 1 cup skimmed milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 Portion fruit salad + Cottage cheese"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Veg pulav rice 1.5 cup + 1 cup Soya Chunk curry + 1/2 cup Low fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup light tea + Chicken salad 1 cup"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "3 roti/ Chapathi + Lady finger subji 1/2 cup"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Sprouts & Paneer Paratha 3 + Green chutney"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup boilled black channa"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1.5 cup rice + chicken curry (150 gm chicken) + Palak subji 1/2 cup + 1/2 cup low fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Portion fruit salad + Yoghurt"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Brocken wheat upma 1 cup + 1/2 cup green beans subji"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Soya flour Uttapam 2 +Tomato /green chutney + 1 glass skimmed milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 Portion fruit salad + Cottage cheese"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1.5 cup rice+Kidney beans curry 1 cup + 1/2 cup cucumber salad + Lady finger subji 1/2 cup"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 Cup light tea + Brown rice flakes poha with nuts 1 cup"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Wheat dosa 3 + 1 cup Bitter guard subji"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Mushroom Paratha 2 + Tomato chutney + Scrambled egg (2 eggs)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "plane Yoghurt with raw vegetables / grilled vegetables - 1 cup"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1/2 cup rice + 3 medium chapati + Fish masala 1 cup (fish 180 g) + Snake guard subji 1/2 cup"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup boilled channa+ light tea 1 cup"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "3 Roti/ chapati + 1/2 cup mix veg curry"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "4 Idli + Sambar 1/2 cup + 1 table spoon Green chutney/ Tomato Chutney + 2 egg white"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup banana + almond milk shake"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rice + Soya chunk curry 1/2 cup + Lady finger subji 1/2 cup + small cup low fat curd"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup tea + Home made protein bar"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "3 Roti / chapati + Ridge guard subji 1/2 cup"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Chicken Keema Paratha 2 + 1 tbs green chutney + 1 glass skim milk"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup boilled channa"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "4 chapati + Grilled chicken 150 gm + Dhal 1/2 cup + cucumber salad 1/2 cup"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup blue berry milk shake"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Brocken wheat upma 1 cup + 1/2 cup green beans subji"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "Kids Nutrition",
+      "image": "https://www.netmeds.com/images/cms/wysiwyg/blog/Post/2018/meal_kids_898_1_.jpg",
+      "benefits": [
+        "kids"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Mooli Paratha + Curd + PediaSure"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Mixed Sprouts and Cucumber Salad + Pineapple"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Roti + Bhindi Fri + Kadhi + Jeera Rice"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Paneer Pakora + PediaSure"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Vegetable / Chicken Pulao + Cucumber Raita"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Vegetable Oats Chilla + Green chutney + Badaam PediaSure"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Chaat (Apple, Banana, Orange, Pomegranate)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Paratha + Lauki Ki subji + Dal Fry / Fish Fry"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Grilled Paneer Sandwich  + PediaSure"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Chhole Arhar Dal+ Rice+ Boondi Raita"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Vegetable Vermicelli upma with Pudina Chutney + PediaSure"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Methi Mathri + Banana"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Rice + Rohu Posto + Urad Daal + Pomegranate"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Channa Mator Ghughni + Muri + PediaSure"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Roti + Paneer Potato Curry + Carrot Cucumber Radish Salad"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Mini Vegetable Uttapam + PediaSure"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Pua (Sweet Semolina, Banana, Curd) + Guava"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Roti + Potato Channa Daal Curry + Beetroot Fry"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Yellow Dhokla + PediaSure"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Roti + Wangi Bharit + Peanut Chutney"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Suji Upma + PediaSure"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fried Rice (Paneer/Chicken)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Rice + Chara Machh Bhaja + Aloo Sabzi + Daal"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Almond Sooji Laddoo  + Apple + PediaSure"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Rice + Egg Curry"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Aapam + Vegetable Curry + PediaSure"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Chikki + Pomegranate"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Tamarind Rice with Peanuts / Chicken Pulao + Cucumber Raita"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Bhel + Apple + PediaSure"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Ragi Dosa with Grated Carrots + Cabbage Chutney + Fruit Custard"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Idli + Sambar + Chutney + PediaSure with Dates"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "Fruit Chaat (Apple, Banana, Orange, Roasted Pumpkin Seeds)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Rice + Amaranth Daal / Chicken Gravy + Thick Buttermilk"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Fresh Strawberries PediaSure with Ice Cream"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "Wheat Dosa + Gobi Matar Curry + Curd"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "Digestive Issues",
+      "image": "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/ts/20220708075422/ri/750/src/images/Article_Images/ImageForArticle_22799_16572812576525563.jpg",
+      "benefits": [
+        "digestive"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 serving Berry-Kefir Smoothie"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1/2 cup raspberries"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 serving Green Salad with Edamame & Beets"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 medium bell pepper, cut into stripse,1/4 cup Avocado-Yogurt Dip"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 serving Chicken with Spinach & Tomato Orzo Salad"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 serving Creamy Blueberry-Pecan Overnight Oatmeal"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup blackberries"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 serving Kale Salad with Quinoa & Chicken"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 (15 oz.) bottle kombuch,1 clementinea"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 serving Roasted Root Veggies & Greens over Spiced Lentils"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 slice whole-wheat bread, toasted,1 Tbsp natural peanut butter,1 medium banana, sliced"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1/2 cup raspberries"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 serving Roasted Veggie & Hummus Pita Pockets"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 medium apple"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 serving Honey-Garlic Salmon,1/2 cup Easy Brown Rice,2 Tbsp. vinaigrette or salad dressing of your choice"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 serving White Bean & Avocado Toast,1/2 cup raspberries"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 clementine,10 almonds"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "serving Kimchi Shrimp Cup of Noodles"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1/2 cup blackberries"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 serving Spaghetti Squash & Chicken with Avocado Pesto"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 serving Creamy Blueberry-Pecan Overnight Oatmeal"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1/2 cup blackberries"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 serving Kale Salad with Quinoa & Chicken"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 medium bell pepper, cut into strips,1 serving Avocado-Yogurt Dip"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 serving Vegetarian Black Bean & Quinoa Burrito Bowls"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 serving Berry-Kefir Smoothie"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1/2 cup raspberries"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 serving Roasted Veggie & Hummus Pita Pockets"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 clementine"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 serving Stuffed Sweet Potato with Hummus Dressing"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 slice whole-wheat bread, toasted,1 Tbsp natural peanut butter,1 medium banana, sliced"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 medium apple"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 serving Kimchi Shrimp Cup of Noodles,3 medium celery stalks,1 serving Avocado-Yogurt Dip"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 clementine,10 almonds"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 serving Lemony Linguine with Spring Vegetables"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "Stay Fit",
+      "image": "https://www.cprcertificationcourses.com/wordpress/wp-content/uploads/2017/03/3-10-7-Simple-Steps-to-Being-a-Fashion-Model-and-Icon-2.jpg",
+      "benefits": [
+        "fit"
+      ],
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "One grapefruit,Two poached eggs (or fried in a non-stick pan),One slice 100% whole wheat toast"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "One banana,1 cup plain yogurt with 1 tablespoon honey"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "6 ounces grilled chicken breast,Large garden salad (3 cups mixed greens with 1 cup cherry tomatoes, 1/4 avocado, topped with 2 tablespoons balsamic vinaigrette)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup (about 10) baby carrots,3 tablespoons hummus,1/2 piece of pita bread"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup steamed broccoli,1 cup of brown rice,Halibut (4-ounce portion)"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "One whole-wheat English muffin with 2 tablespoons peanut butter,One orange"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "One 7-ounce container 2% plain Greek yogurt with 1/2 cup blueberries"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Turkey sandwich (6 ounces of turkey breast meat, large tomato slice, green lettuce, 1/4 avocado, and 2 teaspoons honey mustard on two slices of whole wheat bread)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup (about 30) grapes"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "5-ounce sirloin steak,One roasted sweet potato,1 cup cooked spinach (made with 2 teaspoons olive oil),1 cup green beans"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Overnight Oats (one mashed banana, 2 tablespoons chia seeds, 1/2 cup oats, 1 cup almond milk, 1 teaspoon cinnamon)"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "One fresh pear,1 ounce (22) almonds"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "One fried egg,One slice whole wheat bread,1/2 avocado, mashed,1 medium apple"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "3 tablespoons hummus,1 cup baby carrots,1 cup cherry tomatoes"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "One slice tomato, two leaves lettuce, one slice onion,One whole wheat english muffin,5-ounce turkey burger"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "Two slices 100% whole wheat toast with 2 tablespoons peanut butter,One banana"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup grapes,1 ounce (14) walnuts"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Tuna wrap with one wheat flour tortilla, 1/2 can water-packed tuna (drained), 1 tablespoon mayonnaise, lettuce, and sliced tomato,1/2 sliced avocado"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup cottage cheese (1% fat)"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 1/2 cups whole wheat pasta,Small garden salad (1 cup mixed greens with one half cup cherry tomatoes topped with one tablespoon balsamic vinaigrette)"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "One whole wheat bagel,3 tablespoons cream cheese"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup baby carrots,1 cup cauliflower pieces,2 tablespoons ranch dressing"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Veggie burger,Whole grain bun,One slice cheddar cheese,One sliced apple"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "One banana,2 tablespoons peanut butter"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup steamed green beans,1 cup brown rice,4 ounces trout filet"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "One (7-ounce) container of 2% Greek yogurt,One banana,One hard-boiled egg"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "10 whole wheat pretzel twists,3 tablespoons hummus"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "One whole wheat tortilla,4 ounces turkey,One slice cheddar cheese,1 tablespoon honey mustard,1 cup mixed greens"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1/2 ounce (11) almonds,One fresh peach"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "5 ounces pork loin,Small garden salad with 1 tablespoon vinaigrette,1 medium baked sweet potato,5 asparagus spears"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1 cup cooked oatmeal,1/2 cup blueberries,1/2 cup non-fat milk,2 tablespoons almond butter"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "One (7-ounce) container 2% Greek yogurt,One sliced apple"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "6-ounce baked chicken breast,Large garden salad with tomatoes and onions and 2 tablespoons balsamic vinaigrette,One baked sweet potato"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup raw broccoli florets,1 cup baby carrots,3 tablespoons hummus"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "4-ounce serving of baked or grilled salmon,1 cup brown rice,Five asparagus spears"
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "favorite": [
@@ -1623,308 +3257,716 @@
         ]
       },
       "phone": "+919441805250"
+    },
+    {
+      "id": "89be",
+      "category": "workout",
+      "title": "Bye Yoga",
+      "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg",
+      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
+      "phone": "+918770147315"
+    },
+    {
+      "id": "8118",
+      "category": "diet",
+      "title": "Weight Loss",
+      "image": "https://media.istockphoto.com/id/1372798207/photo/a-woman-with-belly-with-excess-fat-and-toned-slim-stomach-with-abs-before-and-after-losing.jpg?s=612x612&w=0&k=20&c=ll1S4FDYWlH4IePLO_Ep8jst34V4rm324W0vXnm7MbY=",
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "6:30 AM",
+                "diet": "Cucumber Detox Water (1 glass), Oats Porridge in Skimmed Milk (1 bowl)"
+              },
+              {
+                "time": "8:00 AM",
+                "diet": "Mixed Nuts (25 grams)"
+              },
+              {
+                "time": "12:00 PM",
+                "diet": "Skimmed Milk Paneer (100 grams)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Mixed Vegetable Salad (1 katori),Dal(1 katori)Gajar Matar Sabzi (1 katori)"
+              },
+              {
+                "time": "2:10 PM",
+                "diet": "Roti (1 roti/chapati)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Cut Fruits (1 cup) Buttermilk (1 glass)"
+              },
+              {
+                "time": "5:30 PM",
+                "diet": "Tea with Less Sugar and Milk (1 teacup)"
+              },
+              {
+                "time": "8:50 PM",
+                "diet": "Mixed Vegetable Salad (1 katori),Dal (1 katori) Lauki Sabzi (1 katori)"
+              },
+              {
+                "time": "9:00 PM",
+                "diet": "Roti (1 roti/chapati)"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "6:30 AM",
+                "diet": "Cucumber Detox Water (1 glass)"
+              },
+              {
+                "time": "8:00 AM",
+                "diet": "Curd (1.5 katori) Mixed Vegetable Stuffed Roti (2 pieces)"
+              },
+              {
+                "time": "12:00 PM",
+                "diet": "Skimmed Milk Paneer (100 grams)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Mixed Vegetable Salad (1 katori)"
+              },
+              {
+                "time": "2:10 PM",
+                "diet": "Lentil Curry (0.75 bowl) Methi Rice (0.5 katori)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Apple (0.5 small (2-3/4″ dia)) Buttermilk (1 glass)"
+              },
+              {
+                "time": "5:30 PM",
+                "diet": "Coffee with Milk and Less Sugar (0.5 tea cup)"
+              },
+              {
+                "time": "8:50 PM",
+                "diet": "Mixed Vegetable Salad (1 katori),Sauteed Vegetables with Paneer (1 katori) Roti (1 roti/chapati) "
+              },
+              {
+                "time": "9:00 PM",
+                "diet": "Green Chutney (2 tablespoon)"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "6:30 AM",
+                "diet": "Cucumber Detox Water (1 glass)"
+              },
+              {
+                "time": "8:00 AM",
+                "diet": "Skim Milk Yoghurt (1 cup (8 fl oz)) Multigrain Toast (2 toast)"
+              },
+              {
+                "time": "12:00 PM",
+                "diet": "Skimmed Milk Paneer (100 grams)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Mixed Vegetable Salad (1 katori),Sauteed Vegetables with Paneer (1 katori) Roti (1 roti/chapati)"
+              },
+              {
+                "time": "2:10 PM",
+                "diet": "Green Chutney (2 tablespoon)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Banana (0.5 small (6″ to 6-7/8″ long)) Buttermilk (1 glass)"
+              },
+              {
+                "time": "5:30 PM",
+                "diet": "Tea with Less Sugar and Milk (1 teacup)"
+              },
+              {
+                "time": "8:50 PM",
+                "diet": "Mixed Vegetable Salad (1 katori)"
+              },
+              {
+                "time": "9:00 PM",
+                "diet": "Lentil Curry (0.75 bowl) Methi Rice (0.5 katori)"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "6:30 AM",
+                "diet": "Cucumber Detox Water (1 glass),Fruit and Nuts Yogurt Smoothie (0.75 glass) "
+              },
+              {
+                "time": "8:00 AM",
+                "diet": "Egg Omelette (1 serve(one egg))"
+              },
+              {
+                "time": "12:00 PM",
+                "diet": "Skimmed Milk Paneer (100 grams)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Mixed Vegetable Salad (1 katori),Green Gram Whole Dal Cooked (1 katori) Bhindi sabzi (1 katori) "
+              },
+              {
+                "time": "2:10 PM",
+                "diet": "Roti (1 roti/chapati)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Orange (1 fruit (2-5/8″ dia)) Buttermilk (1 glass)"
+              },
+              {
+                "time": "5:30 PM",
+                "diet": "Coffee with Milk and Less Sugar (0.5 teacup)"
+              },
+              {
+                "time": "8:50 PM",
+                "diet": "Mixed Vegetable Salad (1 katori)"
+              },
+              {
+                "time": "9:00 PM",
+                "diet": "Palak Chole (1 bowl) Steamed Rice (0.5 katori)"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "6:30 AM",
+                "diet": "Cucumber Detox Water (1 glass)"
+              },
+              {
+                "time": "8:00 AM",
+                "diet": "Skimmed Milk (1 glass) Peas Poha (1.5 katori)"
+              },
+              {
+                "time": "12:00 PM",
+                "diet": "Skimmed Milk Paneer (100 grams)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Mixed Vegetable Salad (1 katori)"
+              },
+              {
+                "time": "2:10 PM",
+                "diet": "Low Fat Paneer Curry (1.5 katori) Missi Roti (1 roti)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Papaya (1 cup 1″ pieces) Buttermilk (1 glass)"
+              },
+              {
+                "time": "5:30 PM",
+                "diet": "Tea with Less Sugar and Milk (1 teacup)"
+              },
+              {
+                "time": "8:50 PM",
+                "diet": "Mixed Vegetable Salad (1 katori),Curd (1.5 katori) Aloo Baingan Tamatar Ki Sabzi (1 katori) "
+              },
+              {
+                "time": "9:00 PM",
+                "diet": "Roti (1 roti/chapati)"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "6:30 AM",
+                "diet": "Cucumber Detox Water (1 glass)"
+              },
+              {
+                "time": "8:00 AM",
+                "diet": "Mixed Sambar (1 bowl) Idli (2 idli)"
+              },
+              {
+                "time": "12:00 PM",
+                "diet": "Skimmed Milk Paneer (100 grams)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Mixed Vegetable Salad (1 katori),Curd (1.5 katori) Aloo Baingan Tamatar Ki Sabzi (1 katori) "
+              },
+              {
+                "time": "2:10 PM",
+                "diet": "Roti (1 roti/chapati)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Cut Fruits (1 cup) Buttermilk (1 glass)"
+              },
+              {
+                "time": "5:30 PM",
+                "diet": "Coffee with Milk and Less Sugar (0.5 tea cup)"
+              },
+              {
+                "time": "8:50 PM",
+                "diet": "Mixed Vegetable Salad (1 katori),Green Gram Whole Dal Cooked (1 katori)Bhindi sabzi (1 katori)"
+              },
+              {
+                "time": "9:00 PM",
+                "diet": "Roti (1 roti/chapati)"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "6:30 AM",
+                "diet": "Cucumber Detox Water (1 glass)"
+              },
+              {
+                "time": "8:00 AM",
+                "diet": "Besan Chilla (2 cheela) Green Garlic Chutney (3 tablespoon)"
+              },
+              {
+                "time": "12:00 PM",
+                "diet": "Skimmed Milk Paneer (100 grams)"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "Mixed Vegetable Salad (1 katori)"
+              },
+              {
+                "time": "2:10 PM",
+                "diet": "Palak Chole (1 bowl) Steamed Rice (0.5 katori)"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "Apple(0.5 small (2-3/4″ dia)) Buttermilk (1 glass)"
+              },
+              {
+                "time": "5:30 PM",
+                "diet": "Tea with Less Sugar and Milk (1 teacup)"
+              },
+              {
+                "time": "8:50 PM",
+                "diet": "Mixed Vegetable Salad (1 katori)"
+              },
+              {
+                "time": "9:00 PM",
+                "diet": "Low Fat Paneer Curry (1 katori) Missi Roti (1 roti)"
+              }
+            ]
+          }
+        ]
+      },
+      "phone": "+918770147315"
+    },
+    {
+      "id": "3b8e",
+      "category": "workout",
+      "title": "SIRSASANA",
+      "image": "https://cdn.shopify.com/s/files/1/0077/7587/9266/files/kopfstand-yoga_600x600.jpg?v=1631703732",
+      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
+      "phone": "+918770147315"
+    },
+    {
+      "id": "1844",
+      "category": "workout",
+      "title": "SARVANGASANA",
+      "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/shoulderstand.jpg",
+      "video": "https://www.youtube.com/embed/g3wvIPXZ-Qo?si=Gu1DwKWKdczwyhmy",
+      "phone": "+918770147315"
+    },
+    {
+      "id": "3ec0",
+      "category": "workout",
+      "title": "PASCIMOTHANASANA",
+      "image": "https://www.harithayogshala.com/upload/blog/steps-benefits-paschimottanasana-seated-forward-bend-pose_1580800401.jpg",
+      "video": "https://www.youtube.com/embed/_eWWLp3Dc_I?si=lm_VoCC6hF016gU9",
+      "phone": "+918770147315"
+    },
+    {
+      "id": "5130",
+      "category": "diet",
+      "title": "Weight Gain",
+      "image": "https://i.pinimg.com/736x/36/1b/49/361b497b4384c63f308f12cd298fa9b7--before-after-body-fitness-transformation.jpg",
+      "routine": {
+        "days": [
+          {
+            "d": "1",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 egg brown bread sandwich + green chutney + 1 cup milk + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup banana shake"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup arhar dal + 1 cup potato curry + 3 chapatti + 1/2 cup rice + 1/2 cup low fat curd + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup strawberry smoothie + 1 cup vegetable poha"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1.5 cup chicken curry + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "2",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "3 onion stuffed parantha + 1 cup curd + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup mango shake"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup moong dal/ chicken curry + 1 cup potato and caulifllower vegetable + 3 chapatti + 1/2 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup pomegranate juice + 2 butter toasted bread"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup beans potato vegetable + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "3",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "3 paneer stuffed besan cheela + green chutney + 1 cup curd + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 apple smoothie with maple syrup"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup masoor dal + 1 cup calocasia + 3 chapatti + 1/2 cup rice + 1 cup low curd + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup tomato soup with bread crumbs + 1 cup aloo chaat"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup carrot peas vegetable +3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "4",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "1.5 cup vegetable bread upma + 1 cup milk + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup ripe banana with 2 tsp ghee"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup rajma curry + 1 cup spinach potato + 3 chapatti + 1/2 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup vegetable juice + 1 cup upma"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1.5 cup parwal vegetable + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "5",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 cucmber potato sandwich + 1 tsp green chutney + 1 orange juice + 3 cshews + 2 walnuts + 4 almonds"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup buttermilk + 1 cup sweet potato chaat "
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup white chana/ fish curry + 3 chapatti + 1/2 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup almond milk + banana "
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup cauliflower potato vegetable + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "6",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "2 cup vegetable poha + 1 cup curd + 3 cashews + 4 almonds + 2 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "2 cups watermelon juice"
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup chana dal + 1 cup bhindi vegetable + 3 chapatti + 1/2 cup rice + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup sprouts salad + 2 potato cheela + green chutney"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup peas mushroom vegetable + 3 chapatti + salad"
+              }
+            ]
+          },
+          {
+            "d": "7",
+            "day": [
+              {
+                "time": "8:00 AM",
+                "diet": "3 vegetable suji cheela + 1 cup strawberry shake + 4 cashews + 4 almonds + 3 walnuts"
+              },
+              {
+                "time": "11:00 AM",
+                "diet": "1 cup coconut water + 1 cup pomegrate "
+              },
+              {
+                "time": "2:00 PM",
+                "diet": "1 cup mix dal + 1 cup soybean curry + 3 chapatti + 1/2 cup curd + salad"
+              },
+              {
+                "time": "4:00 PM",
+                "diet": "1 cup fruit salad + 4 pc vegetable cutlets + green chutney"
+              },
+              {
+                "time": "8:00 PM",
+                "diet": "1 cup karela vegetable + 3 chaptti + salad"
+              }
+            ]
+          }
+        ]
+      },
+      "phone": "+918770147315"
     }
   ],
   "Blogs": [
     {
-      "id": "1",
-      "uname": "abc",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "xyz",
-      "description": "Trying blogs",
-      "phone": "9876543210"
-    },
-    {
-      "id": "2",
-      "uname": "mno",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "Best OF ALL",
-      "description": "This is description",
-      "phone": "9876543210"
-    },
-    {
-      "id": "3",
-      "uname": "pqr",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "LORD ROHAN",
-      "description": "HAS GOOD BEHAVIOUR",
-      "phone": "9876543210"
-    },
-    {
-      "id": "4",
-      "uname": "kyc",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "Hellooadlkfndsf",
-      "description": "This is description",
-      "phone": "9876543210"
-    },
-    {
-      "id": "5",
-      "uname": "opq",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "HELLO BLOG",
-      "description": "BYE BYE BLOG",
-      "phone": "9876543210"
-    },
-    {
-      "id": "6",
-      "uname": "tuv",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "Aakash Blogs",
-      "description": "Best BLOGS",
-      "phone": "9876543210"
-    },
-    {
-      "id": "7",
-      "uname": "qwe",
-      "dnt": " 7th Jan 2024 14:56PM",
-      "title": "hii",
-      "description": "hii everyone",
-      "phone": "9876543210"
-    },
-    {
-      "id": "8",
-      "title": "hello",
-      "description": "this is test post",
-      "dnt": "1/27/2024, 6:49:40 PM",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "9",
-      "title": "hii",
-      "description": "this is test post 2",
-      "dnt": "1/27/2024, 6:49:59 PM",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "10",
-      "title": "hello again",
-      "description": "this is test post 3",
-      "dnt": "1/27/2024, 6:52:35 PM",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "11",
-      "title": "hi again",
-      "description": "this is test post for updating",
-      "dnt": "1/28/2024, 12:16:53 PM(Edited)",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "12",
-      "title": "First Blog",
-      "description": "Hi All;\n\nThis is my blog.\n\nThanks ",
-      "dnt": "29/1/2024, 4:06:11 pm(Edited)",
-      "uname": "Rohan",
+      "id": 1,
+      "title": "Fitness for maintain a body",
+      "description": "Today, more than ever, there is a enewed focus and awareness on health and fitness. People are truly beginning to understand how exercise not only helps your body, but your mind too. As a result, people are looking for more information on their journey to good health. But how do you find the right place to get quality information on health and fitness? There are a lot of blogs out there, and not all of them provide  the best or most reliable information.\n\nIn this digital age, there’s no better place than the internet for finding the answers you need. Fitness apps, videos, and influencers can be a great source of information, but there’s one resource which can be a massive help: fitness blogs. If you’re a fitness business owner, you can learn a thing or two from the way some of the best fitness blogs package their content and engage with the reader. In this article, we’ll take a look at some key blogging statistics, what makes a successful fitness blog, and 12 fitness blogs you need to follow right now.\n\nIn private coaching, we focus on your specific goals, dive deep into your unique story, and tailor our sessions to whatever it is you want and need.\n\n I’ve been a highly sensitive, empathic, and creative person from a very young age, and was always writing poetry, painting, singing, and dancing. But by eighteen, my world became flat with depression. I viewed nature as nothing more than decoration, and I lost contact with myself and my body, which made it impossible to utilize my creativity fully and with an open heart.\n\nAt twenty-two, I was living a seemingly  normal  life: I worked at a job I didn't like, I was friends with people I couldn’t be myself with, and I dated people I didn’t feel connected to. But somewhere inside there was a voice (one that spoke to me in feelings rather than words) saying over and over that there was another way. That there was another way to live, to love, and to express myself. That there was something more to life than what I’d been conditioned to think.To be fair, they’re often not consciously aware of how much fear they carry, or how that fear impacts them day-to-day. After all, they know (and love) plenty of wonderful and trustworthy men who would never threaten or hurt a woman, and they recognize how unfair it would be to let a few “bad apples” spoil the bunch, as it were.\n\nTo sum up, a diet rich in diversity (aiming for 30 plant points a week) has been shown to help boost and support your mental health, as well as bring a whole host of other benefits! So let's take a look at how we can include the magic of the Med in our diet.\n\nThe truth is, when it comes to bloating, there is no silver bullet. It would be great to find the one supplement/tea/food to eliminate, which also functions as a cure-all. However, the reality is that the causes of bloating are often complex. But the good news is that there are a series of simple diet and lifestyle changes backed by science that can put an end to the suffering.",
+      "dnt": "16/2/2024, 07:35:30 am",
+      "uname": "Sruti",
       "phone": "+918770147315"
     },
     {
-      "id": "13",
-      "title": "Second Blog",
-      "description": "Hii,\n  \nThis is my second blog.",
-      "dnt": "29/1/2024, 4:09:43 pm",
+      "id": 2,
+      "title": "The Body Coach for muscle",
+      "description": "Today, more than ever, there is a renewed focus and awareness on health and fitness. People are truly beginning to understand how exercise not only helps your body, but your mind too. As a result, people are looking for more information on their journey to good health. But how do you find the right place to get quality information on health and fitness? There are a lot of blogs out there, and not all of them provide the best or most reliable information.\n\nIn this digital age, there’s no better place than the internet for finding the answers you need. Fitness apps, videos, and influencers can be a great source of information, but there’s one resource which can be a massive help: fitness blogs. If you’re a fitness business owner, you can learn a thing or two from the way some of the best fitness blogs package their content and engage with the reader. In this article, we’ll take a look at some key blogging statistics, what makes a successful fitness blog, and 12 fitness blogs you need to follow right now.\n\nIn private coaching, we focus on your specific goals, dive deep into your unique story, and tailor our sessions to whatever it is you want and need.\n\nI’ve been a highly sensitive, empathic, and creative person from a very young age, and was always writing poetry, painting, singing, and dancing. But by eighteen, my world became flat with depression. I viewed nature as nothing more than decoration, and I lost contact with myself and my body, which made it impossible to utilize my creativity fully and with an open heart.\n\nAt twenty-two, I was living a seemingly  normal  life: I worked at a job I didn't like, I was friends with people I couldn’t be myself with, and I dated people I didn’t feel connected to. But somewhere inside there was a voice (one that spoke to me in feelings rather than words) saying over and over that there was another way. That there was another way to live, to love, and to express myself. That there was something more to life than what I’d been conditioned to think.To be fair, they’re often not consciously aware of how much fear they carry, or how that fear impacts them day-to-day. After all, they know (and love) plenty of wonderful and trustworthy men who would never threaten or hurt a woman, and they recognize how unfair it would be to let a few “bad apples” spoil the bunch, as it were.\n\nTo sum up, a diet rich in diversity (aiming for 30 plant points a week) has been shown to help boost and support your mental health, as well as bring a whole host of other benefits! So let's take a look at how we can include the magic of the Med in our diet.\n\nThe truth is, when it comes to bloating, there is no silver bullet. It would be great to find the one supplement/tea/food to eliminate, which also functions as a cure-all. However, the reality is that the causes of bloating are often complex. But the good news is that there are a series of simple diet and lifestyle changes backed by science that can put an end to the suffering.",
+      "dnt": "16/2/2024, 07:35:30 am",
+      "uname": "vaishnavi",
+      "phone": "+9199660 04795"
+    },
+    {
+      "id": 3,
+      "title": "Born fitness journey",
+      "description": "I’m writer, speaker, and coach on a mission to help folks escape the suffering caused by body image issues, through the pursuit of body neutrality.\n\n With the rise of mainstream body positivity, I thought we had finally found a cure for body hatred, insecurity, anxiety, obsession, and dysmorphia! Suffering from body image issues myself, I was beyond excited. But here we are over a decade later, and body image issues are more widespread and dangerous than ever.\n\nThrough my own personal journey, and thousands of hours coaching others, I've discovered that trying to  love your body  is not only unrealistic or even impossible for most of us, but it actually tends to make us feel even worse about ourselves, too.That's why I guide my clients to body neutrality instead.\n\nThrough private and group coaching over Zoom and Voxer, I help folks from all over the world to feel the way they previously thought could only be felt by achieving a certain kind of body: confident, secure, safe, empowered, connected, happy, and worthy.\n\nWhen not coaching, writing, or creating content, you can find me napping, riding my OneWheel, enjoying the golden age of television, or snuggling with my cat Walden.\n\nMy job is to help you identify your underlying root cause for body image suffering, and then take away its reason for existing, using a method I've created called the Body Neutrality Blueprint.My struggle with body acceptance started in middle school, when I compared myself to a popular girl and realized for the first time that I didn’t look anything like her. My cheeks were rounder and bigger, my chin was less defined, and my ears stuck out.\n\n From then on, I compared myself to others constantly: my face, my body, even my behavior. And it always seemed to me that they were better; that they were “good enough,” and I was not.\n\nAs a society, nobody really teaches us to celebrate our uniqueness, and in fact it’s often legitimately unsafe for us to be our true selves. Depending on where you grow up, the punishment for authentic self-expression can be anything from chronic shame to violence or execution. So most of us never felt safe enough to try, and never had the chance to bloom into ourselves. Most of us were never encouraged to hold our differences with reverence and awe, instead of comparison and judgment.\n\nA healthy diet can encourage the growth of the hippocampus, which is involved in regulating emotions and memory. This was illustrated in an 11-year study published in 2018. Participants who had a typical Western diet (high in processed food and red meat) had a smaller hippocampus on average than those who had a healthier, plant-rich diet.",
+      "dnt": "16/2/2024, 12:15:30 pm",
       "uname": "Rohan",
-      "phone": "+918770147315"
+      "phone": "+91 99679 90416"
     },
     {
-      "id": "14",
-      "title": "test",
-      "description": "this is test post",
-      "dnt": "1/30/2024, 12:25:51 AM",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
+      "id": 4,
+      "title": "The Runner Beans",
+      "description": "Today, more than ever, there is a renewed focus and awareness on health and fitness. People are truly beginning to understand how exercise not only helps your body, but your mind too. As a result, people are looking for more information on their journey to good health. But how do you find the right place to get quality information on health and fitness? There are a lot of blogs out there, and not all of them provide the best or most reliable information.\n\nIn this digital age, there’s no better place than the internet for finding the answers you need. Fitness apps, videos, and influencers can be a great source of information, but there’s one resource which can be a massive help: fitness blogs. If you’re a fitness business owner, you can learn a thing or two from the way some of the best fitness blogs package their content and engage with the reader. In this article, we’ll take a look at some key blogging statistics, what makes a successful fitness blog, and 12 fitness blogs you need to follow right now.\n\nIn private coaching, we focus on your specific goals, dive deep into your unique story, and tailor our sessions to whatever it is you want and need.\n\nI’ve been a highly sensitive, empathic, and creative person from a very young age, and was always writing poetry, painting, singing, and dancing. But by eighteen, my world became flat with depression. I viewed nature as nothing more than decoration, and I lost contact with myself and my body, which made it impossible to utilize my creativity fully and with an open heart.\n\nAt twenty-two, I was living a seemingly  normal  life: I worked at a job I didn't like, I was friends with people I couldn’t be myself with, and I dated people I didn’t feel connected to. But somewhere inside there was a voice (one that spoke to me in feelings rather than words) saying over and over that there was another way. That there was another way to live, to love, and to express myself. That there was something more to life than what I’d been conditioned to think.To be fair, they’re often not consciously aware of how much fear they carry, or how that fear impacts them day-to-day. After all, they know (and love) plenty of wonderful and trustworthy men who would never threaten or hurt a woman, and they recognize how unfair it would be to let a few “bad apples” spoil the bunch, as it were.\n\nTo sum up, a diet rich in diversity (aiming for 30 plant points a week) has been shown to help boost and support your mental health, as well as bring a whole host of other benefits! So let's take a look at how we can include the magic of the Med in our diet.\n\nThe truth is, when it comes to bloating, there is no silver bullet. It would be great to find the one  supplement/tea/food to eliminate, which also functions as a cure-all. However, the reality is that the causes of bloating are often complex. But the good news is that there are a series of simple diet and lifestyle changes backed by science that can put an end to the suffering.",
+      "dnt": "16/2/2024, 16:45:20 pm",
+      "uname": "Vaishnavi",
+      "phone": "+9199660 04795"
     },
     {
-      "id": "15",
-      "title": "test 2",
-      "description": "ok lets see how it is working",
-      "dnt": "1/30/2024, 12:26:33 AM",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "16",
-      "title": "test 3",
-      "description": "kjlkjljl",
-      "dnt": "1/30/2024, 12:27:58 AM",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "17",
-      "title": "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
-      "description": "hello everyone",
-      "dnt": "1/30/2024, 4:19:48 PM(Edited)",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "18",
-      "title": "testing ",
-      "description": "admin's 1st blog",
-      "dnt": "2/10/2024, 2:23:33 PM",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "19",
-      "title": "test2",
-      "description": "2nd blog",
-      "dnt": "2/10/2024, 2:24:57 PM",
-      "uname": "vaishnavi",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "20",
-      "title": "lets see",
-      "description": "hiii",
-      "dnt": "2/10/2024, 2:39:09 PM(Edited)",
-      "uname": "abc",
-      "phone": "+919441805250"
-    },
-    {
-      "id": "21",
-      "title": "admin",
-      "description": "admins blog",
-      "dnt": "2/10/2024, 2:46:26 PM",
-      "uname": "vaishnavi",
-      "phone": "+919441805250"
+      "id": 5,
+      "title": "Finding the right gym",
+      "description": "Whether I’m exploring my local area or I’m away on a trip, I’ve often spot Crunch Fitness gyms in the wild. And with over 400 locations in the U.S., many recognize the logos and have peered through he club’s glass windows.\n\nThat’s why Crunch Fitness’ website falls more in line with what you might expect an enterprise site to look like. However, there are still some features that help it to stand out. For example, take its emphasis on customer-centricity. The homepage lists the gym’s four “crunchisms” that highlight a commitment to positivity, inclusion, and crushing goals.\n\nAlso notable is the site’s navigation. Despite its array of offerings and locations, the website carefully structures its pages to guide visitors exactly to where they want, whether it’s a membership, personal or group training, or classes.What we like: Crunch Fitness prominently features free trial options. If you offer a similar opportunity, make sure people can learn about trials on your site.\n\nThough you could call it a simple WordPress-WooCommerce site, the design shows an appreciation for space and attention to detail that visitors will expect and enjoy.\n\nSeveral pages on this website begin with full-width videos that lull users into the site’s experience. Then, the inviting copy helps us get to know Juliet, her mission, and where we can sign up to learn more. Those looking for more value can read the blog containing dozens of articles centered on wellness and mindfulness.\n\nLike the bent-over row, the chest-supported row involves multiple upper-back muscles — primarily the latissimus dorsi (lats), trapezius (traps), and rhomboids. Your lats, which are the largest back muscles, are the main mover during any row variation. Meanwhile, your traps help stabilize your scapula, and the rhomboids play an important role in shoulder stabilization.\n\n“I keep coming back to the Sweat Challenge because it gives me an opportunity to renew my goals, refocus and a sense of excitement to see the kind of progress I can make in 42 days, says Gloria, a busy mum of two and business owner. Sweat Challenges are a reminder for me that I am important, too!”\n\nDuring the Sweat Challenge, you could follow your favourite trainers on Instagram for updates, exercise demos and all sorts of motivational talks and tips to help you feel motivated, informed and ready to achieve your goals. For Kayla and Kelsey, this challenge held plenty of significance as it was an opportunity to bring a whole new fitness experience.\n\n This Sweat Challenge was so important to me because it was my Bootcamp Challenge!  Kayla says, reminiscing on some amazing memories.I used to run bootcamps all over the world and have thousands and thousands of girls there working out and if you couldn’t do the bootcamp we would record it so you could do it at home.\n\n Prioritising your MENTAL and emotional health is always at the forefront of my fitness messaging and mission,  Kelsey shared when her program was announced. Each week, she taught one of her favourite mindfulness practices to complete alongside the strength workouts.\n\nWhether you’ve tried a new training style, started a new habit or discovered motivation you didn’t know you had, your achievements are amplified when you share them with women going through a similar journey!",
+      "dnt": "16/2/2024, 18:55:20 pm",
+      "uname": "Muthulakshmi",
+      "phone": "+917845637452"
     }
   ],
   "Comments": [
     {
-      "blogId": "13",
-      "uname": "Sruti",
-      "dnt": "29/1/2024, 4:09:43 pm",
-      "comment": "Add some content to this blog.",
-      "id": "bef6"
+      "blogId": 1,
+      "uname": "Vaishnavi",
+      "dnt": "17/2/2024, 09:20:43 am",
+      "comment": "Nice to hear your stories and what struggle you are facing i am also looking forward to stay a fit and healthy life"
     },
     {
-      "id": "b8fb",
-      "blogId": "13",
+      "blogId": 1,
       "uname": "Rohan",
-      "dnt": "29/1/2024, 5:23:39 pm",
-      "comment": "Hii"
+      "dnt": "17/2/2024, 11:08:23 am",
+      "comment": "Thank you for your kind words to lead the healthy life"
     },
     {
-      "id": "8521",
-      "blogId": "13",
-      "uname": "Rohan",
-      "dnt": "29/1/2024, 5:57:33 pm",
-      "comment": "Hellolo"
+      "blogId": 1,
+      "uname": "Muthulakshmi",
+      "dnt": "18/2/2024, 20:10:53 pm",
+      "comment": "Such a beautiful article to read"
     },
     {
-      "id": "b35b",
-      "blogId": "12",
-      "uname": "Rohan",
-      "dnt": "29/1/2024, 5:57:53 pm",
-      "comment": "Hiii"
+      "blogId": 1,
+      "uname": "Asmitha",
+      "dnt": "19/2/2024, 08:27:43 am",
+      "comment": "I'm following your fitness studio workouts and nutrinist"
     },
     {
-      "id": "1bae",
-      "blogId": "13",
-      "uname": "Rohan",
-      "dnt": "29/1/2024, 6:04:45 pm",
-      "comment": "Hey"
+      "blogId": 1,
+      "uname": "Keerthana",
+      "dnt": "20/2/2024, 14:30:43 pm",
+      "comment": "we are also maintaining your diet plans it's good for kids also"
     },
     {
-      "id": "0ef4",
-      "blogId": "11",
-      "uname": "xyz",
-      "dnt": "1/30/2024, 12:17:50 AM",
-      "comment": "hiii"
+      "blogId": 2,
+      "uname": "Rohit",
+      "dnt": "17/2/2024, 11:45:43 am",
+      "comment": "I Reduce the number of reps or decrease my weight load. When it feels easier, now I'm add more!"
     },
     {
-      "id": "8ef6",
-      "blogId": "11",
-      "uname": "vaishnavi",
-      "dnt": "1/30/2024, 12:18:38 AM",
-      "comment": "hey",
-      "phone": "+919966004795"
+      "blogId": 2,
+      "uname": "Jeena",
+      "dnt": "18/2/2024, 12:45:43 pm",
+      "comment": "Pleasant to read your article"
     },
     {
-      "id": "0b5d",
-      "blogId": "11",
-      "uname": "vaishnavi",
-      "dnt": "1/30/2024, 12:22:05 AM",
-      "comment": "how is your day?",
-      "phone": "+919966004795"
+      "blogId": 2,
+      "uname": "Teja",
+      "dnt": "19/2/2024, 15:14:33 pm",
+      "comment": "it's too motivating for me,nice!"
     },
     {
-      "id": "5b32",
-      "blogId": "13",
-      "uname": "vaishnavi",
-      "dnt": "1/30/2024, 1:19:28 PM",
-      "comment": "hii",
-      "phone": "+919966004795"
+      "blogId": 2,
+      "uname": "Kumaran",
+      "dnt": "19/2/2024, 17:39:33 pm",
+      "comment": "Thank you for this article"
     },
     {
-      "id": "2ca8",
-      "blogId": "17",
-      "uname": "vaishnavi",
-      "dnt": "1/30/2024, 4:20:31 PM",
-      "comment": "add more",
-      "phone": "+919966004795"
+      "blogId": 2,
+      "uname": "sathish",
+      "dnt": "19/2/2024, 15:14:33 pm",
+      "comment": "Good to prctice too more in fitness"
     },
     {
-      "id": "179f",
-      "blogId": "17",
-      "uname": "vaishnavi",
-      "dnt": "2/1/2024, 11:55:42 PM",
-      "comment": "lets see",
-      "phone": "+919966004795"
+      "blogId": 3,
+      "uname": "Pradeep",
+      "dnt": "16/2/2024, 18:14:33 pm",
+      "comment": "Thank you for this if it helps then i will post again this"
     },
     {
-      "id": "195a",
-      "blogId": "17",
-      "uname": "vaishnavi",
-      "dnt": "2/1/2024, 11:56:34 PM",
-      "comment": "let's test",
-      "phone": "+919966004795"
+      "blogId": 3,
+      "uname": "Meera",
+      "dnt": "17/2/2024, 19:18:33 pm",
+      "comment": "it's too motivating"
     },
     {
-      "id": "19d9",
-      "blogId": "17",
-      "uname": "vaishnavi",
-      "dnt": "2/1/2024, 11:58:07 PM",
-      "comment": "ok",
-      "phone": "+919966004795"
+      "blogId": 3,
+      "uname": "Karthick",
+      "dnt": "18/2/2024, 09:10:15 am",
+      "comment": "Thank you so much..!"
     },
     {
-      "id": "befb",
-      "blogId": "21",
-      "uname": "vaishnavi",
-      "dnt": "2/10/2024, 2:48:34 PM",
-      "comment": "testing admin comments",
-      "phone": "+919441805250"
+      "blogId": 3,
+      "uname": "Prem",
+      "dnt": "18/2/2024, 18:14:33 pm",
+      "comment": "we are following your workouts it's too help full"
     },
     {
-      "id": "ea1b",
-      "blogId": "20",
-      "uname": "vaishnavi",
-      "dnt": "2/10/2024, 2:49:07 PM",
-      "comment": "testing admin comments in blogs",
-      "phone": "+919441805250"
+      "blogId": 3,
+      "uname": "Vaishnavi",
+      "dnt": "19/2/2024, 10:20:15 am",
+      "comment": "good for something do it in a better way"
     },
     {
-      "id": "0d54",
-      "blogId": "21",
-      "uname": "abc",
-      "dnt": "2/10/2024, 2:53:42 PM",
-      "comment": "test user",
-      "phone": "+919441805250"
+      "blogId": 4,
+      "uname": "Uma",
+      "dnt": "17/2/2024, 09:25:43 am",
+      "comment": "Nice to hear your stories and what struggle you are facing i am also looking forward to stay a fit and healthy life"
     },
     {
-      "id": "5fad",
-      "blogId": "20",
-      "uname": "abc",
-      "dnt": "2/10/2024, 2:54:05 PM",
-      "comment": "testing user comments",
-      "phone": "+919441805250"
+      "blogId": 4,
+      "uname": "Harish",
+      "dnt": "17/2/2024, 11:19:23 am",
+      "comment": "Thank you for your kind words to lead the healthy life"
+    },
+    {
+      "blogId": 4,
+      "uname": "Aravind",
+      "dnt": "18/2/2024, 21:15:53 pm",
+      "comment": "Such a beautiful article to read"
+    },
+    {
+      "blogId": 4,
+      "uname": "Hemalini",
+      "dnt": "19/2/2024, 08:20:43 am",
+      "comment": "I'm following your fitness studio workouts and nutrinist"
+    },
+    {
+      "blogId": 4,
+      "uname": "Sonali",
+      "dnt": "20/2/2024, 14:22:43 pm",
+      "comment": "we are also maintaining your diet plans it's good for kids also"
+    },
+    {
+      "blogId": 5,
+      "uname": "Rahul",
+      "dnt": "17/2/2024, 11:11:20 am",
+      "comment": "Nice to hear your stories to big achieve something in fitness"
+    },
+    {
+      "blogId": 5,
+      "uname": "Geetha",
+      "dnt": "17/2/2024, 18:20:43 pm",
+      "comment": "Good to prctice too more in fitness"
+    },
+    {
+      "blogId": 5,
+      "uname": "Anil Sharma",
+      "dnt": "18/2/2024, 12:15:13 pm",
+      "comment": "Thank you for motivating to who are all above age of 50's"
+    },
+    {
+      "blogId": 5,
+      "uname": "Satya",
+      "dnt": "19/2/2024, 11:14:43 am",
+      "comment": "Lead a better life to way us"
+    },
+    {
+      "blogId": 5,
+      "uname": "Anitha",
+      "dnt": "19/2/2024, 21:20:43 pm",
+      "comment": "I'm following your fitness studio workouts and nutrinist"
     }
   ],
   "BMIChart": [
@@ -1934,7 +3976,7 @@
       "height": "180",
       "BMI": "24.7",
       "date": "29/11/2023",
-      "id": "9bfa"
+      "id": "9acc"
     },
     {
       "phone": "+919966004795",
@@ -1942,7 +3984,7 @@
       "height": "180",
       "BMI": "27.8",
       "date": "12/12/2023",
-      "id": "6e06"
+      "id": "4730"
     },
     {
       "phone": "+919966004795",
@@ -1950,7 +3992,7 @@
       "height": "180",
       "BMI": "21.6",
       "date": "23/12/2023",
-      "id": "1916"
+      "id": "f7ab"
     },
     {
       "phone": "+919966004795",
@@ -1958,7 +4000,7 @@
       "height": "180",
       "BMI": "18.5",
       "date": "2/1/2024",
-      "id": "b20c"
+      "id": "f2ea"
     },
     {
       "phone": "+919966004795",
@@ -1966,56 +4008,85 @@
       "height": "180",
       "BMI": "20.1",
       "date": "13/1/2024",
-      "id": "5fb5"
+      "id": "c922"
     },
     {
       "phone": "+919876543210",
       "weight": "65",
       "height": "180",
       "BMI": "20.1",
-      "id": "70df",
-      "title": "Aakash Blogs",
-      "description": "Best BLOGS"
+      "date": "13/1/2024",
+      "id": "b1ab"
     },
     {
-      "id": "5f20",
-      "phone": "+919966004795",
-      "weight": 23,
-      "height": 123,
-      "BMI": "15.20",
-      "date": "2/9/2024"
+      "id": "9960",
+      "phone": "+918770147315",
+      "weight": 87,
+      "height": 167,
+      "BMI": "31.20",
+      "date": "2/2/2024"
     },
     {
-      "id": "9622",
-      "phone": "+919966004795",
-      "weight": 60,
-      "height": 157,
-      "BMI": "24.34",
-      "date": "2/10/2024"
+      "id": "2de2",
+      "phone": "+918770147315",
+      "weight": "56",
+      "height": "156",
+      "BMI": "23.01",
+      "date": "3/2/2024",
+      "mssg": "normal weight"
     },
     {
-      "id": "6763",
-      "phone": "+919966004795",
-      "weight": 60,
-      "height": 157,
-      "BMI": "24.34",
-      "date": "2/10/2024"
+      "id": "5963",
+      "phone": "+918770147315",
+      "weight": "67",
+      "height": "115",
+      "BMI": "50.66",
+      "date": "1/0/2/2024",
+      "mssg": "obese"
     },
     {
-      "id": "6942",
-      "phone": "+919441805250",
-      "weight": 23,
-      "height": 123,
-      "BMI": "15.20",
-      "date": "2/10/2024"
+      "id": "00a0",
+      "phone": "+918770147315",
+      "weight": "75",
+      "height": "165",
+      "BMI": "27.55",
+      "date": "2/2/2/2024",
+      "mssg": "over weight"
     },
     {
-      "id": "4288",
-      "phone": "+919441805250",
-      "weight": 23,
-      "height": 123,
-      "BMI": "15.20",
-      "date": "2/10/2024"
+      "id": "5e9a",
+      "phone": "+918770147315",
+      "weight": "71",
+      "height": "165",
+      "BMI": "26.08",
+      "date": "1/7/2/2024",
+      "mssg": "over weight"
+    },
+    {
+      "id": "55b7",
+      "phone": "+918770147315",
+      "weight": "45",
+      "height": "180",
+      "BMI": "13.89",
+      "date": "1/5/2/2024",
+      "mssg": "under weight"
+    },
+    {
+      "id": "1407",
+      "phone": "+918770147315",
+      "weight": "45",
+      "height": "124",
+      "BMI": "29.27",
+      "date": "2/1/2/2024",
+      "mssg": "over weight"
+    },
+    {
+      "id": "9fcd",
+      "phone": "+918770147315",
+      "weight": "70",
+      "height": "180",
+      "BMI": "21.60",
+      "date": "1/8/2/2024"
     }
   ]
 }

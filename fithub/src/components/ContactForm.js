@@ -8,7 +8,7 @@ import WhatsApp from '../components/WhatsApp'
 
 
 const ContactForm = () => {
-    const form = useRef();
+    const form = useRef(); 
 
   const sendEmail = (e) => {
     e.preventDefault();

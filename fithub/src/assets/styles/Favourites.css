@@ -1,0 +1,12 @@
+.favourites
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.FImage{
+    height: 350px;
+    width: 400px;
+    border-bottom: 2px white solid;
+}

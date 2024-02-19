@@ -1,0 +1,43 @@
+.StartBtn
+{
+  background-color: blue;
+  color:white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 55px;
+  border: none;
+}
+
+.otherbtn
+{
+  background-color: blue;
+  color:white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+}
+
+.react-chatbot-kit-chat-message-container {
+ width:380px;
+ background-color: white;
+}
+
+.react-chatbot-kit-chat-header {
+  width:390px;
+}
+
+.react-chatbot-kit-chat-input-form {
+  width:390px;
+  background-color: yellow;
+}
+
+.react-chatbot-kit-chat-input-container {
+  width:600px;
+  background-color: aqua;
+}
+
+.react-chatbot-kit-chat-input {
+ 
+}
+

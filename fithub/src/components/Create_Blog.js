@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import CreateBlogsCard from "./Create_blogs_card";
+import '../assets/styles/CreateBlogs.css'
 const CreateBlog=()=>{
 
     const [data, setData] = useState([])
@@ -24,6 +25,8 @@ const CreateBlog=()=>{
         let uname=details.userid
         let phone=details.phoneno
         let id=parseInt(data1[data1.length-1].id)+1;
+       if(title.length>0 && description.length>0)
+       {
         let newpost = {
             id:id.toString(),
             title:title,
@@ -42,22 +45,28 @@ const CreateBlog=()=>{
         .catch((err)=> console.log(err))
         alert(`blog posted sucessfully`)
         window.location.reload();
+       }
     }
     
     
 
    
-    return(<>
-            <h1>Create Blogs</h1>
-            <div>
-            <p><input type="text" placeholder="Enter your title" onChange={(e)=> setTitle(e.target.value)}/></p>
-            <textarea placeholder="Enter your description" onChange={(e)=> setDescription(e.target.value)} style={{height:"300px", width:"900px"}}></textarea>
-            <p><button onClick={Post}> Create/Post</button></p>
-            </div>
-        {
+    return(<div>
+    <div className="main" >
+
+     {
             [...data1].reverse().filter((temp)=>temp.phone===details.phoneno).map((temp)=> <CreateBlogsCard title={temp.title} description={temp.description} dnt={temp.dnt} uname={temp.uname} id={temp.id} />)
         }
-    </>)
+
+           <div className="text">
+            <h1 style={{marginLeft:"40px", marginTop:"10px"}}>New Post</h1>
+            <input type="text" placeholder="Enter your title" onChange={(e)=> setTitle(e.target.value)} className="editTitle" style={{border:"black 1px solid", marginRight:"40px",marginLeft:"40px"}}/> <button onClick={Post}> Post</button> <br/>
+            <textarea placeholder="Enter your description" onChange={(e)=> setDescription(e.target.value)} style={{height:"300px", width:"900px", border:"black 1px solid", marginLeft:"40px", marginBottom:"10px"}}></textarea>
+            </div>
+
+    </div> 
+           
+    </div>)
 
 }
 

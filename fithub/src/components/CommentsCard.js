@@ -45,7 +45,7 @@ const CommentsCard=(props)=> {
   },[props.uname]);
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth:"70%", height:"auto", marginTop:"20px", }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: color }} aria-label="recipe">
@@ -56,7 +56,7 @@ const CommentsCard=(props)=> {
         subheader={props.dnt}
       />
       <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="black" marginLeft={"52px"}>
           {props.comment}
         </Typography>
       </CardContent>

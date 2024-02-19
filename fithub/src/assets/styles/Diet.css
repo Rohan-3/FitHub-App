@@ -1,0 +1,72 @@
+.Alldiet{
+    display: flex;
+    flex-direction: row ;
+   flex-wrap:wrap;
+   justify-content: space-evenly;
+}
+
+.DietImage
+{
+    height: 350px;
+    width: 400px;
+    border-bottom: 2px white solid;
+}
+
+.DietContent{
+    text-align:center;
+     font-size:auto;
+}
+
+.dietTable
+{
+    position: absolute;
+    left: 27%;
+    top:23%;
+}
+
+.dietTable td,th{
+   
+    border: 1px solid black;
+    height: 40px;
+}
+
+.dietcol
+{
+    width: 650px;
+    text-align: center;
+}
+
+.timecol{
+  width:85px;
+  text-align: center;
+}
+
+.dietRow{
+    height: 15px;
+    border: 1px solid black;
+}
+
+.prev{
+
+    position:absolute;
+    left:0;
+}
+
+.next{
+   position: absolute;
+   right: 0;
+}
+
+.dietButton
+{
+    display: flex;
+}
+
+.prev,.next{
+    margin-top: 15px;
+}
+
+.days
+{
+    text-align: center;
+}

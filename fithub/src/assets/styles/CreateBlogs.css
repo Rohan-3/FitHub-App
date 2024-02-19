@@ -1,0 +1,52 @@
+
+.main{
+    width:100%;
+    height:auto;
+    position: absolute;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    position: relative; left:5%;
+    margin-top: 40px;
+    border: 1px solid black;
+    max-width: 80%;
+    background: radial-gradient(827px at 47.3% 48%, rgb(255, 255, 255) 0%, rgb(190, 225, 240) 90%);
+    margin-bottom: 20px;
+}
+
+.commentsInput{
+    width:67%;
+    height: 40px;
+    
+}
+
+.cInputCont{
+    position: relative;
+    top:0;
+    left: 1.2%;
+}
+
+.cButton{
+    margin-left: 20px;
+}
+
+.editTitle{
+
+    height: 40px;
+    width: 900px;
+    margin-bottom: 25px;
+
+}
+
+.editText{
+
+    height: 300px;
+    width: 900px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
