@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 let linkStyle = { color: 'white', textDecoration:'none'}
 
-export default function BlogsMenu(props) {
+export default function AboutMenu(props) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
@@ -84,8 +84,8 @@ export default function BlogsMenu(props) {
                     onKeyDown={handleListKeyDown}
                     style={{color:"white", backgroundColor:"rgb(20, 20, 20)", display:"flex", flexDirection:"column"}}
                   >
-                 <Link to="/blogs" style={linkStyle}> <MenuItem onClick={handleClose}>{props.op1}</MenuItem></Link>  
-                  <Link to="/create_blog" style={linkStyle}><MenuItem onClick={handleClose}>{props.op2}</MenuItem></Link>  
+                 <Link to="/about" style={linkStyle}> <MenuItem onClick={handleClose}>{props.op1}</MenuItem></Link>  
+                  <Link to="/founders" style={linkStyle}><MenuItem onClick={handleClose}>{props.op2}</MenuItem></Link>  
                   </MenuList>
                 </ClickAwayListener>
               </Paper>

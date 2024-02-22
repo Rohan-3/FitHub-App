@@ -6,7 +6,9 @@
       "image": "https://yogajala.com/wp-content/uploads/2022/02/savasana-blanket-under-knees.webp",
       "video": "https://www.youtube.com/embed/ogaDPQ85508?si=NWcsIO1893gHeV3U",
       "description": "Shavasan, also known as the Corpse Pose, is a relaxation pose that helps in reducing stress, calming the mind, and promoting a sense of tranquility.",
-      "benefits":["underweight"],
+      "benefits": [
+        "underweight"
+      ],
       "id": "c833"
     },
     {
@@ -15,7 +17,9 @@
       "image": "https://cdn.shopify.com/s/files/1/0077/7587/9266/files/kopfstand-yoga_600x600.jpg?v=1631703732",
       "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
       "description": "excellent for improving concentration, increasing memory, and transforming libido into powerful life force",
-      "benefits":["underweight"],
+      "benefits": [
+        "underweight"
+      ],
       "id": "c745"
     },
     {
@@ -24,7 +28,9 @@
       "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/shoulderstand.jpg",
       "video": "https://www.youtube.com/embed/g3wvIPXZ-Qo?si=Gu1DwKWKdczwyhmy",
       "description": "This asana strengthens the entire body; it gives many of the benefits of the Headstand, but here the circulation is directed to the thyroid gland instead of the head.",
-      "benefits":["underweight"],
+      "benefits": [
+        "underweight"
+      ],
       "id": "28c4"
     },
     {
@@ -33,7 +39,9 @@
       "image": "https://i0.wp.com/pixahive.com/wp-content/uploads/2021/02/Halasana-Plough-pose-357653-pixahive.jpg?fit=2560%2C1684&ssl=1",
       "video": "https://www.youtube.com/embed/qpuY0jXimtQ?si=ZHkeUqcSOpd6naLH",
       "description": "It stretches the back of the body completely which invigorates the entire spine. It also loosens tight hamstrings.",
-      "benefits":["underweight"],
+      "benefits": [
+        "underweight"
+      ],
       "id": "cff7"
     },
     {
@@ -42,7 +50,9 @@
       "image": "https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/matsyasana-in-yoga.jpg",
       "video": "https://www.youtube.com/embed/V7V4TEfCx-s?si=EJfwJJlA2HP4Hlpa",
       "description": " it is very effective in correcting any tendency to round the shoulders as well as helping to tone the nerves of the neck and the back area.",
-      "benefits":["yoga"],
+      "benefits": [
+        "yoga"
+      ],
       "id": "6bb8"
     },
     {
@@ -51,8 +61,43 @@
       "image": "https://www.harithayogshala.com/upload/blog/steps-benefits-paschimottanasana-seated-forward-bend-pose_1580800401.jpg",
       "video": "https://www.youtube.com/embed/_eWWLp3Dc_I?si=lm_VoCC6hF016gU9",
       "description": "helps to counter the typical postural problems developed working a desk job by keeping the spine supple, the joints mobile, the internal organs toned, and the nervous system invigorated.",
-      "benefits":["underweight"],
+      "benefits": [
+        "underweight"
+      ],
       "id": "ad4e"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Jumping jacks",
+      "image": "https://www.squareboxfitness.com/wp-content/uploads/2015/11/Jumping-Jacks-popsugar.jpg",
+      "video": "https://www.youtube.com/embed/nGaXj3kkmrU?si=HAie_vZFJXphLNaY",
+      "description": "strengthen your muscles, improve coordination, and boost your fitness.",
+      "benefits": [
+        "Calisthenics"
+      ],
+      "id": "3e05"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Trunk twists",
+      "image": "https://media1.popsugar-assets.com/files/thumbor/IRQuD6m7VGV8zB6a5N35GwAZDDs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/08/25/861/n/40863086/aad4438e05eb72a9_1Circuit-1Seated-Russian-Twist/i/How-Do-Russian-Twist.jpg",
+      "video": "https://www.youtube.com/embed/GSJ3Xa93gXs?si=qMqWgVn4GkA4lv5q",
+      "description": "improve core strength, stability, flexibility and provide greater spine mobility.",
+      "benefits": [
+        "Calisthenics"
+      ],
+      "id": "a738"
+    },
+    {
+      "category": "Calisthenics",
+      "title": "Push-ups",
+      "image": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg",
+      "video": "https://www.youtube.com/embed/bt5b9x9N0KU?si=CwObEpORWZ8EcggW",
+      "description": "strengthen and tone upper-body muscles, including your chest, triceps, and shoulders.",
+      "benefits": [
+        "Calisthenics"
+      ],
+      "id": "ed33"
     },
     {
       "category": "Calisthenics",
@@ -60,7 +105,9 @@
       "image": "https://www.ironmaster.com/blog-assets/image_1624051891.png",
       "video": "https://www.youtube.com/embed/fO3dKSQayfg?si=_p7HzvkSfb_UpbqE",
       "description": "a good exercise to challenge your arm, shoulder, and back muscles.",
-      "benefits":["Calisthenics"],
+      "benefits": [
+        "Calisthenics"
+      ],
       "id": "6072"
     },
     {
@@ -69,7 +116,9 @@
       "image": "https://bodybuilding-wizard.com/wp-content/uploads/2015/01/chin-up-exercise-12543.jpg",
       "video": "https://www.youtube.com/embed/_71FpEaq-fQ?si=LrQncOJf4np7I5dA",
       "description": "Improvements in grip strength. Improvements to your posture. A lowered chance of upper back pain and shoulder injury. A decreased risk for heart problems, obesity, and other health issues",
-      "benefits":["Calisthenics"],
+      "benefits": [
+        "Calisthenics"
+      ],
       "id": "5426"
     },
     {
@@ -78,7 +127,9 @@
       "image": "https://gethealthyu.com/wp-content/uploads/2014/08/Full-Sit-Up_Exercise.jpg",
       "video": "https://www.youtube.com/embed/UMaZGY6CbC4?si=BJyiyM3QY_med71q",
       "description": "Core strength is one of the biggest motivators for doing situps. Situps build muscle strength in the abdominal and hip muscles.",
-      "benefits":["Calisthenics"],
+      "benefits": [
+        "Calisthenics"
+      ],
       "id": "fb73"
     },
     {
@@ -87,7 +138,9 @@
       "image": "https://hips.hearstapps.com/hmg-prod/images/hdm119918mh15842-1545237096.png?crop=0.668xw:1.00xh;0.117xw,0&resize=1200:*",
       "video": "https://www.youtube.com/embed/pvIjsG5Svck?si=DIuqeWC0MJ1KB4uo",
       "description": " The plank position helps target the core muscles and give them a good burn to build muscle strength.",
-      "benefits":["fit"],
+      "benefits": [
+        "fit"
+      ],
       "id": "ca9b"
     },
     {
@@ -96,7 +149,9 @@
       "image": "https://img.freepik.com/free-photo/young-sporty-woman-doing-crisscross-exercise_1163-5080.jpg",
       "video": "https://www.youtube.com/embed/xdi0SnfdznA?si=Ucdq7KXCj_ZwI5Uw",
       "description": "Challenges pelvic stability and control. Works the obliques which not only helps build a strong core, but also helps define the waist. Challenges your entire core system and breathing mechanics.",
-      "benefits":["fit"],
+      "benefits": [
+        "fit"
+      ],
       "id": "6dbe"
     },
     {
@@ -105,7 +160,9 @@
       "image": "https://www.health.com/thmb/_01xTdMuGrzBjli1m-unlErjIgo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pilates-27bb0ee84f994f7fb370dde3b4cbf37f.jpg",
       "video": "https://www.youtube.com/embed/zTqCd39YcbE?si=1Sqcvblh9OBtftgR",
       "description": "stretches the back and the hamstrings along the back of our legs and is great for improving our posture.",
-      "benefits":["fit"],
+      "benefits": [
+        "fit"
+      ],
       "id": "700b"
     },
     {
@@ -114,7 +171,9 @@
       "image": "https://static.silhouettedonna.it/wp-content/uploads/2016/10/RED.jpg",
       "video": "https://www.youtube.com/embed/tmtLfkpidQc?si=zbzqD6-5t0tdsyQs",
       "description": "Strengthens and tones the arms, seat, and legs. Stretches the achilles tendon. Creates stability and control in the whole body. Lengthens the body from the crown of the head to toes.",
-      "benefits":["fit"],
+      "benefits": [
+        "fit"
+      ],
       "id": "2813"
     },
     {
@@ -123,7 +182,9 @@
       "image": "https://www.sonima.com/wp-content/uploads/2015/12/8C2A7303.jpg",
       "video": "https://www.youtube.com/embed/H46PeYhAuA4?si=XlVYxK4wTqJY-AXf",
       "description": " works the back, abdominals, glutes, hamstrings and inner thighs. It will strengthen the back of the body while stretching out the front of the body, making it a full-body exercise.",
-      "benefits":["fit"],
+      "benefits": [
+        "fit"
+      ],
       "id": "1e14"
     },
     {
@@ -132,7 +193,9 @@
       "image": "https://staticg.sportskeeda.com/editor/2022/06/be28a-16562258511725-1920.jpg",
       "video": "https://www.youtube.com/embed/pNismoYr1Fg?si=Z0Ft3Po0v8TOJfDz",
       "description": "better range of motion in the hips. better body stabilization. use of muscles that aren't usually active in those who sit for prolonged periods each day. improved muscle endurance.",
-      "benefits":["overweight"],
+      "benefits": [
+        "overweight"
+      ],
       "id": "8cde"
     },
     {
@@ -141,7 +204,9 @@
       "image": "https://images.squarespace-cdn.com/content/v1/582b3c8220099eab9d5921b1/a303f742-d7fd-40d5-8ee1-68e01c441615/fitness-expert-performs-a-standard-deadlift-using-mirafit-gym-equipment-1024x683.jpeg",
       "video": "https://www.youtube.com/embed/p2OPUi4xGrM?si=x60M7eIVI72WyUXJ",
       "description": "Deadlifts are a compound exercise that targets multiple muscle groups, including the lower back, hamstrings, and glutes, promoting overall strength and stability.",
-      "benefits":["overweight"],
+      "benefits": [
+        "overweight"
+      ],
       "id": "afbc"
     },
     {
@@ -150,7 +215,9 @@
       "image": "https://images.pexels.com/photos/3837781/pexels-photo-3837781.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3837781.jpg&fm=jpg",
       "video": "https://www.youtube.com/embed/rxD321l2svE?si=TDZKcL13Sest8P6z",
       "description": "The bench press is a classic upper body strength training exercise that primarily works the chest, shoulders, and triceps.",
-      "benefits":["overweight"],
+      "benefits": [
+        "overweight"
+      ],
       "id": "7f1d"
     },
     {
@@ -159,7 +226,9 @@
       "image": "https://st2.depositphotos.com/1017986/8745/i/450/depositphotos_87450846-stock-photo-young-man-flexing-muscles-with.jpg",
       "video": "https://www.youtube.com/embed/8dacy5hjaE8?si=92VhbV6JnoGLDj_8",
       "description": "The overhead press, or shoulder press, is an exercise that targets the deltoid muscles of the shoulder, as well as the triceps and upper back.",
-      "benefits":["overweight"],
+      "benefits": [
+        "overweight"
+      ],
       "id": "0bed"
     },
     {
@@ -168,7 +237,9 @@
       "image": "https://i.pinimg.com/736x/ee/1e/96/ee1e96d7dc9f8b65fcd3b217f283672e.jpg",
       "video": "https://www.youtube.com/embed/3XDriUn0udo?si=t2Prx-bV7OBOGGn_",
       "description": "Lunges are a lower body exercise that targets the quadriceps, hamstrings, and glutes, helping to improve leg strength and stability.",
-      "benefits":["overweight"],
+      "benefits": [
+        "overweight"
+      ],
       "id": "090c"
     },
     {
@@ -177,7 +248,9 @@
       "image": "https://www.shutterstock.com/image-photo/young-woman-doing-exercise-on-600nw-1974427841.jpg",
       "video": "https://www.youtube.com/embed/QENKPHhQVi4?si=d-2wddWMj7ia3PM6",
       "description": "Chest flyes are an isolation exercise that targets the pectoral muscles, helping to develop and define the chest.",
-      "benefits":["obese"],
+      "benefits": [
+        "obese"
+      ],
       "id": "d4df"
     },
     {
@@ -186,7 +259,9 @@
       "image": "https://hips.hearstapps.com/hmg-prod/images/hammer-curls-1581441441.jpg?resize=980:*",
       "video": "https://www.youtube.com/embed/TwD-YGVP4Bk?si=j25CV4vlYS-pJxcQ",
       "description": "Hammer curls are a bicep exercise that targets the brachialis and brachioradialis muscles, contributing to overall arm strength.",
-      "benefits":["obese"],
+      "benefits": [
+        "obese"
+      ],
       "id": "68f1"
     },
     {
@@ -195,7 +270,9 @@
       "image": "https://www.muscleandfitness.com/wp-content/uploads/2014/10/sprinter-workout.jpg?quality=86&strip=all",
       "video": "https://www.youtube.com/embed/QLBT4-iN2yg?si=JeiCRARckRXtE_nN",
       "description": "Sprinting is an explosive cardiovascular exercise that enhances speed, agility, and cardiovascular health.",
-      "benefits":["obese"],
+      "benefits": [
+        "obese"
+      ],
       "id": "8c49"
     },
     {
@@ -204,7 +281,9 @@
       "image": "https://media.istockphoto.com/id/1070069898/photo/silhouette-of-slim-girl-is-jogging-in-foggy-mountains.jpg?s=612x612&w=0&k=20&c=hRpZv-AeEGIKbNFWg8-Ke3BSBBUUjeS_DWVaOy9sXow=",
       "video": "https://www.youtube.com/embed/DxQ0DfoQy38?si=oyaHTt7kqOyYkBz7",
       "description": "Running uphill engages different muscles and adds intensity to your workout. It builds strength in your legs, enhances cardiovascular fitness, and can improve overall running performance.",
-      "benefits":["obese"],
+      "benefits": [
+        "obese"
+      ],
       "id": "3ed4"
     },
     {
@@ -213,7 +292,9 @@
       "image": "https://media.istockphoto.com/id/1328634722/photo/determined-fit-female-athlete-running-on-mountain-against-sky.jpg?s=612x612&w=0&k=20&c=vX33C_sg3osXbUurq1_bqW8vo-1W4_u55aiBDjaoqwg=",
       "video": "https://www.youtube.com/embed/O78pemR9xdM?si=12kZ8inFyiiBkVpF",
       "description": "Interval training involves alternating between high-intensity running and periods of rest or lower intensity. It helps improve cardiovascular fitness, speed, and endurance. Example: 30 seconds sprint followed by 1 minute jog.",
-      "benefits":["obese"],
+      "benefits": [
+        "obese"
+      ],
       "id": "c1c7"
     },
     {
@@ -222,7 +303,9 @@
       "image": "https://assets-global.website-files.com/5ca5fe687e34be0992df1fbe/603dd1763291d9bd431bee19_Burpees--(1)-min-p-500.jpeg",
       "video": "https://www.youtube.com/embed/qLBImHhCXSw?si=4DGucJdX6LUqIBa8",
       "description": "Burpees are a full-body exercise used in HIIT workouts, promoting cardiovascular fitness, strength, and endurance.",
-      "benefits":["HIIT"],
+      "benefits": [
+        "HIIT"
+      ],
       "id": "6c7c"
     },
     {
@@ -231,7 +314,9 @@
       "image": "https://www.usnews.com/object/image/00000165-a584-d161-a57f-edecabba0000/180904-fitness-stock.jpg?update-time=1536080340116&size=responsive640",
       "video": "https://www.youtube.com/embed/ttkq49P_7ds?si=kkqvw1RHZq2slDMY",
       "description": "Tabata is a specific form of HIIT, consisting of 20 seconds of all-out effort followed by 10 seconds of rest, repeated for four minutes. It's a quick but intense workout that can be adapted to various exercises.",
-      "benefits":["HIIT"],
+      "benefits": [
+        "HIIT"
+      ],
       "id": "f5ca"
     },
     {
@@ -240,7 +325,9 @@
       "image": "https://s.yimg.com/ny/api/res/1.2/czxOWjrvsq4OpVdNXL2_6A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://media.zenfs.com/en/real_simple_700/06e320de1c0803c3eb883e142d683eac",
       "video": "https://www.youtube.com/embed/w8ZaOs94_fg?si=gtJWVoJoe3WNapSZ",
       "description": "Bodyweight HIIT workouts are convenient and can be done anywhere. Exercises may include squats, lunges, burpees, and push-ups. The focus is on using your own body as resistance for a challenging workout.",
-      "benefits":["HIIT"],
+      "benefits": [
+        "HIIT"
+      ],
       "id": "307d"
     },
     {
@@ -249,7 +336,9 @@
       "image": "https://www.stylecraze.com/wp-content/uploads/2017/11/15-Best-HIIT-Exercises-For-Women-To-Burn-Fat-And-Be-Fit-Banner.jpg.webp",
       "video": "https://www.youtube.com/embed/_eB3z1mhlBw?si=jj-tKwNsyvmiE6dj",
       "description": "HIIT is known for its effectiveness in burning fat. The high-intensity intervals elevate heart rate and metabolism, promoting fat burning during and after the workout. It also helps preserve muscle mass.",
-      "benefits":["HIIT"],
+      "benefits": [
+        "HIIT"
+      ],
       "id": "e1cc"
     }
   ],
@@ -2646,14 +2735,6 @@
   ],
   "favorite": [
     {
-      "category": "workout",
-      "title": "HALASANA",
-      "image": "https://i0.wp.com/pixahive.com/wp-content/uploads/2021/02/Halasana-Plough-pose-357653-pixahive.jpg?fit=2560%2C1684&ssl=1",
-      "video": "https://www.youtube.com/embed/qpuY0jXimtQ?si=ZHkeUqcSOpd6naLH",
-      "phone": "+919966004795",
-      "id": "1146"
-    },
-    {
       "id": "627b",
       "category": "workout",
       "title": "Shavasan",
@@ -2868,13 +2949,6 @@
       "category": "workout",
       "title": "SIRSASANA",
       "image": "https://cdn.shopify.com/s/files/1/0077/7587/9266/files/kopfstand-yoga_600x600.jpg?v=1631703732",
-      "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
-      "phone": "+919966004795"
-    },
-    {
-      "id": "5bad",
-      "category": "workout",
-      "title": "Bye Yoga",
       "video": "https://www.youtube.com/embed/MwBpxrM2U_M?si=DhK6IKVJU0jIE-rG",
       "phone": "+919966004795"
     },
@@ -3515,6 +3589,14 @@
         ]
       },
       "phone": "+918770147315"
+    },
+    {
+      "id": "1c3e",
+      "category": "workout",
+      "title": "Chin-ups",
+      "image": "https://bodybuilding-wizard.com/wp-content/uploads/2015/01/chin-up-exercise-12543.jpg",
+      "video": "https://www.youtube.com/embed/_71FpEaq-fQ?si=LrQncOJf4np7I5dA",
+      "phone": "+919966004795"
     }
   ],
   "Blogs": [
@@ -3532,7 +3614,7 @@
       "description": "Today, more than ever, there is a renewed focus and awareness on health and fitness. People are truly beginning to understand how exercise not only helps your body, but your mind too. As a result, people are looking for more information on their journey to good health. But how do you find the right place to get quality information on health and fitness? There are a lot of blogs out there, and not all of them provide the best or most reliable information.\n\nIn this digital age, there’s no better place than the internet for finding the answers you need. Fitness apps, videos, and influencers can be a great source of information, but there’s one resource which can be a massive help: fitness blogs. If you’re a fitness business owner, you can learn a thing or two from the way some of the best fitness blogs package their content and engage with the reader. In this article, we’ll take a look at some key blogging statistics, what makes a successful fitness blog, and 12 fitness blogs you need to follow right now.\n\nIn private coaching, we focus on your specific goals, dive deep into your unique story, and tailor our sessions to whatever it is you want and need.\n\nI’ve been a highly sensitive, empathic, and creative person from a very young age, and was always writing poetry, painting, singing, and dancing. But by eighteen, my world became flat with depression. I viewed nature as nothing more than decoration, and I lost contact with myself and my body, which made it impossible to utilize my creativity fully and with an open heart.\n\nAt twenty-two, I was living a seemingly  normal  life: I worked at a job I didn't like, I was friends with people I couldn’t be myself with, and I dated people I didn’t feel connected to. But somewhere inside there was a voice (one that spoke to me in feelings rather than words) saying over and over that there was another way. That there was another way to live, to love, and to express myself. That there was something more to life than what I’d been conditioned to think.To be fair, they’re often not consciously aware of how much fear they carry, or how that fear impacts them day-to-day. After all, they know (and love) plenty of wonderful and trustworthy men who would never threaten or hurt a woman, and they recognize how unfair it would be to let a few “bad apples” spoil the bunch, as it were.\n\nTo sum up, a diet rich in diversity (aiming for 30 plant points a week) has been shown to help boost and support your mental health, as well as bring a whole host of other benefits! So let's take a look at how we can include the magic of the Med in our diet.\n\nThe truth is, when it comes to bloating, there is no silver bullet. It would be great to find the one supplement/tea/food to eliminate, which also functions as a cure-all. However, the reality is that the causes of bloating are often complex. But the good news is that there are a series of simple diet and lifestyle changes backed by science that can put an end to the suffering.",
       "dnt": "16/2/2024, 07:35:30 am",
       "uname": "vaishnavi",
-      "phone": "+9199660 04795"
+      "phone": "+919966004795"
     },
     {
       "id": 3,
@@ -3547,8 +3629,8 @@
       "title": "The Runner Beans",
       "description": "Today, more than ever, there is a renewed focus and awareness on health and fitness. People are truly beginning to understand how exercise not only helps your body, but your mind too. As a result, people are looking for more information on their journey to good health. But how do you find the right place to get quality information on health and fitness? There are a lot of blogs out there, and not all of them provide the best or most reliable information.\n\nIn this digital age, there’s no better place than the internet for finding the answers you need. Fitness apps, videos, and influencers can be a great source of information, but there’s one resource which can be a massive help: fitness blogs. If you’re a fitness business owner, you can learn a thing or two from the way some of the best fitness blogs package their content and engage with the reader. In this article, we’ll take a look at some key blogging statistics, what makes a successful fitness blog, and 12 fitness blogs you need to follow right now.\n\nIn private coaching, we focus on your specific goals, dive deep into your unique story, and tailor our sessions to whatever it is you want and need.\n\nI’ve been a highly sensitive, empathic, and creative person from a very young age, and was always writing poetry, painting, singing, and dancing. But by eighteen, my world became flat with depression. I viewed nature as nothing more than decoration, and I lost contact with myself and my body, which made it impossible to utilize my creativity fully and with an open heart.\n\nAt twenty-two, I was living a seemingly  normal  life: I worked at a job I didn't like, I was friends with people I couldn’t be myself with, and I dated people I didn’t feel connected to. But somewhere inside there was a voice (one that spoke to me in feelings rather than words) saying over and over that there was another way. That there was another way to live, to love, and to express myself. That there was something more to life than what I’d been conditioned to think.To be fair, they’re often not consciously aware of how much fear they carry, or how that fear impacts them day-to-day. After all, they know (and love) plenty of wonderful and trustworthy men who would never threaten or hurt a woman, and they recognize how unfair it would be to let a few “bad apples” spoil the bunch, as it were.\n\nTo sum up, a diet rich in diversity (aiming for 30 plant points a week) has been shown to help boost and support your mental health, as well as bring a whole host of other benefits! So let's take a look at how we can include the magic of the Med in our diet.\n\nThe truth is, when it comes to bloating, there is no silver bullet. It would be great to find the one  supplement/tea/food to eliminate, which also functions as a cure-all. However, the reality is that the causes of bloating are often complex. But the good news is that there are a series of simple diet and lifestyle changes backed by science that can put an end to the suffering.",
       "dnt": "16/2/2024, 16:45:20 pm",
-      "uname": "Vaishnavi",
-      "phone": "+9199660 04795"
+      "uname": "vaishnavi",
+      "phone": "+919966004795"
     },
     {
       "id": 5,
@@ -3562,7 +3644,7 @@
   "Comments": [
     {
       "blogId": 1,
-      "uname": "Vaishnavi",
+      "uname": "vaishnavi",
       "dnt": "17/2/2024, 09:20:43 am",
       "comment": "Nice to hear your stories and what struggle you are facing i am also looking forward to stay a fit and healthy life",
       "id": "f185"
