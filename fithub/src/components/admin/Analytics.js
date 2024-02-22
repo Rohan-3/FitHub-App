@@ -84,6 +84,9 @@ const Analytics = () => {
     // ]
    
   return (
+    <div className='analytics-container'>
+
+    
     <div className='crudPage'>
       <h2>Analytics</h2>
       <div className='numbers'>
@@ -116,11 +119,11 @@ const Analytics = () => {
       data={{
         labels:[""],
         datasets:[
+
           {
             label:"Total",
-            data:[noOfUsers],
-          },
-
+            data:[noOfUsers,noOfBlogs],
+          }
           
         ]
       }}
@@ -164,7 +167,7 @@ const Analytics = () => {
 
 
     </div>
-
+</div>
   )
 }
 

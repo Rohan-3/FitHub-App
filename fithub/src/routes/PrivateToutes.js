@@ -20,12 +20,14 @@ import Favorite from '../components/Favorite'
 import Analytics from '../components/admin/Analytics'
 import BotDiet from '../components/BotDiet'
 
+import Founders from '../components/Founders'
 const PrivateToutes = () => {
   return (
     <div>
     <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/founders' element={<Founders/>}/>
         <Route path='/auth' element={<Auth/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='*' element={<Error404/>}/>

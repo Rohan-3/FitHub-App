@@ -30,7 +30,7 @@ const BlogsMorevert = (props) => {
                 "Content-Type": "application/json"
             }
         });
-        window.location.reload();
+        
         alert(`post deleted sucessfully`)
         handleRemoveClose();
     }

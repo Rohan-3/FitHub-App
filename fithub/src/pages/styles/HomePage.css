@@ -1,0 +1,104 @@
+.aboutSection{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24, 23, 23);
+    color: rgb(255, 255, 255);
+    height: 90vh;
+
+    
+}
+.aboutImg{
+    height: 650px;
+}
+.aboutHome-head{
+    color: #ffffff;
+  
+
+}
+.aboutDecs{
+    margin: 30px;
+    width: 40%;
+    padding: 25px;
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #7fffd4;
+
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+.home-about-btn{
+    background-color: rgba(39, 39, 39, 0);
+    color: #ffffff;
+    text-decoration: none;
+}
+.home-about-btn:hover{
+    color: rgb(227, 227, 227);
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 80px;
+    background-color: #f4f4f4;
+    border-bottom: #000000 1px solid;
+
+}
+.serviceHead{
+color: rgb(23, 23, 23);
+width: 20%;
+border-right: #000000 solid;
+
+}
+.serveQuote{
+    padding-top:20px ;
+    text-align: center;
+    width: 40%;
+
+    position: relative;
+    right: 10%;
+    color: rgb(51, 51, 51);
+
+
+}
+
+.service-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #000000;
+    background-color: #323232;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.serviceImg:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 3px 37px -16px rgba(0, 139, 123, 0.405);
+}
+
+.serviceImg{
+    width: 400px;
+    margin-top: 5px;
+    background-color: #eaeaea;
+    border-radius: 40px;
+}
+.service-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #ffffff;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+
+}

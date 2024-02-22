@@ -85,25 +85,32 @@ const CreateBlogsCard=(props)=> {
     admin?setDetails(admin):setDetails(data)
   },[])
 
- 
 
   const updateok=(id)=>
     {
+      
         let d = new Date();
         let dnt=d.toLocaleString()+"(Edited)";
+        // title:ntitle,description:ndes,dnt:dnt
+
+        let title = ntitle;
+        let description = ndes;
+
+        let updateData = {title,description,dnt}
         fetch(`http://localhost:4000/Blogs/${id}`,{
             method: "PATCH",
             headers: {
                 "Content-Type":"application/json"
             },
-            body:JSON.stringify({
-                title:ntitle,description:ndes,dnt:dnt
-            })
+            body:JSON.stringify(              
+              updateData
+              )
         })
         .then((data)=>data.json())
         .then((data)=>console.log(data))
         .catch((err)=>console.log(err))
-        window.location.reload();
+
+        
     }
 
     const PostComments = ()=>{

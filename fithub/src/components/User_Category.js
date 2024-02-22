@@ -22,7 +22,7 @@ const UserCategory=()=>
     return(<div className="main1">
 
      {
-       data.map((temp)=> <Link className='link' state={{category:temp.category}} to="/user_workout"> <Card sx={{width:"400px", heigth:"400px", marginTop:"40px",backgroundColor:"black", color:"white", boxShadow:"10px 10px 20px rgba(0, 0, 0, 0.5)"}}>
+       data.map((temp)=> <Link className='link' state={{category:temp.category}} to="/user_workout"> <Card className='cardstyle' sx={{width:"400px", heigth:"400px", marginTop:"40px",backgroundColor:"black", color:"white", boxShadow:"2px 2px 7px 0px rgba(0, 0, 0, 0.5)"}}>
        <CardActionArea style={{width:"400px", heigth:"400px"}}>
          {/* <CardMedia
            component="img"

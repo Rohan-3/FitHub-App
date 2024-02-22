@@ -53,15 +53,15 @@ const ContactForm = () => {
         </div>
       </div>
        <div className='wholeForm'>
-       <form className='cform' ref={form} onSubmit={sendEmail}>
-        <label >Enter Name</label><br></br>
-        <input name="user_name" type='text' placeholder='Enter Name'/><br></br><br></br>
-        <label >Enter Email Id</label><br></br>
-        <input name="user_email" type='email' placeholder='Enter Email ID'/><br></br><br></br>
-        <label>Enter Phone no.</label><br></br>
-        <input name='user_phone' type='number' placeholder='Enter Phone Number'/><br></br><br></br>
-        <label>Enter subject.</label><br></br>
-        <input name="message" type='text' placeholder='Enter Subject/Query'/><br></br><br></br>
+       <form className='contact-form' ref={form} onSubmit={sendEmail}>
+        <label className='contact-label' >Enter Name</label><br></br>
+        <input className='contact-input' name="user_name" type='text' placeholder='Enter Name'/><br></br><br></br>
+        <label className='contact-label' >Enter Email Id</label><br></br>
+        <input className='contact-input' name="user_email" type='email' placeholder='Enter Email ID'/><br></br><br></br>
+        <label className='contact-label' >Enter Phone no.</label><br></br>
+        <input className='contact-input' name='user_phone' type='number' placeholder='Enter Phone Number'/><br></br><br></br>
+        <label className='contact-label' >Enter subject.</label><br></br>
+        <input className='contact-input' name="message" type='text' placeholder='Enter Subject/Query'/><br></br><br></br>
         <button type="submit" value="Send"  className='fsubBtn'>Submit</button>
         </form>
        </div>

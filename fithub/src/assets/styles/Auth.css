@@ -1,14 +1,14 @@
 .toogleBtns{
-    position: relative;
-    left: 54%;
-    background-color: white;
+    position: fixed;
+    left: 75%;
     margin-top: 10px;
     margin-bottom: 3em;
+    background-color: aqua;
 }
 
 .registBtn {
     position: absolute;
-    left: 41%;
+    left: -8%;
     border-radius: 0px;
     background-color: white;
     border: 2px solid rgb(164, 255, 115);
@@ -20,6 +20,7 @@
   }
 .loginBtn{
     position: absolute;
+    right: 108%;
     box-shadow: 0px 0px  0px 0px rgba(0,0,0,0);
     width: 200px;
     border-radius: 0px;
@@ -32,10 +33,12 @@
 
 .wholePage{
     display: flex;
+    background-color: rgb(42, 42, 42) ;
+    color: white;
 }
 
 .Aimage{
-    width:50vw;
+    position: relative;
+    width:55vw;
     height: 88vh;
-
 }

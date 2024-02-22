@@ -1,4 +1,18 @@
-.loginPage{
+.main-login{
     position: relative;
-    
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+}
+.phone-Input{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    top: 15%;
+    left: 15%;
+    padding: 30px;
+}
+.send-otp-btn{
+    margin-top: 15px;
 }

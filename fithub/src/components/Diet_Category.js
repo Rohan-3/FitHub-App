@@ -117,20 +117,20 @@ const DietCategory=()=>
         {
           diet.map((temp,index)=>
             //<Link to="/diet" style={{textDecoration:"none"}} state={{routine:temp.routine}}>
-            <Card sx={{width:"400px", heigth:"400px", marginTop:"40px",backgroundColor:"black", color:"white", boxShadow:"10px 10px 20px rgba(0, 0, 0, 0.5)"}} onClick={()=>handlelink(temp)}>
+            <Card sx={{width:"400px", heigth:"350px", marginTop:"30px",backgroundColor:"black", color:"white", boxShadow:"10px 10px 20px rgba(0, 0, 0, 0.5)"}} onClick={()=>handlelink(temp)}>
               {/* <CardMedia
                 component="img"
                 height="194"
                 image={temp.image}
                 alt="Paella dish"
               /> */}
-
+              { temp.isFav ? <MdOutlineFavorite onClick={(e)=>handlefavorite(e,index)} style={{color:"red", position:'relative',left:"90%", top:"10%", fontSize:"xx-large"}} /> : <MdOutlineFavoriteBorder onClick={(e)=>handlefavorite(e,index)} style={{color:"red", position:'relative',left:"90%",top:"10%",fontSize:"xx-large"}} />  } 
                   <img src={temp.image} alt={temp.category} className='DietImage'/>
 
-              <CardContent style={{height:"50px"}}>
-                <h1 style={{position:'relative',top:"0"}}>
+              <CardContent style={{height:"40px"}}>
+                <h1 style={{position:'relative', top:"-50%"}}>
                   <span className='DietContent'>{temp.category}</span>
-                  { temp.isFav ? <MdOutlineFavorite onClick={(e)=>handlefavorite(e,index)} style={{color:"red"}} /> : <MdOutlineFavoriteBorder onClick={(e)=>handlefavorite(e,index)} style={{color:"grey"}} />  } 
+
                 </h1>
               </CardContent>
             </Card>

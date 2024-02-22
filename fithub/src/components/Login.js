@@ -6,14 +6,15 @@ import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
 import { RecaptchaVerifier, signInWithPhoneNumber } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
+import '../assets/styles/Login.css'
 const Login = () => {
 
   const [phone,setPhone] = useState("");
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
   let [flag,setFlag] = useState(false);
-  let admin=[{phoneno:"+919966004795",userid:"vaishnavi"},{phoneno:"+919967990416",userid:"rohan"}]
-  
+  let admin=[{phoneno:"+919966004795",userid:"vaishnavi"}]
+  // ,{phoneno:"+919967990416",userid:"rohan"}
 
   const nav= useNavigate();
 
@@ -82,7 +83,7 @@ const Login = () => {
 
 
   return (
-    <div>
+    <div className='main-login'>
       {
         flag  ? 
         <div>
@@ -99,8 +100,8 @@ const Login = () => {
         </div>
         :
        
-        <div>
-          <h1>Login with your Phone Number</h1>
+        <div className='phone-Input'>
+          <h2>Login with your Phone Number</h2>
           <PhoneInput
             placeholder="Enter phone number"
             country={"in"}
@@ -111,7 +112,7 @@ const Login = () => {
           sendOtp();
         }}
           />
-          <button onClick={sendOtp}>Send OTP</button>
+          <button className='send-otp-btn' onClick={sendOtp}>Send OTP</button>
       
         </div>
 

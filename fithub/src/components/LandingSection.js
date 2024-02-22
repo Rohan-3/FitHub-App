@@ -17,6 +17,8 @@ const LandingSection = () => {
         <div className='content'>
             <h1>Welcome to <span>{typeEffect}</span></h1>
             <p className='intro-para'>"Step into a world of fitness and wellness. Your transformation begins now!"</p>
+        <button className='home-about-btn'>Enquire Now !</button>
+
         </div>
     </div>
     

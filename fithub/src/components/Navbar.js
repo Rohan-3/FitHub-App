@@ -31,6 +31,7 @@ const Navbar = () => {
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/admin' style={linkStyle}>Dashboard</Link>
           <Link to='/about' style={linkStyle}>About</Link>
+          <Link to='/founders' style={linkStyle}>Founders</Link>
           <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
           <Link to='/diet_cat' style={linkStyle}><li>Diet</li></Link> 
           <Link style={linkStyle} ><BlogsMenu title="Blogs" color="white" bgcolor="rgb(20, 20, 20)" op1="Blogs" op2="My Blogs"/></Link>
@@ -43,6 +44,7 @@ const Navbar = () => {
         <ul className='navbar_ul'>  
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
+          <Link to='/founders' style={linkStyle}>Founders</Link>
           <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
           <Link to='/diet_cat'  style={linkStyle}><li>Diet</li></Link> 
           <li ><BlogsMenu title="Blogs" color="white" bgcolor="rgb(20, 20, 20)" op1="Blogs" op2="My Blogs"/></li>
@@ -56,6 +58,7 @@ const Navbar = () => {
         <ul className='navbar_ul'>  
           <Link to='/' style={linkStyle}>Home</Link>
           <Link to='/about' style={linkStyle}>About</Link>
+          <Link to='/founders' style={linkStyle}>Founders</Link>
           <Link to='/auth' onClick={()=>handleAlert("workout")} style={linkStyle}><li>Workout</li></Link>
           <Link to='/auth' onClick={()=>handleAlert("Diet")} style={linkStyle}><li>Diet</li></Link> 
           <Link to='/auth' onClick={()=>handleAlert("blogs")} style={linkStyle}>Blogs</Link>

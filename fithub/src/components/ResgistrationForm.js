@@ -7,10 +7,11 @@ import { auth } from './Firebase';
 import { useRef } from 'react';
 import { RecaptchaVerifier, signInWithPhoneNumber} from 'firebase/auth';
 
+
 const ResgistrationForm = () => {
   
   let [userid,setUserid] = useState("");
-  let [email,setEmail] = useState("");
+  // let [email,setEmail] = useState("");
   let [phone,setPhone] = useState(0);
   let [age,setAge] = useState(0);
   const [otp,setOtp] = useState("");
@@ -23,11 +24,13 @@ const ResgistrationForm = () => {
   let [users,setUsers] = useState(JSON.parse(localStorage.getItem("u"))||[]);
   let [mssg,setMssg] =useState("");
   const myRef = useRef(null);
+  let [flag,setFlag] = useState(false);
+  let [flag2,setFlag2] = useState(true);
   // var recaptchaWidgetId;
 
   const validForm=()=>
   {
-    if(!userid || !email || !phone || !age || !height || !weight )
+    if(!userid || !phone || !age || !height || !weight )
     {
       alert("Please fill all fields");
       return false;
@@ -47,6 +50,8 @@ const ResgistrationForm = () => {
         const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
           console.log(confirmationResult)
           setUser(confirmationResult)
+          setFlag2(false)
+          setFlag(true)
       }
       catch(err)
       {
@@ -152,7 +157,7 @@ const ResgistrationForm = () => {
       }
       else
       {
-        let newuser = {userid,email,phone,age,gender,height,weight,BMI};
+        let newuser = {userid,phone,age,gender,height,weight,BMI};
         setUsers([...users,newuser]);
         localStorage.setItem("u",JSON.stringify([...users,newuser]));
         storeBmi();
@@ -165,16 +170,17 @@ const ResgistrationForm = () => {
 
   return (
     <div>
+    
     <div className='main'>
       <form className='form'>
       <h1 className='register-Header'>Register Here !</h1>
-  <div className='segregate'>
+     <div className='segregate'>
   
       <div className='leftsideForm'>
         <label>Username</label> <br/>
         <input type='text' placeholder='username' required onChange={(e)=>setUserid(e.target.value)}/> <br/>
-        <label>Email</label> <br/>
-        <input type='email' placeholder='email' required onChange={(e)=>setEmail(e.target.value)}/> <br/>
+        {/* <label>Email</label> <br/>
+        <input type='email' placeholder='email' required onChange={(e)=>setEmail(e.target.value)}/> <br/> */}
         
         <label>age</label> <br/>
         <input type='number' placeholder='age' required onChange={(e)=>setAge(e.target.value)}/> <br/>
@@ -184,12 +190,12 @@ const ResgistrationForm = () => {
           <option value="Male" >Male</option>
           <option value="Female">Female</option>
         </select>
-<br></br>
+        <br></br>
         
         
-      </div>
+        </div>
 
-      <div className='rightsideForm'>      
+       <div className='rightsideForm'>      
           <label>height (in cms)</label> <br/>
           <input type='number' placeholder='height in cms' required onChange={(e)=>setHeight(parseInt(e.target.value))}/> <br/>
           <label>weight</label> <br/>
@@ -198,16 +204,10 @@ const ResgistrationForm = () => {
 
           <div className='radioBtn'>
           <label>Phone Number</label> <br/>
-          <PhoneInput
-            placeholder="Enter phone number"
-            country={"in"}
-            value={phone}
-            onChange={setPhone}
-          /> <br/>
-          <div id="recaptcha"></div>
-          <div id="recaptcha-resend"></div>
+          {flag === true ?
+          
           <div>
-            <p>Enter OTP</p>
+          <label>Enter OTP</label>
           <OtpInput
             numInputs={6}
             value={otp}
@@ -217,9 +217,31 @@ const ResgistrationForm = () => {
           />
           <p>{mssg}</p>
           <button type='button' onClick={verifyOtp}>Verify OTP</button>
-          </div> <br/>
-          <button type='button' className='sendOTP' onClick={sendOtp}>Send OTP</button> <br/>
-          <button type='button' className='sendOTP' onClick={resendOtp}>Re-send OTP</button>
+          </div> 
+          : flag === false?
+          <div>
+          <PhoneInput
+            placeholder="Enter phone number"
+            country={"in"}
+            value={phone}
+            onChange={setPhone}
+          /> <br/>
+          <div id="recaptcha"></div>
+          <div id="recaptcha-resend"></div>
+          <div>
+          { flag2 === true ?
+          <div>
+          <button type='button' className='sendOTP' onClick={sendOtp}>Send OTP</button> 
+          </div>: flag2 === false? <button type='button' className='sendOTP' onClick={resendOtp}>Re-send OTP</button> 
+          : <button type='button' className='sendOTP' onClick={sendOtp}>Send OTP</button>  }
+          <br/>
+          </div>
+          </div>
+          : null
+           }
+          
+          
+          
             
             </div>
             

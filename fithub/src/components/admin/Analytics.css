@@ -1,3 +1,6 @@
+.analytics-container{
+    background-color: rgb(27, 27, 27);
+}
 .numbers{
     display: flex;
     justify-content: center;

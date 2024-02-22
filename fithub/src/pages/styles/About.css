@@ -1,0 +1,85 @@
+.container{
+    text-align: center;
+    font-size: 22px;
+    font-style: oblique;
+    background-color:#2a2a2a;
+    color: white;
+    padding: 10px;
+
+}
+.container-text{
+    width: 70%;
+    position: relative;
+    bottom: 30px;
+    left: 15%;
+    text-align: center;
+}
+
+.img{
+    width: 210vh;
+    height: 80vh ;
+
+}
+.about-head{
+    position: relative;
+    top: -1%;
+    padding: 20px;
+    background-color:#2a2a2a;
+
+    color: white;
+}
+.about-head-line{
+    padding: 25px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.p{
+    text-align: center;
+    justify-content: center;
+}
+.video{
+    width: 210vh;
+    height: 80vh;
+}
+.lcontainer{
+    position: relative;
+    top: -1%;
+    text-align: center;
+    font-size: 22px;
+    font-style: oblique;
+    background-color:#2a2a2a;
+
+    color: white;
+    padding: 15px;
+
+}
+.lcontainer-text{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    text-align: center;
+}
+.column-container {
+  width: 100%; /* Adjust the width of the container */
+  background-color:#2a2a2a;
+
+  color: white;
+}
+
+.column-text {
+    /* Optionally, you can style the text within the columns */
+    font-size: 30px;
+    line-height: 1.5;
+}
+.img1{
+    width: 32.9vw;
+    height: 350px;
+    
+}
+.img2{
+    width: 32.9vw;
+    height: 350px;
+    display: flex;
+    
+}

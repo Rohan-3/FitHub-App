@@ -48,3 +48,7 @@
     position: relative;
     top:3%;
 }
+
+.cardstyle:hover{
+    box-Shadow:10px 10px 20px rgba(0, 0, 0, 0.5)
+}

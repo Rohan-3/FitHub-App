@@ -62,7 +62,7 @@ const addInfo =()=>{
             categoryId:selectedCategory._id,
             category:selectedCategory.category,
             title:title,
-            imageurl2:imageurl2,
+            image:imageurl2,
             video:vidUrl,
             description:description
         })
@@ -105,7 +105,7 @@ const addInfo =()=>{
           id:id,
           category:category,
           title:title,
-          imageurl2:imageurl2,
+          image:imageurl2,
           video:vidUrl,
           description:description
         })
@@ -207,9 +207,9 @@ const updateCategory =(id)=>{
     <>
     <div className='crudPage'>
     <div className='crudcategory'>
-   <h2> Category :</h2> <input className='winputs' type='number' placeholder='WorkOut Id' onChange={(e)=> setId(e.target.value)} />
-    <input className='winputs' type='text' placeholder='Category Name' onChange={(e)=> setCategory(e.target.value)} />
-    <input className='winputs' type='text' placeholder='Image Url' onChange={(e)=> setImageurl(e.target.value)} />
+   <h2> Category :</h2> <input className='workout-crud-input' type='number' placeholder='WorkOut Id' onChange={(e)=> setId(e.target.value)} />
+    <input className='workout-crud-input'  type='text' placeholder='Category Name' onChange={(e)=> setCategory(e.target.value)} />
+    <input  className='workout-crud-input'  type='text' placeholder='Image Url' onChange={(e)=> setImageurl(e.target.value)} />
     <br></br>
     <button className='crudcategorybtn' onClick={postWorkoutCategory}>Add Category</button>
     <button className='crudcategorybtn' onClick={removeCategory}>Delete Category</button>
@@ -220,7 +220,7 @@ const updateCategory =(id)=>{
 
     {/* <label>Select Category</label>  */}
 
-    <select className='selecInput' name="category" id="category" >
+    <select className='workout-crud-input' name="category" id="category" >
     {categoryList.map((temp)=> {
         return (
             <option onClick={()=>setSelectedCategory(temp)}>{temp.category}</option>
@@ -229,10 +229,10 @@ const updateCategory =(id)=>{
   
     </select>
     <br></br>
-    <input className='winputs' type='text' placeholder='Title'  onChange={(e)=> setTitle(e.target.value)}  />
-    <input className='winputs' type='text' placeholder='Video URL' onChange={(e)=> setVidUrl(e.target.value)}  /> <br></br>
-    <input className='winputs' type='text' placeholder='Image URL' onChange={(e)=> setImageurl2(e.target.value)}  />
-    <input className='winputs' type='text' placeholder='Description' onChange={(e)=> setDescription(e.target.value)}  />
+    <input className='workout-crud-input' type='text' placeholder='Title'  onChange={(e)=> setTitle(e.target.value)}  />
+    <input className='workout-crud-input' type='text' placeholder='Video URL' onChange={(e)=> setVidUrl(e.target.value)}  /> <br></br>
+    <input className='workout-crud-input' type='text' placeholder='Image URL' onChange={(e)=> setImageurl2(e.target.value)}  />
+    <input className='workout-crud-input' type='text' placeholder='Description' onChange={(e)=> setDescription(e.target.value)}  />
     <br></br>
     <br></br>
     <button className='crudInfobtn' onClick={addInfo}> Add Info</button>

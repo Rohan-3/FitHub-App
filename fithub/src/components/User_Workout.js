@@ -128,22 +128,23 @@ const UserWorkout=()=>
 
     {
       work.map((temp,index)=>
-        <Card sx={{width:"450px", marginTop:"40px",backgroundColor:"black", color:"white", boxShadow:"10px 10px 20px rgba(0, 0, 0, 0.5)"}} onClick={()=>handlelink(temp)}>
-          <CardActionArea style={{height:"450px"}}>
+        <Card  sx={{width:"450px", marginTop:"40px",backgroundColor:"black", color:"white", boxShadow:"10px 10px 20px rgba(0, 0, 0, 0.5)"}} 
+        onClick={()=>handlelink(temp)}>
+          <CardActionArea style={{height:"465px"}}>
             {/* <CardMedia
               component="img"
               height="300"
               image={temp.image}
               alt=""
             /> */}
-  
+            <span> { temp.isFav ? <MdOutlineFavorite onClick={(e)=>handlefavorite(e,index)} style={{color:"red", position:'relative',left:"90%", top:"10%", fontSize:"xx-large"}} /> : <MdOutlineFavoriteBorder onClick={(e)=>handlefavorite(e,index)} style={{color:"red", position:'relative',left:"90%",top:"10%",fontSize:"xx-large"}} />  }
+                </span>
               <img src={temp.image} alt={temp.category} className='Image2'/>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" >
                 <div className='content1'>
                 <div className='Title'>{temp.title} 
-                <span> { temp.isFav ? <MdOutlineFavorite onClick={(e)=>handlefavorite(e,index)} style={{color:"red"}} /> : <MdOutlineFavoriteBorder onClick={(e)=>handlefavorite(e,index)} style={{color:"white"}} />  }
-                </span>
+                
                </div>
                 </div>
               </Typography>
