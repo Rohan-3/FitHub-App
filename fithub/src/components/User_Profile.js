@@ -174,7 +174,13 @@ const UserProfile=()=>
                             <div>{details?details.userid:null}<MdEdit onClick={()=>setFlag(true)}/></div>
                             :
                             <div><input type="text" value={uname} onChange={(e)=>setUname(e.target.value)} style={{width:"150px"}} /><MdDone onClick={handleUserName} /></div>}
-                        </li>
+                        </li><br/>
+                        <li>
+                            <Link to='/user'>User</Link>
+                        </li><br/>
+                        <li>
+                            <Link to='/favorite'>Favorite</Link>
+                        </li><br/>
                         <li>
                             <Link to='/auth' onClick={handleUserLogout} style={{textDecoration:"none", color:"black"}}>Logout<FiLogOut/></Link>
                         </li>
