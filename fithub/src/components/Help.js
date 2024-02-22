@@ -34,19 +34,20 @@ const Help=(props)=>
     return(<>
     
     <div style={{display:'flex'}}>
-        <button className="StartBtn" onClick={workouts} disabled={disbablebtn}>Workout</button>
+        <button className="otherbtn" onClick={workouts} disabled={disbablebtn}>Workout</button>
         <button className="otherbtn" onClick={diet} disabled={disbablebtn}>Diet</button>
     </div>
-    <div style={{marginLeft:"75px",marginTop:"25px"}}>
-        <table border="1px solid">
+    <div style={{marginLeft:"53px",marginTop:"10px"}}>
+        <table>
         {flag1 &&
     w.map((temp) => (
       <tr key={temp.video}>
-        <td>
+        <td style={{border:"1px solid blueviolet", backgroundColor:"#f5c7f7", borderRadius:"5px", padding:"5px", width:"200px", textAlign:"center", fontWeight:"bolder", marginBottom:"10px"}}>
           <a
             href={temp.video}
             target="_blank"
             rel="noopener noreferrer"
+            style={{color:"blueviolet"}}
           >
             {temp.title}
           </a>
@@ -55,10 +56,10 @@ const Help=(props)=>
     ))}
         </table>
     </div>
-    <div style={{marginLeft:"75px",marginTop:"25px"}}>
-      <table border="1px solid">
+    <div style={{marginLeft:"53px",marginTop:"10px"}}>
+      <table  >
         {
-          flag2?d.map((temp)=>{ store(temp.routine); return <tr><td><Link to="http://localhost:3000/botdiet" target="_blank" >{temp.category}</Link></td></tr>}) :null
+          flag2?d.map((temp)=>{ store(temp.routine); return <tr><td style={{border:"1px solid blueviolet", borderRadius:"5px", padding:"5px", width:"200px", textAlign:"center", fontWeight:"bolder", backgroundColor:"#f5c7f7"}}><Link to="http://localhost:3000/botdiet" target="_blank" style={{color:"blueviolet"}} >{temp.category}</Link></td></tr>}) :null
         }
       </table>
       

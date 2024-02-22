@@ -4,7 +4,7 @@
   color:white;
   border-radius: 20px;
   padding: 10px;
-  margin-left: 55px;
+  margin-left: 65px;
   border: none;
 }
 
@@ -12,32 +12,38 @@
 {
   background-color: blue;
   color:white;
+  width: 80px;
+  height: auto;
   border-radius: 20px;
-  padding: 10px;
-  margin-left: 10px;
-  border: none;
+  margin-left: 55px;
 }
 
-.react-chatbot-kit-chat-message-container {
- width:380px;
- background-color: white;
+.react-chatbot-kit-chat-container {
+width:468px !important;
 }
 
-.react-chatbot-kit-chat-header {
-  width:390px;
+.react-chatbot-kit-chat-bot-message {
+
+  margin-left: 7px !important;
+
 }
 
-.react-chatbot-kit-chat-input-form {
-  width:390px;
-  background-color: yellow;
+.react-chatbot-kit-user-chat-message{
+
+  background-color: #42dee1 !important;
+  color:black !important;
+
 }
 
-.react-chatbot-kit-chat-input-container {
-  width:600px;
-  background-color: aqua;
+.react-chatbot-kit-user-chat-message-arrow{
+
+  border-left: 8px solid #42dee1 !important;
+
 }
 
-.react-chatbot-kit-chat-input {
- 
-}
+
+
+
+
+
 

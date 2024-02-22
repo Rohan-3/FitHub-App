@@ -1,8 +1,8 @@
 .Alldiet{
-    display: flex;
-    flex-direction: row ;
-   flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
    justify-content: space-evenly;
+   
 }
 
 .DietImage

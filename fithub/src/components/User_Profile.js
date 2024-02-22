@@ -159,9 +159,9 @@ const UserProfile=()=>
     }
 
     return(
-    <div style={{marginTop:"20px"}}>
+    <div>
 
-        <Avatar sx={{ bgcolor: color, width:"50px", height:"50px", cursor:"pointer"}} onClick={()=>setOpen(!open)} ref={profileRef} >
+        <Avatar sx={{ bgcolor: color, width:"45px", height:"45px", cursor:"pointer"}} onClick={()=>setOpen(!open)} ref={profileRef} >
             {details?details.userid[0].toUpperCase():null}
         </Avatar>
 

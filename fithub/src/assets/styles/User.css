@@ -1,0 +1,19 @@
+.track
+{
+   display: flex;
+   width:auto;
+   height: auto;
+   justify-content: space-evenly;
+}
+
+.BarCharts
+{
+   width: 400px;
+   height: 500px;
+} 
+
+ .BmiMeter
+{
+    width: 400px;
+    height: 500px;
+}

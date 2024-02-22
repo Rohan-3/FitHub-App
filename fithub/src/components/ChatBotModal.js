@@ -16,9 +16,9 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 400,
-  bgcolor: 'red',
-  border: '2px solid #000',
-  boxShadow: 24,
+  // bgcolor: 'white',
+  // border: '2px solid #000',
+  // boxShadow: 24,
   p: 4,
 };
 
@@ -29,7 +29,7 @@ const ChatBotModal=()=> {
 
   return (
     <div>
-      <Button onClick={handleOpen} style={{borderRadius:"50px",width:"100px", height:"100px"}}><FcAssistant style={{width:"100px",height:"100px"}}/></Button>
+      <Button onClick={handleOpen} style={{borderRadius:"50px",width:"100px", height:"100px",backgroundColor:"#000000", boxShadow:"none"}}><FcAssistant style={{width:"100px",height:"100px"}}/></Button>
       <Modal
         open={open}
         onClose={handleClose}

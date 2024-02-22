@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-
+import '../assets/styles/Diet.css';
 
 const BotDiet=()=>
 {
@@ -41,21 +41,25 @@ const BotDiet=()=>
 
     return(<>
 
-<div>
+<div className="dietPlan">
 
-<h1>Day{count}</h1>
-<table border="2px solid">
+<h1 className="days">Day{count}</h1>
+<table className="dietTable">
 
-<tr><th>Time</th><th>Diet</th></tr>
+<tr className="dietRow"><th>Time</th><th>Diet</th></tr>
 
 {
   routine.days.filter((temp) => temp.d==count)
-  .map((temp)=>temp.day.map((t)=><tr> <td>{t.time}</td><td>{t.diet}</td></tr>))
+  .map((temp)=>temp.day.map((t)=><tr className="dietRow" > <td className="timecol">{t.time}</td><td className="dietcol">{t.diet}</td></tr>))
 }   
+
+<div className="dietButton">
+<button onClick={subCount} style={{visibility:sub}} className="prev">Previous</button><button onClick={addCount} style={{visibility:add}} className="next">Next</button>
+</div>
 
 </table>
 
-<button onClick={subCount} style={{visibility:sub}}>Previous</button><button onClick={addCount} style={{visibility:add}}>Next</button>
+
 
 </div>
     

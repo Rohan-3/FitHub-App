@@ -1,8 +1,7 @@
 .main1
 {
-    display: flex;
-    flex-direction: row ;
-   flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
    justify-content: space-evenly;
    /* background: radial-gradient(827px at 47.3% 48%, rgb(255, 255, 255) 0%, rgb(190, 225, 240) 90%); */
 

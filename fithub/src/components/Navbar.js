@@ -3,6 +3,7 @@ import '../assets/styles/NavBar.css'
 import Logo from '../assets/images/FithubLogo.png'
 import { Link, useNavigate } from 'react-router-dom'
 import BlogsMenu from './BlogsMenu'
+import UserProfile from './User_Profile'
 
 const Navbar = () => {
   let linkStyle = { color: 'white', textDecoration:'none'}
@@ -51,6 +52,7 @@ const Navbar = () => {
           <Link to='/user' style={linkStyle}>user</Link>
           <Link to='/favorite' style={linkStyle}>Favorite</Link>
           <Link to='/contact' style={linkStyle}>Contact</Link> 
+          <UserProfile/>
         </ul>
 
         :  
