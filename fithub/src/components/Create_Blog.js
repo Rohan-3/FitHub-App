@@ -43,7 +43,6 @@ const CreateBlog=()=>{
         .then((data) => data.json())
         .then((data) => setData(data))
         .catch((err)=> console.log(err))
-        alert(`blog posted sucessfully`)
         window.location.reload();
        }
     }
@@ -52,13 +51,13 @@ const CreateBlog=()=>{
 
    
     return(<div>
-    <div className="main" >
+    <div className="blg" >
 
      {
             [...data1].reverse().filter((temp)=>temp.phone===details.phoneno).map((temp)=> <CreateBlogsCard title={temp.title} description={temp.description} dnt={temp.dnt} uname={temp.uname} id={temp.id} />)
         }
 
-           <div className="text">
+           <div className="textBlog">
             <h1 style={{marginLeft:"40px", marginTop:"10px"}}>New Post</h1>
             <input type="text" placeholder="Enter your title" onChange={(e)=> setTitle(e.target.value)} className="editTitle" style={{border:"black 1px solid", marginRight:"40px",marginLeft:"40px"}}/> <button onClick={Post}> Post</button> <br/>
             <textarea placeholder="Enter your description" onChange={(e)=> setDescription(e.target.value)} style={{height:"300px", width:"900px", border:"black 1px solid", marginLeft:"40px", marginBottom:"10px"}}></textarea>

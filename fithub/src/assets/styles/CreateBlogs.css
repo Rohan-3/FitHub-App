@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.text{
+.textBlog{
     position: relative; left:5%;
     margin-top: 40px;
     border: 1px solid black;
@@ -49,4 +49,20 @@
     overflow: hidden;
     overflow-y: scroll;
 
+}
+
+.blg{
+    /* background-color: rgb(29, 29, 29); */
+    position: relative;
+    color: black;
+    padding: 10px;
+    top: 0;
+
+}
+
+.blog-section-head{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

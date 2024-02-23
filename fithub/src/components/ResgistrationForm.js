@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import '../assets/styles/ResgistrationForm.css'
 import OtpInput from 'react-otp-input';
 import PhoneInput from 'react-phone-number-input'
+import { MdVerified } from "react-icons/md";
 import { auth } from './Firebase';
 import { useRef } from 'react';
 import { RecaptchaVerifier, signInWithPhoneNumber} from 'firebase/auth';
@@ -24,8 +25,11 @@ const ResgistrationForm = () => {
   let [users,setUsers] = useState(JSON.parse(localStorage.getItem("u"))||[]);
   let [mssg,setMssg] =useState("");
   const myRef = useRef(null);
-  let [flag,setFlag] = useState(false);
-  let [flag2,setFlag2] = useState(true);
+  let [flag, setFlag] = useState(false);
+  let [send, setSend] = useState(true);
+  let [resend,setResend] = useState(false);
+  let [sub,setSub] = useState(false);
+  let [logo,setLogo] = useState(false);
   // var recaptchaWidgetId;
 
   const validForm=()=>
@@ -44,14 +48,15 @@ const ResgistrationForm = () => {
     
       try
       {
+        setFlag(true);
+        setSend(false);
+        setResend(true);
         const phoneNumber = "+" + phone;
         const recaptcha =new RecaptchaVerifier(auth,"recaptcha",{size:"invisible"})
         //recaptchaWidgetId = await recaptcha.render();
         const confirmationResult = await signInWithPhoneNumber(auth,phoneNumber,recaptcha)
           console.log(confirmationResult)
           setUser(confirmationResult)
-          setFlag2(false)
-          setFlag(true)
       }
       catch(err)
       {
@@ -63,8 +68,11 @@ const ResgistrationForm = () => {
   {
     try
     {
-      await  user.confirm(otp) 
-      alert("Verified") 
+      await  user.confirm(otp)
+      setFlag(false)
+      setResend(false)
+      setSub(true)
+      setLogo(true) 
     }
     catch(err)
     {
@@ -204,9 +212,21 @@ const ResgistrationForm = () => {
 
           <div className='radioBtn'>
           <label className='phone-number-label'>Phone Number</label> <br/>
-          {flag === true ?
-          
           <div>
+          <PhoneInput
+            placeholder="Enter phone number"
+            country={"in"}
+            value={phone}
+            onChange={setPhone}
+          /> <span style={{visibility: logo ? "visible" : "hidden" }}><MdVerified /></span> <br/>
+          <div id="recaptcha"></div>
+          <div id="recaptcha-resend"></div>
+          <div>
+          
+              <button type='button' className='sendOTP' onClick={resendOtp} style={{visibility: resend ? "visible" : "hidden" }}>Re-send OTP</button> 
+              <button type='button' className='sendOTP' onClick={sendOtp} style={{visibility: send ? "visible" : "hidden" }}>Send OTP</button>
+          <br/>
+          <div style={{visibility: flag ? "visible" : "hidden" }}>
           <label>Enter OTP</label>
           <OtpInput
           className='regis-inp'
@@ -219,37 +239,14 @@ const ResgistrationForm = () => {
           <p>{mssg}</p>
           <button type='button' onClick={verifyOtp}>Verify OTP</button>
           </div> 
-          : flag === false?
-          <div>
-          <PhoneInput
-            placeholder="Enter phone number"
-            country={"in"}
-            value={phone}
-            onChange={setPhone}
-          /> <br/>
-          <div id="recaptcha"></div>
-          <div id="recaptcha-resend"></div>
-          <div>
-          { flag2 === true ?
-          <div>
-          <button type='button' className='sendOTP' onClick={sendOtp}>Send OTP</button> 
-          </div>: flag2 === false? <button type='button' className='sendOTP' onClick={resendOtp}>Re-send OTP</button> 
-          : <button type='button' className='sendOTP' onClick={sendOtp}>Send OTP</button>  }
-          <br/>
           </div>
+          </div>        
           </div>
-          : null
-           }
-          
-          
-          
-            
-            </div>
             
 
           </div>
           </div>
-          <button className='regisBtn' onClick={submit}>submit</button>
+          <button className='regisBtn' onClick={submit} style={{visibility: sub ? "visible" : "hidden" }}>submit</button>
                 </form>
           
     </div>

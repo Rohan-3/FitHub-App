@@ -54,24 +54,28 @@ const User=()=>
    {
       let d= D.split("-");
       let str="";
-      for(let i=d.length-1;i>=0;i--)
+      for(let i=2;i>=0;i--)
       {
-        if(i!==0)
-        {
-            let a = d[i].split("");
-            for(let j=0;j<=1;j++)
-            {
-                if(j!=0 || a[0]!='0')
-                {
-                    str+=a[j]+"/";
-                }
-            }
-        
-        }
-        else
-        {
-            str+=d[i];
-        }
+         if(i==2)
+         {
+          str+=d[i]+"/";
+         }
+         else if(i==1)
+         {
+           let a= d[1].split("");
+           if(a[0]!=='0')
+           {
+              str+= a[0]+a[1]+"/";
+           }
+           else
+           {
+             str+=a[1]+"/";
+           }
+         }
+         else
+         {
+          str+=d[i];
+         }
       }
       return str;
    }
@@ -119,8 +123,6 @@ const User=()=>
          .catch((err)=> console.log(err))
 
          setData([...data,newbmi])
-
-         alert("Submitted Successfully!!!")
    }
 
    const showBmi = () => {

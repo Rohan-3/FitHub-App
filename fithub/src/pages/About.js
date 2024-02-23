@@ -15,7 +15,7 @@ export const About=()=>{
         <div>
             <div className='about-head'>
             <h2 className="about-head-line">Don't ever give up on your dreams,dreams will give up you</h2>
-                <img  className="img" src={image1}/>
+                <img  className="img" src="https://www.goldsgym.com/wp-content/uploads/sites/1/2018/09/group-exercise-golds-gym-blog.jpg"/>
 
             </div>
             <div className="container">

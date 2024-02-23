@@ -7,8 +7,7 @@ import UserAvatar from './UserAvatar';
 const botName = JSON.parse(localStorage.getItem("userno")) || []
 
 const config = {
-  initialMessages: botName.length !== 0?[createChatBotMessage(`Hi ${botName.userid}, welcome to FitHub.`,{widget:'Start'})]:
-  [createChatBotMessage(`Hi Admin, welcome to FitHub.`,{widget:'Start'})],
+  initialMessages:[createChatBotMessage(`Hi ${botName.userid}, welcome to FitHub.`,{widget:'Start'})],
   botName:"Fitness Expert",
   disabled:true,
   widgets: [

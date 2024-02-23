@@ -13,8 +13,7 @@ const Navbar = () => {
   const handleLogout=()=>{
     localStorage.removeItem('adminno');
     alert("You are Logged Out");
-    localStorage.removeItem("userno")
-    nav("/contact");
+    nav("/auth");
   }
   
   const handleAlert = (temp)=>{
@@ -48,7 +47,7 @@ const Navbar = () => {
           <Link to='/user_cat' style={linkStyle}><li>Workout</li></Link>
           <Link to='/diet_cat'  style={linkStyle}><li>Diet</li></Link> 
           <li ><BlogsMenu title="Blogs" color="white" bgcolor="rgb(20, 20, 20)" op1="Blogs" op2="My Blogs"/></li>
-          <Link style={linkStyle} onClick={handleLogout}>logout</Link>
+          {/* <Link style={linkStyle} onClick={handleLogout}>logout</Link> */}
           <Link to='/contact' style={linkStyle}>Contact</Link> 
           <UserProfile/>
         </ul>

@@ -31,8 +31,8 @@ const BlogsMorevert = (props) => {
             }
         });
         
-        alert(`post deleted sucessfully`)
         handleRemoveClose();
+		window.location.reload();
     }
 
 	return (

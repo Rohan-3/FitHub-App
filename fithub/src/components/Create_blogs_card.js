@@ -110,7 +110,7 @@ const CreateBlogsCard=(props)=> {
         .then((data)=>console.log(data))
         .catch((err)=>console.log(err))
 
-        
+        window.location.reload();
     }
 
     const PostComments = ()=>{
@@ -135,7 +135,6 @@ const CreateBlogsCard=(props)=> {
         .then((data) => data.json())
         .then((data) => console.log(data))
         .catch((err)=> console.log(err))
-        alert(`Comments sent successfully`)
         setComments([...comments, newComment])
       }
 }

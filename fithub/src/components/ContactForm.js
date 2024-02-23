@@ -56,13 +56,13 @@ const ContactForm = () => {
        <div className='wholeForm'>
        <form className='contact-form' ref={form} onSubmit={sendEmail}>
         <label className='contact-label' >Enter Name</label><br></br>
-        <input className='contact-input' name="user_name" type='text' placeholder='Enter Name'/><br></br><br></br>
+        <input className='contact-input' name="user_name" type='text' placeholder='Enter Name' required /><br></br><br></br>
         <label className='contact-label' >Enter Email Id</label><br></br>
-        <input className='contact-input' name="user_email" type='email' placeholder='Enter Email ID'/><br></br><br></br>
+        <input className='contact-input' name="user_email" type='email' placeholder='Enter Email ID' required /><br></br><br></br>
         <label className='contact-label' >Enter Phone no.</label><br></br>
-        <input className='contact-input' name='user_phone' type='number' placeholder='Enter Phone Number'/><br></br><br></br>
+        <input className='contact-input' name='user_phone' type='number' placeholder='Enter Phone Number' required/><br></br><br></br>
         <label className='contact-label' >Enter subject.</label><br></br>
-        <input className='contact-input' name="message" type='text' placeholder='Enter Subject/Query'/><br></br><br></br>
+        <input className='contact-input' name="message" type='text' placeholder='Enter Subject/Query' required/><br></br><br></br>
         <button type="submit" value="Send"  className='fsubBtn'>Submit</button>
         </form>
        </div>

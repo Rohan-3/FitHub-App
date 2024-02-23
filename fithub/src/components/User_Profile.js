@@ -116,8 +116,9 @@ const UserProfile=()=>
         let comments=[]
         let blogs=[]
         let userName=uname
-        comments=commentsData.filter((temp)=>temp.phone===details.phoneno)
         blogs=blogsData.filter((temp)=>temp.phone===details.phoneno)
+        comments=commentsData.filter((temp)=>temp.phone===details.phoneno)
+        console.log(comments);
         comments.map((temp)=>
         {
             fetch(`http://localhost:4000/Comments/${temp.id}`,
@@ -155,6 +156,7 @@ const UserProfile=()=>
         })
         details.userid=uname
         setColor(generateHSL(userName));
+        window.location.reload();
         
     }
 

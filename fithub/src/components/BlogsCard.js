@@ -105,7 +105,6 @@ const BlogsCard=(props)=>
         .then((data) => data.json())
         .then((data) => console.log(data))
         .catch((err)=> console.log(err))
-        alert(`Comments sent successfully`)
         setComments([...comments, newComment])
       }
   }
