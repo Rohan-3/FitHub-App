@@ -1,18 +1,39 @@
 .main-login{
     position: relative;
+    top: 7vh;
+    left: 10%;
     align-items: center;
     text-align: center;
     width: 50vw;
 }
 .phone-Input{
     position: relative;
+    top: 10%;
     align-items: center;
     text-align: center;
     width: 50%;
-    top: 15%;
-    left: 15%;
     padding: 30px;
 }
 .send-otp-btn{
-    margin-top: 15px;
+    margin-top: 18px;
+}
+
+.verify-otp-head{
+    position: relative;
+    margin-top: 30px;
+   right: 20%;
+}
+
+.verify-otp-btn{
+    position: relative;
+    margin-top: 25px;
+    right: 20%;
+}
+
+.verify-otp-input{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    left: 12%;
+    width: 50%;
 }

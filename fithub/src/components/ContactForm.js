@@ -26,6 +26,7 @@ const ContactForm = () => {
     
        <div className='headContact'>
        <h2>Contact Us</h2>
+       <hr></hr>
        </div>
        <div className='dandf'>
        <div className="left-side">

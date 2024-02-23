@@ -172,18 +172,18 @@ const ResgistrationForm = () => {
     <div>
     
     <div className='main'>
-      <form className='form'>
-      <h1 className='register-Header'>Register Here !</h1>
+      <form className='regis-form'>
+      <h2 className='register-Header'>Register Here !</h2>
      <div className='segregate'>
   
       <div className='leftsideForm'>
         <label>Username</label> <br/>
-        <input type='text' placeholder='username' required onChange={(e)=>setUserid(e.target.value)}/> <br/>
+        <input className='regis-inp' type='text' placeholder='username' required onChange={(e)=>setUserid(e.target.value)}/> <br/>
         {/* <label>Email</label> <br/>
         <input type='email' placeholder='email' required onChange={(e)=>setEmail(e.target.value)}/> <br/> */}
         
         <label>age</label> <br/>
-        <input type='number' placeholder='age' required onChange={(e)=>setAge(e.target.value)}/> <br/>
+        <input className='regis-inp' type='number' placeholder='age' required onChange={(e)=>setAge(e.target.value)}/> <br/>
         <label>gender</label> <br/>
         <select className='gender' name="gender" onChange={(e)=>setGender(e.target.value)}>
           <option>Select</option>
@@ -197,18 +197,19 @@ const ResgistrationForm = () => {
 
        <div className='rightsideForm'>      
           <label>height (in cms)</label> <br/>
-          <input type='number' placeholder='height in cms' required onChange={(e)=>setHeight(parseInt(e.target.value))}/> <br/>
+          <input className='regis-inp' type='number' placeholder='height in cms' required onChange={(e)=>setHeight(parseInt(e.target.value))}/> <br/>
           <label>weight</label> <br/>
-          <input type='number' placeholder='weight' required onChange={(e)=>setWeight(parseInt(e.target.value))}/> <br/>
+          <input className='regis-inp' type='number' placeholder='weight' required onChange={(e)=>setWeight(parseInt(e.target.value))}/> <br/>
 
 
           <div className='radioBtn'>
-          <label>Phone Number</label> <br/>
+          <label className='phone-number-label'>Phone Number</label> <br/>
           {flag === true ?
           
           <div>
           <label>Enter OTP</label>
           <OtpInput
+          className='regis-inp'
             numInputs={6}
             value={otp}
             onChange={setOtp}

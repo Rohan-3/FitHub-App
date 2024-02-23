@@ -141,43 +141,58 @@ const User=()=>
 
    return(<>
 
-      <div style={{display:"flex",justifyContent:"space-evenly"}}>
+      <div >
 
-     <div style={{width:"40%",heigth:"500px"}}>
-      {
-      data.length>0?<BarChart chartData={chartData}/>:<h1>Data is loading</h1>
-      }
-     </div>
+ 
+      <div className="user-charts" style={{display:"flex", justifyContent:"space-evenly"}}>
 
-     <div style={{width:"40%",heigth:"500px"}}>
-        <GChart bmi={b.BMI}/>
-        <h2 style={{textAlign:"center"}} >Your BMI is {b.BMI} </h2>
-     </div>
-     </div> 
+<div className="user-bar-chart" >
+ {
+ data.length>0?<BarChart chartData={chartData}/>:<h1>Data is loading</h1>
+ }
+ <hr></hr>
+</div>
+
+<div className="user-gchart" > 
+<ul>
+  <li className="gchart-color-y">LOW</li>
+  <li className="gchart-color-g">GOOD</li>
+  <li className="gchart-color-o">FAT</li>
+  <li className="gchart-color-r">OBESE</li>
+</ul>
+   <GChart  bmi={b.BMI} />
+   <h2 style={{textAlign:"center"}} >Your BMI is {b.BMI} </h2>
+   
+</div>
+
+
+
+</div>
+
+    
+   
+   </div> 
+   <div className="progress-box">
+      
+      
+
+      <h2>Track Your Fitness Progress Here !!!!</h2>
+      <div style={{width:"400px", height:"auto", marginLeft:"50px"}}>
+   <div style={{display:"flex", width:"400px", justifyContent:"space-around", marginBottom:"10px"}}>
+   <label className="progress-label">Enter you weight</label><input type="number" onChange={(e)=>setWeight(e.target.value)}/>
+   </div>
+   <div style={{display:"flex", width:"400px", justifyContent:"space-around",marginBottom:"10px"}}>
+   <label className="progress-label">Enter your height</label><input type="number" onChange={(e)=>setHeight(e.target.value)}/>
+   </div>
+   <div style={{display:"flex", width:"357px",justifyContent:"space-between", marginLeft:"21px",marginBottom:"10px"}}>
+   <label className="progress-label">Date</label><input type="date" style={{width:"150px"}} onChange={(e)=>setDate(e.target.value)}/>
+   </div>
+   </div>
+   <button className="progress-submit-btn" onClick={storeBmi}>Submit</button>
+
    
 
-    <div style={{width:"500px", heigth:"300px", background: "linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%)", border:"1px solid black", position:"absolute", left:"30%",textAlign:"center", marginTop:"40px"}}>
-      
-      
-
-         <h2>Track Your Fitness Progress Here !!!!</h2>
-         <div style={{width:"400px", height:"auto", marginLeft:"50px"}}>
-      <div style={{display:"flex", width:"400px", justifyContent:"space-around", marginBottom:"10px"}}>
-      <label>Enter you weight</label><input type="number" onChange={(e)=>setWeight(e.target.value)}/>
-      </div>
-      <div style={{display:"flex", width:"400px", justifyContent:"space-around",marginBottom:"10px"}}>
-      <label>Enter your height</label><input type="number" onChange={(e)=>setHeight(e.target.value)}/>
-      </div>
-      <div style={{display:"flex", width:"357px",justifyContent:"space-between", marginLeft:"21px",marginBottom:"10px"}}>
-      <label style={{}}>Date</label><input type="date" style={{width:"166px"}} onChange={(e)=>setDate(e.target.value)}/>
-      </div>
-      </div>
-       <p><button onClick={storeBmi} style={{width:"100px", height:"30px", padding:'none'}}>Submit</button></p>
-
-      
-
-   </div> 
-
+</div> 
    <div style={{position:"absolute", bottom:"5%",right:"5%"}}>
    <ChatBotModal/>
    </div>

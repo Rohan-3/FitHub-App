@@ -4,6 +4,10 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import Sruti from "../assets/images/founders/sruti.jpg"
+import Lakshmi from "../assets/images/founders/lakshmi.jpg"
+import Vaishnavi from "../assets/images/founders/vaishnavi.jpg"
+import Rohan from "../assets/images/founders/rohan.jpeg"
 const Founders=()=>{
 
     return(
@@ -13,7 +17,7 @@ const Founders=()=>{
         </div>
             <div className="profile">
             <div >
-                <img className="profile-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnhV3BhCZcEhyeZYkObU6LKxa9ygIsjPSQMA&usqp=CAU" alt=""/>
+                <img className="profile-img" src={Rohan} alt=""/>
                 <div className="socialmedia">
                        <h1 className="media-icons"><FaInstagramSquare/></h1> 
                        <h1 className="media-icons"><FaWhatsapp/></h1> 
@@ -40,7 +44,7 @@ const Founders=()=>{
             </div>
             <div className="profile">
             <div >
-                <img  className="profile-img" src="https://t3.ftcdn.net/jpg/06/17/13/26/360_F_617132669_YptvM7fIuczaUbYYpMe3VTLimwZwzlWf.jpg" alt=""/>
+                <img  className="profile-img" src={Sruti} alt=""/>
                 <div className="socialmedia">
                 <h1 className="media-icons"><FaInstagramSquare/></h1> 
                        <h1 className="media-icons"><FaWhatsapp/></h1> 
@@ -63,7 +67,7 @@ const Founders=()=>{
             </div>
             <div className="profile">
             <div>
-                <img className="profile-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlDpt8CWare1NXGcK3PORQXjQh0oGSeLP5PU6M6uA0fWywkg-b2woITDiTYIc3uBXcIVI&usqp=CAU" alt=""/>
+                <img className="profile-img" src={Vaishnavi} alt=""/>
                 <div className="socialmedia">
                 <h1 className="media-icons"><FaInstagramSquare/></h1> 
                        <h1 className="media-icons"><FaWhatsapp/></h1> 
@@ -88,7 +92,7 @@ const Founders=()=>{
             </div>
             <div className="profile">
             <div >
-                <img className="profile-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRDNFMcIZq1Yp0JCNbfkvHEKJ9VckQBfRsWxYtLk8ig_ndbxx3QnJ0e35eOJ7LG5yTG9U&usqp=CAU" alt=""/>
+                <img className="profile-img" src={Lakshmi} alt=""/>
                 <div className="socialmedia">
                 <h1 className="media-icons"><FaInstagramSquare/></h1> 
                        <h1 className="media-icons"><FaWhatsapp/></h1> 

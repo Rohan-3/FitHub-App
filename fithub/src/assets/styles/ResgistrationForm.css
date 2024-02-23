@@ -1,16 +1,23 @@
 .register-Header{
     position: relative;
-    bottom: 30px;
+    bottom: 25px;
 }
 .main{
     position: relative;
-height: 100%;
-width: 200%;
+    top: 25%;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+
+}
+.regis-form{
+    width: 50%;
+    
 }
 .segregate{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 130%;
 
 }
 .register-Header{
@@ -22,22 +29,31 @@ width: 200%;
 .form
 {
     position: relative;
-    top: 50%;
-    margin-top: 80px;
     color: #000000;
     padding: 20px;
     height: 50%;
-    width: 60%;
+    width: 90%;
     border-radius: 15px;
     /* box-shadow: 0px 0px 0px 0px rgba(0,0,0,0); */
 }
 label{
     font-size: large;
     color: white;
-    margin-top: 7px;
-    margin: 3px;
+    padding-top: 10px;
+    margin: 10px;
 
-    
+
+}
+
+.regis-inp{
+    border: none;
+    border-radius: 7px;
+    padding: 13px;
+    width: 95%;
+    margin-top: 4px;
+    margin: 10px;
+    color: black;
+    background-color: rgb(217, 237, 255);
 }
 /* .form input
 {
@@ -52,23 +68,29 @@ label{
 
 .rightsideForm{
     position: relative;
-    right:7%;
+    right:20%;
 }
 .gender{
-    background-color: #d9edff;
-    width: 200px;
-    height: 40px;
+    border: none;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 13px;
+    width: 95%;
+    margin-top: 4px;
+    color: black;
+    background-color: rgb(217, 237, 255);
 }
 .sendOTP{
-    width: 500px;
+    width: 150px;
 }
-.form button
+.regisBtn
 {
   padding: 10px;
   width: 30%;
   position: relative;
-  margin-top: 25px;
+  background-color: #d9edff;
   left: 35%;
+  margin-top: 25px;
   text-align: center;
   align-items: center;
   font-size: medium;
@@ -80,4 +102,22 @@ label{
 h5
 {
     color: #FF004D;
+}
+
+input{
+    border: none;
+    border-radius: 7px;
+    padding: 13px;
+    color: black;
+    background-color: rgb(217, 237, 255);
+}
+
+.sendOTP{
+    position: relative;
+    left: 18%;
+}
+
+.phone-number-label{
+    position: relative;
+    margin:  15px;
 }

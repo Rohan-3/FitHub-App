@@ -13,8 +13,8 @@ const Login = () => {
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
   let [flag,setFlag] = useState(false);
-  let admin=[{phoneno:"+919966004795",userid:"vaishnavi"}]
-  // ,{phoneno:"+919967990416",userid:"rohan"}
+  let admin=[{phoneno:"+919967990416",userid:"rohan"}]
+  // ,{phoneno:"+919966004795",userid:"vaishnavi"}
 
   const nav= useNavigate();
 
@@ -52,7 +52,6 @@ const Login = () => {
 
   const verifyOtp=async()=>
   {
-    alert("PReesed OTP")
     try
     {
       // phone==="+919967990416" || 
@@ -86,9 +85,11 @@ const Login = () => {
     <div className='main-login'>
       {
         flag  ? 
-        <div>
-          <h1>Verify OTP</h1>
+        <div className='verify-otp'>
+          <h1 className='verify-otp-head'>Verify OTP</h1>
+          <div  className="verify-otp-input">
           <OtpInput
+         
             numInputs={6}
             value={otp}
             onChange={setOtp}
@@ -96,7 +97,8 @@ const Login = () => {
             renderInput={(props) => <input {...props} />}
           />
 
-          <button onClick={verifyOtp} >Verify OTP</button>
+        </div>
+          <button className="verify-otp-btn" onClick={verifyOtp} >Verify OTP</button>
         </div>
         :
        

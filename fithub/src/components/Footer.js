@@ -1,93 +1,46 @@
 import React from "react";
 import "../assets/styles/Footer.css"
+import Logo from '../assets/images/FithubLogo.png'
+import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
 
 const Footer=()=>{
 
     return(
         <div className="footer">
-            <div className="sb_footer section_padding">
-                <div className="sb_footer-links">
-                    <div className="logo">
-                        <img src="logo.jpeg" alt=" " />
-                       <div> <h2>Fithub</h2>
+                        
+                        
+                    
+                    <div className="footer-content">
+                    <div className="footer-head">
+                    <div>
+                    <img className="footer-logo" src={Logo}/>
                     </div>
-                    <div className="sb_footer-links_div">
-                         <div className="socialmedia"></div>
-                        <p><img src="./insta.png" alt=""/></p>
-                        <p><img src="./twitter.png" alt=""/></p>
-                        <p><img src="./fb.png" alt=""/></p>
-                        <p><img src="./whatsapp.png" alt=""/></p>
+                    <div>
+                        <h2 >Fithub Fitness Studio</h2>
+                    </div>
                         </div>
-                    </div>
-                    <div className="sb_footer-links-div">
-                        <h4>WORKOUTS</h4>
+                        <p>
+                        We are a group of nerds dedicated to bringing you trustworthy information on how to create long-term, 
+                        sustainable fitness results ~ all while actively celebrating unique passions and nerdiness in all forms.
+                        Over the past 14 years, we’ve helped thousands of people reach their fitness goals through our free articles and our kick-ass 1-on-1 Online Coaching Program. 
+                        </p>
+                        <div className="icons">
                         <ul>
-                            <li>
-                            <a className="demi" href="https://youtu.be/IT94xC35u6k?si=7jHB3gWidwQMMU_M">Workout Video</a>
-                            </li>
-                            <li>
-                            <a className="demi" href="https://youtu.be/AUu4-JRddHE?si=0xpcItBDiwIW5c-r">Custom Workouts</a>
-                            </li>
-                            <li>
-                            <a className="demi" href="https://youtu.be/uZX14W4rVCU?si=kxKqGVr6ztzJMZ5I">Programs</a>
-                            </li>
-                            <li>
-                            <a className="demi" href="https://youtu.be/zYUUZxEi8A8?si=-IBgNgQyM5LbHQHE">Workouts Programs</a>
-                            </li>
+                        <li className="footer-icon"><FaFacebook /></li>
+                        <li className="footer-icon"><FaInstagram /></li>
+                        <li className="footer-icon"><FaYoutube /></li>
                         </ul>
+                        </div>
+                        <p className="footer-dev-info">© FITHUB 2024 | Designed & Developed by FITHUB Team</p>
                     </div>
-                    <div className="sb_footer-links_div">
-                        <h4>HEALTHY LIVING</h4>
-                        <ul>
-                        <li>
-                            <a className="demi" href="https://youtu.be/B5a03YsCgD0?si=AMlSYP5efPEBUHQ9">Meal Plans</a>
-                            </li>
-                            <li>
-                            <a className="demi" href="https://youtu.be/Vu_NnDWxKY4?si=Txxi8cH5CVSFMbZz">Yoga workouts</a>
-                            </li>
-                            <li>
-                            <a className="demi" href="/Workouts">Diet</a>
-                            </li>
-                            <li>
-                            <a className="demi" href="/Workouts">Workouts</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="sb_footer-links_div">
-                        <h4>COMPANY</h4>
-                        <a class="demi" href="/about">
-                            <p>About</p>
-
-                        </a>
-                        <a className="demi" href="/about">
-                            <p>Carrer</p>
-                            
-                        </a>
-                        <a className="demi" href="/about">
-                            <p>FAQ</p>
-                            
-                        </a>
-                        <a className="demi" href="/about">
-                            <p>Memership</p>           
-                        </a>
-                    </div>
-
-                    </div>
-                </div>           
-            <hr></hr>
-            <div className="sb_footer-below">
-                <div className="sb_footer-copyright">
-                    <p>
-                    Copyright@{new Date().getFullYear()} Fithub. All rights reserved.
-                    </p>
+                    
+        
                 </div>
-                <div className="sb_footer-below-links">
-                <a href="/terms"><div><span><p>Terms & conditions</p></span></div></a><whitespace></whitespace>
-                <a href="/terms"><div><p>Privacy policy<whitespace></whitespace></p></div></a>
-                <a href="/terms"><div><p>Security <whitespace></whitespace></p></div></a>
-                </div>
-            </div>
-        </div>
+        
 
     )
 }
