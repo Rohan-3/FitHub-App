@@ -1,0 +1,30 @@
+.user-Dropdown-list{
+
+    position: relative;
+    align-items: start;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.user-Dropdown-list p{
+    position: relative;
+    text-align: start;
+    align-items: start;
+}
+
+.user-dropdown-container{
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+.user-dropdown-profile{
+    position:relative;
+    top: -20%;
+
+}
+
+.user-Dropdown-list{
+    position:absolute;
+    width: 120px;
+    right: 1%;
+}

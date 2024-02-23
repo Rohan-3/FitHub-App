@@ -12,6 +12,7 @@ const CrudWorkout = () => {
     const [CategorySucc, setCategorySucc] = useState(0)
     const [id, setId] = useState()
     const [category, setCategory] = useState()
+    const [benefits, setBenefits] = useState([])
     const [imageurl, setImageurl] = useState()
     const [imageurl2, setImageurl2] = useState()
     const [title, setTitle] = useState()
@@ -64,14 +65,15 @@ const addInfo =()=>{
             title:title,
             image:imageurl2,
             video:vidUrl,
-            description:description
+            description:description,
+            benefits:benefits
         })
     })
     .then((temp)=> temp.json())
     .then((data)=> alert("Information Added"))
     .catch((err)=> console.log(err))
 
-    alert("Data Added")
+  
 }
 
     const getData = ()=>{
@@ -107,7 +109,8 @@ const addInfo =()=>{
           title:title,
           image:imageurl2,
           video:vidUrl,
-          description:description
+          description:description,
+          benefits:benefits
         })
 
       }).then((res)=> res.json())
@@ -230,7 +233,8 @@ const updateCategory =(id)=>{
     </select>
     <br></br>
     <input className='workout-crud-input' type='text' placeholder='Title'  onChange={(e)=> setTitle(e.target.value)}  />
-    <input className='workout-crud-input' type='text' placeholder='Video URL' onChange={(e)=> setVidUrl(e.target.value)}  /> <br></br>
+    <input className='workout-crud-input' type='text' placeholder='Benifit'  onChange={(e)=> setBenefits(e.target.value)}  /><br></br>
+    <input className='workout-crud-input' type='text' placeholder='Video URL' onChange={(e)=> setVidUrl(e.target.value)}  /> 
     <input className='workout-crud-input' type='text' placeholder='Image URL' onChange={(e)=> setImageurl2(e.target.value)}  />
     <input className='workout-crud-input' type='text' placeholder='Description' onChange={(e)=> setDescription(e.target.value)}  />
     <br></br>

@@ -13,8 +13,9 @@ const Login = () => {
   const [user,setUser] = useState(null);
   const [otp,setOtp] = useState("");
   let [flag,setFlag] = useState(false);
-  let admin=[{phoneno:"+919967990416",userid:"rohan"}]
+  let admin=[{phoneno:"+919966004795",userid:"vaishnavi"}]
   // ,{phoneno:"+919966004795",userid:"vaishnavi"}
+  // ,{phoneno:"+919967990416",userid:"rohan"}
 
   const nav= useNavigate();
 

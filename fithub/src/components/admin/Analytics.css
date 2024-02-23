@@ -19,26 +19,25 @@
 }
 .uperCharts{
     height: 400px;
+    position: relative;
+    top: 5%;
     display: flex;
     justify-content: space-around;
     margin: 10px;
 }
-.lineChart{
-    position: relative;
-    height: 400px;
-    width: 50%;
-    text-align: center;
-    align-self: center;
-}
 
+.pieChart{
+    position: relative;
+    right: 7%;
+}
 .Charts{
     height: 400px;
     display: flex;
     margin: 10px;
 }
 .bar{
-    height: 400px;
-    width: 700px;
+    height: 500px;
+    width: 600px;
     background-color: rgb(255, 255, 255);
     margin: 10px;
 }

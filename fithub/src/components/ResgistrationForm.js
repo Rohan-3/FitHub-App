@@ -218,15 +218,17 @@ const ResgistrationForm = () => {
             country={"in"}
             value={phone}
             onChange={setPhone}
-          /> <span style={{visibility: logo ? "visible" : "hidden" }}><MdVerified /></span> <br/>
+          /><span className='verify-icon' style={{visibility: logo ? "visible" : "hidden" }}><MdVerified size="28px" /></span>  <br/>
           <div id="recaptcha"></div>
           <div id="recaptcha-resend"></div>
+          <button type='button' className='sendOTP' onClick={sendOtp} style={{visibility: send ? "visible" : "hidden" }}>Send OTP</button>
           <div>
           
-              <button type='button' className='sendOTP' onClick={resendOtp} style={{visibility: resend ? "visible" : "hidden" }}>Re-send OTP</button> 
-              <button type='button' className='sendOTP' onClick={sendOtp} style={{visibility: send ? "visible" : "hidden" }}>Send OTP</button>
+              <button type='button' className='resend-OTP' onClick={resendOtp} style={{visibility: resend ? "visible" : "hidden" }}>Re-send OTP</button> 
+          <button className='regisBtn' onClick={submit} style={{visibility: sub ? "visible" : "hidden" }}>submit</button>
+              
           <br/>
-          <div style={{visibility: flag ? "visible" : "hidden" }}>
+          <div className='verify-otp-btn' style={{visibility: flag ? "visible" : "hidden" }}>
           <label>Enter OTP</label>
           <OtpInput
           className='regis-inp'
@@ -237,16 +239,15 @@ const ResgistrationForm = () => {
             renderInput={(props) => <input {...props} />}
           />
           <p>{mssg}</p>
-          <button type='button' onClick={verifyOtp}>Verify OTP</button>
+          <button  type='button' onClick={verifyOtp}>Verify OTP</button>
           </div> 
           </div>
           </div>        
           </div>
             
-
           </div>
           </div>
-          <button className='regisBtn' onClick={submit} style={{visibility: sub ? "visible" : "hidden" }}>submit</button>
+          
                 </form>
           
     </div>

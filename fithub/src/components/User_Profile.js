@@ -4,6 +4,7 @@ import { FiLogOut } from "react-icons/fi";
 import { MdEdit } from "react-icons/md";
 import { MdDone } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
+import '../assets/styles/UserProfile.css'
 
 
 const UserProfile=()=>
@@ -161,32 +162,35 @@ const UserProfile=()=>
     }
 
     return(
-    <div>
-
-        <Avatar sx={{ bgcolor: color, width:"45px", height:"45px", cursor:"pointer"}} onClick={()=>setOpen(!open)} ref={profileRef} >
+    <div className="user-dropdown-container">
+    <div className="user-dropdown-profile">
+        
+        <Avatar  sx={{ bgcolor: color, width:"45px", height:"45px", cursor:"pointer",}} onClick={()=>setOpen(!open)} ref={profileRef} >
             {details?details.userid[0].toUpperCase():null}
         </Avatar>
+
+        </div>
 
         {
             open ?
                 <div ref={menuRef}>
-                    <ul style={{cursor:"pointer"}} onClick={()=>setOpen(true)}>
-                        <li style={{textDecoration:"none", color:"black"}}>
+                    <div className="user-Dropdown-list" style={{cursor:"pointer"}} onClick={()=>setOpen(true)}>
+                        <p style={{textDecoration:"none"}}>
                             {flag===false ? 
-                            <div>{details?details.userid:null}<MdEdit onClick={()=>setFlag(true)}/></div>
+                            <div>{details?details.userid:null}<MdEdit style={{paddingLeft:"10px"}} onClick={()=>setFlag(true)}/></div>
                             :
-                            <div><input type="text" value={uname} onChange={(e)=>setUname(e.target.value)} style={{width:"150px"}} /><MdDone onClick={handleUserName} /></div>}
-                        </li><br/>
-                        <li>
-                            <Link to='/user'>User</Link>
-                        </li><br/>
-                        <li>
-                            <Link to='/favorite'>Favorite</Link>
-                        </li><br/>
-                        <li>
-                            <Link to='/auth' onClick={handleUserLogout} style={{textDecoration:"none", color:"black"}}>Logout<FiLogOut/></Link>
-                        </li>
-                    </ul>
+                            <div><input type="text" value={uname} onChange={(e)=>setUname(e.target.value)} style={{width:"60px", height:"10px"}} /><MdDone size="28px" onClick={handleUserName} /></div>}
+                        </p>
+                        <p>
+                            <Link style={{textDecoration:"none"}} to='/user'>User</Link>
+                        </p>
+                        <p>
+                            <Link style={{textDecoration:"none"}} to='/favorite'>Favorite</Link>
+                        </p>
+                        <p>
+                            <Link to='/auth' onClick={handleUserLogout} style={{textDecoration:"none"}}>Logout<FiLogOut/></Link>
+                        </p>
+                    </div>
                 </div>
             :null
         }

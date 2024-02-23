@@ -4,10 +4,10 @@ import Help from './Help';
 import BotAvatar from './BotAvatar';
 import UserAvatar from './UserAvatar';
 
-const botName = JSON.parse(localStorage.getItem("userno")) || []
-
+const botName = JSON.parse(localStorage.getItem("userno"))|| []
+console.log(botName);
 const config = {
-  initialMessages:[createChatBotMessage(`Hi ${botName.userid}, welcome to FitHub.`,{widget:'Start'})],
+  initialMessages:  [createChatBotMessage(`Hi ${botName.userid}, welcome to FitHub.`,{widget:'Start'})],
   botName:"Fitness Expert",
   disabled:true,
   widgets: [

@@ -14,6 +14,8 @@ const Analytics = () => {
         const [dietCategory, setDietCategory] = useState([])
         const [engagment, setEngagment] = useState([])
         const [favorites, setFavorites] = useState([])
+        const [noOfusers, setNoOfusers] = useState([])
+
 
         useEffect(()=>{
           fetch('http://localhost:4000/workout_category')
@@ -55,10 +57,16 @@ const Analytics = () => {
           .then((data)=> setFavorites(data))
           .catch((err)=> console.log(err))
         },[favorites])
+
+
         
-        let users = JSON.parse(localStorage.getItem('u'))
-       
-        
+        useEffect(()=>{
+          let users = JSON.parse(localStorage.getItem('u'))
+           setNoOfusers(users.length)
+
+        },[])
+
+      
         
         
 
@@ -68,8 +76,8 @@ const Analytics = () => {
     //  }else{
     //   console.log("NO user");
     //  }
-        let noOfUsers = 4;
-        let noOfFav = 10;
+        
+        
         let noOfCategory = category.length;
         let noOfWorkoutTitle = title.length;
         let noOfDietCategory = dietCategory.length;
@@ -86,7 +94,6 @@ const Analytics = () => {
   return (
     <div className='analytics-container'>
 
-    
     <div className='crudPage'>
       <h2>Analytics</h2>
       <div className='numbers'>
@@ -95,43 +102,11 @@ const Analytics = () => {
       <h4>Blogs : {blogs.length}</h4>
       <h4>Diet category : {noOfDietCategory}</h4>
      </div>
+     <hr></hr>
 
      <div className='uperCharts'>
-     <div className='pieChart'>
-     <Pie
-      data={{
-        labels:["No Of Users", "favorites"],
-        datasets:[
-          {
-            label:"Total",
-            data:[noOfUsers,noOfFavorites],
-          },
-
-          
-        ]
-      }}
-    />
-    </div>
-    <div className='lineChart'>
-
-
-<Line
-      data={{
-        labels:[""],
-        datasets:[
-
-          {
-            label:"Total",
-            data:[noOfUsers,noOfBlogs],
-          }
-          
-        ]
-      }}
-    />
-    </div>
-     </div>
-     <div className='Charts'>
-  <div className='bar'>
+     
+    <div className='bar'>
 
      <Bar
       data={{
@@ -149,6 +124,24 @@ const Analytics = () => {
       }}
     />
   </div>
+  <div className='pieChart'>
+     <Pie
+      data={{
+        labels:["No Of Users", "favorites"],
+        datasets:[
+          {
+            label:"Total",
+            data:[noOfusers,noOfFavorites],
+          },
+
+          
+        ]
+      }}
+    />
+    </div>
+     </div>
+     <div className='Charts'>
+  
   <div className='doughnut'>
   <Doughnut
       data={{
